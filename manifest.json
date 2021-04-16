@@ -1,0 +1,7031 @@
+{
+    "name": "All XKB layouts",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "All XKB layouts for Chrome OS.",
+    "permissions": [
+        "input"
+    ],
+    "input_components": [
+        {
+            "name": "us",
+            "type": "ime",
+            "id": "all-xkb-layouts-us",
+            "description": "English (US)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us"
+            ]
+        },
+        {
+            "name": "us(chr)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(chr)",
+            "description": "chr",
+            "language": [
+                "chr"
+            ],
+            "layouts": [
+                "us(chr)"
+            ]
+        },
+        {
+            "name": "us(euro)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(euro)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(euro)"
+            ]
+        },
+        {
+            "name": "us(intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(intl)"
+            ]
+        },
+        {
+            "name": "us(alt-intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(alt-intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(alt-intl)"
+            ]
+        },
+        {
+            "name": "us(colemak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(colemak)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(colemak)"
+            ]
+        },
+        {
+            "name": "us(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvorak)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvorak)"
+            ]
+        },
+        {
+            "name": "us(dvorak-intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvorak-intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvorak-intl)"
+            ]
+        },
+        {
+            "name": "us(dvorak-alt-intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvorak-alt-intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvorak-alt-intl)"
+            ]
+        },
+        {
+            "name": "us(dvorak-l)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvorak-l)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvorak-l)"
+            ]
+        },
+        {
+            "name": "us(dvorak-r)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvorak-r)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvorak-r)"
+            ]
+        },
+        {
+            "name": "us(dvorak-classic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvorak-classic)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvorak-classic)"
+            ]
+        },
+        {
+            "name": "us(dvp)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(dvp)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(dvp)"
+            ]
+        },
+        {
+            "name": "us(rus)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(rus)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "us(rus)"
+            ]
+        },
+        {
+            "name": "us(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(mac)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(mac)"
+            ]
+        },
+        {
+            "name": "us(altgr-intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(altgr-intl)",
+            "description": null,
+            "language": [
+                "en",
+                "fr",
+                "de"
+            ],
+            "layouts": [
+                "us(altgr-intl)"
+            ]
+        },
+        {
+            "name": "us(olpc2)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(olpc2)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(olpc2)"
+            ]
+        },
+        {
+            "name": "us(hbs)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(hbs)",
+            "description": null,
+            "language": [
+                "en",
+                "bs",
+                "sr-Latn",
+                "hr",
+                "sr"
+            ],
+            "layouts": [
+                "us(hbs)"
+            ]
+        },
+        {
+            "name": "us(norman)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(norman)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(norman)"
+            ]
+        },
+        {
+            "name": "us(workman)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(workman)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(workman)"
+            ]
+        },
+        {
+            "name": "us(workman-intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-us(workman-intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "us(workman-intl)"
+            ]
+        },
+        {
+            "name": "af",
+            "type": "ime",
+            "id": "all-xkb-layouts-af",
+            "description": "Afghani",
+            "layouts": [
+                "af"
+            ]
+        },
+        {
+            "name": "af(ps)",
+            "type": "ime",
+            "id": "all-xkb-layouts-af(ps)",
+            "description": "ps",
+            "language": [
+                "ps"
+            ],
+            "layouts": [
+                "af(ps)"
+            ]
+        },
+        {
+            "name": "af(uz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-af(uz)",
+            "description": "uz",
+            "language": [
+                "uz"
+            ],
+            "layouts": [
+                "af(uz)"
+            ]
+        },
+        {
+            "name": "af(olpc-ps)",
+            "type": "ime",
+            "id": "all-xkb-layouts-af(olpc-ps)",
+            "description": "ps",
+            "language": [
+                "ps"
+            ],
+            "layouts": [
+                "af(olpc-ps)"
+            ]
+        },
+        {
+            "name": "af(fa-olpc)",
+            "type": "ime",
+            "id": "all-xkb-layouts-af(fa-olpc)",
+            "description": "fa",
+            "layouts": [
+                "af(fa-olpc)"
+            ]
+        },
+        {
+            "name": "af(uz-olpc)",
+            "type": "ime",
+            "id": "all-xkb-layouts-af(uz-olpc)",
+            "description": "uz",
+            "language": [
+                "uz"
+            ],
+            "layouts": [
+                "af(uz-olpc)"
+            ]
+        },
+        {
+            "name": "ara",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara",
+            "description": "Arabic",
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara"
+            ]
+        },
+        {
+            "name": "ara(azerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(azerty)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(azerty)"
+            ]
+        },
+        {
+            "name": "ara(azerty_digits)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(azerty_digits)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(azerty_digits)"
+            ]
+        },
+        {
+            "name": "ara(digits)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(digits)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(digits)"
+            ]
+        },
+        {
+            "name": "ara(qwerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(qwerty)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(qwerty)"
+            ]
+        },
+        {
+            "name": "ara(qwerty_digits)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(qwerty_digits)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(qwerty_digits)"
+            ]
+        },
+        {
+            "name": "ara(buckwalter)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(buckwalter)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(buckwalter)"
+            ]
+        },
+        {
+            "name": "ara(olpc)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(olpc)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(olpc)"
+            ]
+        },
+        {
+            "name": "ara(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ara(mac)",
+            "description": null,
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "ara(mac)"
+            ]
+        },
+        {
+            "name": "al",
+            "type": "ime",
+            "id": "all-xkb-layouts-al",
+            "description": "Albanian",
+            "language": [
+                "sq"
+            ],
+            "layouts": [
+                "al"
+            ]
+        },
+        {
+            "name": "al(plisi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-al(plisi)",
+            "description": null,
+            "language": [
+                "sq"
+            ],
+            "layouts": [
+                "al(plisi)"
+            ]
+        },
+        {
+            "name": "al(veqilharxhi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-al(veqilharxhi)",
+            "description": null,
+            "language": [
+                "sq"
+            ],
+            "layouts": [
+                "al(veqilharxhi)"
+            ]
+        },
+        {
+            "name": "am",
+            "type": "ime",
+            "id": "all-xkb-layouts-am",
+            "description": "Armenian",
+            "language": [
+                "hy"
+            ],
+            "layouts": [
+                "am"
+            ]
+        },
+        {
+            "name": "am(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-am(phonetic)",
+            "description": null,
+            "language": [
+                "hy"
+            ],
+            "layouts": [
+                "am(phonetic)"
+            ]
+        },
+        {
+            "name": "am(phonetic-alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-am(phonetic-alt)",
+            "description": null,
+            "language": [
+                "hy"
+            ],
+            "layouts": [
+                "am(phonetic-alt)"
+            ]
+        },
+        {
+            "name": "am(eastern)",
+            "type": "ime",
+            "id": "all-xkb-layouts-am(eastern)",
+            "description": null,
+            "language": [
+                "hy"
+            ],
+            "layouts": [
+                "am(eastern)"
+            ]
+        },
+        {
+            "name": "am(western)",
+            "type": "ime",
+            "id": "all-xkb-layouts-am(western)",
+            "description": null,
+            "language": [
+                "hy"
+            ],
+            "layouts": [
+                "am(western)"
+            ]
+        },
+        {
+            "name": "am(eastern-alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-am(eastern-alt)",
+            "description": null,
+            "language": [
+                "hy"
+            ],
+            "layouts": [
+                "am(eastern-alt)"
+            ]
+        },
+        {
+            "name": "at",
+            "type": "ime",
+            "id": "all-xkb-layouts-at",
+            "description": "German (Austria)",
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "at"
+            ]
+        },
+        {
+            "name": "at(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-at(nodeadkeys)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "at(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "at(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-at(sundeadkeys)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "at(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "at(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-at(mac)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "at(mac)"
+            ]
+        },
+        {
+            "name": "au",
+            "type": "ime",
+            "id": "all-xkb-layouts-au",
+            "description": "English (Australian)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "au"
+            ]
+        },
+        {
+            "name": "az",
+            "type": "ime",
+            "id": "all-xkb-layouts-az",
+            "description": "Azerbaijani",
+            "language": [
+                "az"
+            ],
+            "layouts": [
+                "az"
+            ]
+        },
+        {
+            "name": "az(cyrillic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-az(cyrillic)",
+            "description": null,
+            "language": [
+                "az"
+            ],
+            "layouts": [
+                "az(cyrillic)"
+            ]
+        },
+        {
+            "name": "by",
+            "type": "ime",
+            "id": "all-xkb-layouts-by",
+            "description": "Belarusian",
+            "language": [
+                "be"
+            ],
+            "layouts": [
+                "by"
+            ]
+        },
+        {
+            "name": "by(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-by(legacy)",
+            "description": null,
+            "language": [
+                "be"
+            ],
+            "layouts": [
+                "by(legacy)"
+            ]
+        },
+        {
+            "name": "by(latin)",
+            "type": "ime",
+            "id": "all-xkb-layouts-by(latin)",
+            "description": null,
+            "language": [
+                "be"
+            ],
+            "layouts": [
+                "by(latin)"
+            ]
+        },
+        {
+            "name": "be",
+            "type": "ime",
+            "id": "all-xkb-layouts-be",
+            "description": "Belgian",
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be"
+            ]
+        },
+        {
+            "name": "be(oss)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(oss)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(oss)"
+            ]
+        },
+        {
+            "name": "be(oss_latin9)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(oss_latin9)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(oss_latin9)"
+            ]
+        },
+        {
+            "name": "be(oss_sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(oss_sundeadkeys)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(oss_sundeadkeys)"
+            ]
+        },
+        {
+            "name": "be(iso-alternate)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(iso-alternate)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(iso-alternate)"
+            ]
+        },
+        {
+            "name": "be(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(nodeadkeys)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "be(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(sundeadkeys)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "be(wang)",
+            "type": "ime",
+            "id": "all-xkb-layouts-be(wang)",
+            "description": null,
+            "language": [
+                "de",
+                "nl",
+                "fr"
+            ],
+            "layouts": [
+                "be(wang)"
+            ]
+        },
+        {
+            "name": "bd",
+            "type": "ime",
+            "id": "all-xkb-layouts-bd",
+            "description": "Bangla",
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "bd"
+            ]
+        },
+        {
+            "name": "bd(probhat)",
+            "type": "ime",
+            "id": "all-xkb-layouts-bd(probhat)",
+            "description": null,
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "bd(probhat)"
+            ]
+        },
+        {
+            "name": "in",
+            "type": "ime",
+            "id": "all-xkb-layouts-in",
+            "description": "Indian",
+            "layouts": [
+                "in"
+            ]
+        },
+        {
+            "name": "in(ben)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ben)",
+            "description": "bn",
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "in(ben)"
+            ]
+        },
+        {
+            "name": "in(ben_probhat)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ben_probhat)",
+            "description": "bn",
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "in(ben_probhat)"
+            ]
+        },
+        {
+            "name": "in(ben_baishakhi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ben_baishakhi)",
+            "description": null,
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "in(ben_baishakhi)"
+            ]
+        },
+        {
+            "name": "in(ben_bornona)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ben_bornona)",
+            "description": null,
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "in(ben_bornona)"
+            ]
+        },
+        {
+            "name": "in(ben_gitanjali)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ben_gitanjali)",
+            "description": null,
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "in(ben_gitanjali)"
+            ]
+        },
+        {
+            "name": "in(ben_inscript)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ben_inscript)",
+            "description": null,
+            "language": [
+                "bn",
+                "sat"
+            ],
+            "layouts": [
+                "in(ben_inscript)"
+            ]
+        },
+        {
+            "name": "in(eeyek)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(eeyek)",
+            "description": null,
+            "language": [
+                "mni"
+            ],
+            "layouts": [
+                "in(eeyek)"
+            ]
+        },
+        {
+            "name": "in(guj)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(guj)",
+            "description": "gu",
+            "language": [
+                "gu"
+            ],
+            "layouts": [
+                "in(guj)"
+            ]
+        },
+        {
+            "name": "in(guru)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(guru)",
+            "description": "pa",
+            "language": [
+                "pa"
+            ],
+            "layouts": [
+                "in(guru)"
+            ]
+        },
+        {
+            "name": "in(jhelum)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(jhelum)",
+            "description": "pa",
+            "language": [
+                "pa"
+            ],
+            "layouts": [
+                "in(jhelum)"
+            ]
+        },
+        {
+            "name": "in(kan)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(kan)",
+            "description": "kn",
+            "language": [
+                "kn"
+            ],
+            "layouts": [
+                "in(kan)"
+            ]
+        },
+        {
+            "name": "in(kan-kagapa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(kan-kagapa)",
+            "description": "kn",
+            "language": [
+                "kn"
+            ],
+            "layouts": [
+                "in(kan-kagapa)"
+            ]
+        },
+        {
+            "name": "in(mal)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(mal)",
+            "description": "ml",
+            "language": [
+                "ml"
+            ],
+            "layouts": [
+                "in(mal)"
+            ]
+        },
+        {
+            "name": "in(mal_lalitha)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(mal_lalitha)",
+            "description": "ml",
+            "language": [
+                "ml"
+            ],
+            "layouts": [
+                "in(mal_lalitha)"
+            ]
+        },
+        {
+            "name": "in(mal_enhanced)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(mal_enhanced)",
+            "description": "ml",
+            "language": [
+                "ml"
+            ],
+            "layouts": [
+                "in(mal_enhanced)"
+            ]
+        },
+        {
+            "name": "in(ori)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(ori)",
+            "description": "or",
+            "language": [
+                "or",
+                "sat"
+            ],
+            "layouts": [
+                "in(ori)"
+            ]
+        },
+        {
+            "name": "in(olck)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(olck)",
+            "description": "sat",
+            "language": [
+                "sat"
+            ],
+            "layouts": [
+                "in(olck)"
+            ]
+        },
+        {
+            "name": "in(tam_tamilnet)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tam_tamilnet)",
+            "description": "ta",
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "in(tam_tamilnet)"
+            ]
+        },
+        {
+            "name": "in(tam_tamilnet_with_tam_nums)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tam_tamilnet_with_tam_nums)",
+            "description": "ta",
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "in(tam_tamilnet_with_tam_nums)"
+            ]
+        },
+        {
+            "name": "in(tam_tamilnet_TAB)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tam_tamilnet_TAB)",
+            "description": "ta",
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "in(tam_tamilnet_TAB)"
+            ]
+        },
+        {
+            "name": "in(tam_tamilnet_TSCII)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tam_tamilnet_TSCII)",
+            "description": "ta",
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "in(tam_tamilnet_TSCII)"
+            ]
+        },
+        {
+            "name": "in(tam)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tam)",
+            "description": "ta",
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "in(tam)"
+            ]
+        },
+        {
+            "name": "in(tel)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tel)",
+            "description": "te",
+            "language": [
+                "te"
+            ],
+            "layouts": [
+                "in(tel)"
+            ]
+        },
+        {
+            "name": "in(tel-kagapa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tel-kagapa)",
+            "description": "te",
+            "language": [
+                "te"
+            ],
+            "layouts": [
+                "in(tel-kagapa)"
+            ]
+        },
+        {
+            "name": "in(tel-sarala)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tel-sarala)",
+            "description": "te",
+            "language": [
+                "te"
+            ],
+            "layouts": [
+                "in(tel-sarala)"
+            ]
+        },
+        {
+            "name": "in(tel-kagapa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(tel-kagapa)",
+            "description": "te",
+            "language": [
+                "te"
+            ],
+            "layouts": [
+                "in(tel-kagapa)"
+            ]
+        },
+        {
+            "name": "in(urd-phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(urd-phonetic)",
+            "description": "ur",
+            "language": [
+                "ur"
+            ],
+            "layouts": [
+                "in(urd-phonetic)"
+            ]
+        },
+        {
+            "name": "in(urd-phonetic3)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(urd-phonetic3)",
+            "description": "ur",
+            "language": [
+                "ur"
+            ],
+            "layouts": [
+                "in(urd-phonetic3)"
+            ]
+        },
+        {
+            "name": "in(urd-winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(urd-winkeys)",
+            "description": "ur",
+            "language": [
+                "ur"
+            ],
+            "layouts": [
+                "in(urd-winkeys)"
+            ]
+        },
+        {
+            "name": "in(bolnagri)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(bolnagri)",
+            "description": "hi",
+            "language": [
+                "hi"
+            ],
+            "layouts": [
+                "in(bolnagri)"
+            ]
+        },
+        {
+            "name": "in(hin-wx)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(hin-wx)",
+            "description": "hi",
+            "language": [
+                "hi"
+            ],
+            "layouts": [
+                "in(hin-wx)"
+            ]
+        },
+        {
+            "name": "in(hin-kagapa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(hin-kagapa)",
+            "description": "hi",
+            "language": [
+                "hi"
+            ],
+            "layouts": [
+                "in(hin-kagapa)"
+            ]
+        },
+        {
+            "name": "in(san-kagapa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(san-kagapa)",
+            "description": "sa",
+            "language": [
+                "sa"
+            ],
+            "layouts": [
+                "in(san-kagapa)"
+            ]
+        },
+        {
+            "name": "in(mar-kagapa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(mar-kagapa)",
+            "description": "mr",
+            "language": [
+                "mr"
+            ],
+            "layouts": [
+                "in(mar-kagapa)"
+            ]
+        },
+        {
+            "name": "in(eng)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(eng)",
+            "description": "en",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "in(eng)"
+            ]
+        },
+        {
+            "name": "ba",
+            "type": "ime",
+            "id": "all-xkb-layouts-ba",
+            "description": "Bosnian",
+            "language": [
+                "bs"
+            ],
+            "layouts": [
+                "ba"
+            ]
+        },
+        {
+            "name": "ba(alternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ba(alternatequotes)",
+            "description": null,
+            "language": [
+                "bs"
+            ],
+            "layouts": [
+                "ba(alternatequotes)"
+            ]
+        },
+        {
+            "name": "ba(unicode)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ba(unicode)",
+            "description": null,
+            "language": [
+                "bs"
+            ],
+            "layouts": [
+                "ba(unicode)"
+            ]
+        },
+        {
+            "name": "ba(unicodeus)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ba(unicodeus)",
+            "description": null,
+            "language": [
+                "bs"
+            ],
+            "layouts": [
+                "ba(unicodeus)"
+            ]
+        },
+        {
+            "name": "ba(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ba(us)",
+            "description": null,
+            "language": [
+                "bs"
+            ],
+            "layouts": [
+                "ba(us)"
+            ]
+        },
+        {
+            "name": "br",
+            "type": "ime",
+            "id": "all-xkb-layouts-br",
+            "description": "Portuguese (Brazil)",
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "br"
+            ]
+        },
+        {
+            "name": "br(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-br(nodeadkeys)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "br(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "br(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-br(dvorak)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "br(dvorak)"
+            ]
+        },
+        {
+            "name": "br(nativo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-br(nativo)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "br(nativo)"
+            ]
+        },
+        {
+            "name": "br(nativo-us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-br(nativo-us)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "br(nativo-us)"
+            ]
+        },
+        {
+            "name": "br(nativo-epo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-br(nativo-epo)",
+            "description": null,
+            "language": [
+                "eo"
+            ],
+            "layouts": [
+                "br(nativo-epo)"
+            ]
+        },
+        {
+            "name": "br(thinkpad)",
+            "type": "ime",
+            "id": "all-xkb-layouts-br(thinkpad)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "br(thinkpad)"
+            ]
+        },
+        {
+            "name": "bg",
+            "type": "ime",
+            "id": "all-xkb-layouts-bg",
+            "description": "Bulgarian",
+            "language": [
+                "bg"
+            ],
+            "layouts": [
+                "bg"
+            ]
+        },
+        {
+            "name": "bg(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-bg(phonetic)",
+            "description": null,
+            "language": [
+                "bg"
+            ],
+            "layouts": [
+                "bg(phonetic)"
+            ]
+        },
+        {
+            "name": "bg(bas_phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-bg(bas_phonetic)",
+            "description": null,
+            "language": [
+                "bg"
+            ],
+            "layouts": [
+                "bg(bas_phonetic)"
+            ]
+        },
+        {
+            "name": "dz",
+            "type": "ime",
+            "id": "all-xkb-layouts-dz",
+            "description": "Berber (Algeria, Latin)",
+            "layouts": [
+                "dz"
+            ]
+        },
+        {
+            "name": "dz(ber)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dz(ber)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "dz(ber)"
+            ]
+        },
+        {
+            "name": "dz(ar)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dz(ar)",
+            "description": "ar",
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "dz(ar)"
+            ]
+        },
+        {
+            "name": "ma",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma",
+            "description": "Arabic (Morocco)",
+            "layouts": [
+                "ma"
+            ]
+        },
+        {
+            "name": "ma(french)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(french)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ma(french)"
+            ]
+        },
+        {
+            "name": "ma(tifinagh)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(tifinagh)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "ma(tifinagh)"
+            ]
+        },
+        {
+            "name": "ma(tifinagh-alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(tifinagh-alt)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "ma(tifinagh-alt)"
+            ]
+        },
+        {
+            "name": "ma(tifinagh-alt-phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(tifinagh-alt-phonetic)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "ma(tifinagh-alt-phonetic)"
+            ]
+        },
+        {
+            "name": "ma(tifinagh-extended)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(tifinagh-extended)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "ma(tifinagh-extended)"
+            ]
+        },
+        {
+            "name": "ma(tifinagh-phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(tifinagh-phonetic)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "ma(tifinagh-phonetic)"
+            ]
+        },
+        {
+            "name": "ma(tifinagh-extended-phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ma(tifinagh-extended-phonetic)",
+            "description": "ber",
+            "language": [
+                "ber"
+            ],
+            "layouts": [
+                "ma(tifinagh-extended-phonetic)"
+            ]
+        },
+        {
+            "name": "cm",
+            "type": "ime",
+            "id": "all-xkb-layouts-cm",
+            "description": "English (Cameroon)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "cm"
+            ]
+        },
+        {
+            "name": "cm(french)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cm(french)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "cm(french)"
+            ]
+        },
+        {
+            "name": "cm(qwerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cm(qwerty)",
+            "description": null,
+            "language": [
+                "en",
+                "bas",
+                "nmg",
+                "fub",
+                "ewo",
+                "xmd",
+                "mfh",
+                "bkm",
+                "ozm",
+                "lns",
+                "sox",
+                "pny",
+                "wes",
+                "lem",
+                "nyj",
+                "mfk",
+                "mcp",
+                "ass",
+                "xed",
+                "dua",
+                "anv",
+                "bum",
+                "btb",
+                "bfd",
+                "azo",
+                "ken",
+                "yam",
+                "yat",
+                "yas"
+            ],
+            "layouts": [
+                "cm(qwerty)"
+            ]
+        },
+        {
+            "name": "cm(azerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cm(azerty)",
+            "description": null,
+            "language": [
+                "fr",
+                "bas",
+                "nmg",
+                "fub",
+                "ewo",
+                "xmd",
+                "mfh",
+                "bkm",
+                "ozm",
+                "lns",
+                "sox",
+                "pny",
+                "wes",
+                "lem",
+                "nyj",
+                "mfk",
+                "mcp",
+                "ass",
+                "xed",
+                "dua",
+                "anv",
+                "bum",
+                "btb",
+                "bfd",
+                "azo",
+                "ken",
+                "yam",
+                "yat",
+                "yas"
+            ],
+            "layouts": [
+                "cm(azerty)"
+            ]
+        },
+        {
+            "name": "cm(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cm(dvorak)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "cm(dvorak)"
+            ]
+        },
+        {
+            "name": "cm(mmuock)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cm(mmuock)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "cm(mmuock)"
+            ]
+        },
+        {
+            "name": "mm",
+            "type": "ime",
+            "id": "all-xkb-layouts-mm",
+            "description": "Burmese",
+            "language": [
+                "my"
+            ],
+            "layouts": [
+                "mm"
+            ]
+        },
+        {
+            "name": "mm(zawgyi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-mm(zawgyi)",
+            "description": "zg",
+            "language": [
+                "my"
+            ],
+            "layouts": [
+                "mm(zawgyi)"
+            ]
+        },
+        {
+            "name": "ca",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca",
+            "description": "French (Canada)",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ca"
+            ]
+        },
+        {
+            "name": "ca(fr-dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(fr-dvorak)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ca(fr-dvorak)"
+            ]
+        },
+        {
+            "name": "ca(fr-legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(fr-legacy)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ca(fr-legacy)"
+            ]
+        },
+        {
+            "name": "ca(multix)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(multix)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ca(multix)"
+            ]
+        },
+        {
+            "name": "ca(multi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(multi)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ca(multi)"
+            ]
+        },
+        {
+            "name": "ca(multi-2gr)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(multi-2gr)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ca(multi-2gr)"
+            ]
+        },
+        {
+            "name": "ca(ike)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(ike)",
+            "description": "ike",
+            "language": [
+                "iu"
+            ],
+            "layouts": [
+                "ca(ike)"
+            ]
+        },
+        {
+            "name": "ca(eng)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ca(eng)",
+            "description": "en",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "ca(eng)"
+            ]
+        },
+        {
+            "name": "cd",
+            "type": "ime",
+            "id": "all-xkb-layouts-cd",
+            "description": "French (Democratic Republic of the Congo)",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "cd"
+            ]
+        },
+        {
+            "name": "cn",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn",
+            "description": "Chinese",
+            "language": [
+                "zh"
+            ],
+            "layouts": [
+                "cn"
+            ]
+        },
+        {
+            "name": "cn(mon_trad)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_trad)",
+            "description": null,
+            "language": [
+                "mvf"
+            ],
+            "layouts": [
+                "cn(mon_trad)"
+            ]
+        },
+        {
+            "name": "cn(mon_trad_todo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_trad_todo)",
+            "description": null,
+            "language": [
+                "mvf"
+            ],
+            "layouts": [
+                "cn(mon_trad_todo)"
+            ]
+        },
+        {
+            "name": "cn(mon_trad_xibe)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_trad_xibe)",
+            "description": null,
+            "language": [
+                "sjo"
+            ],
+            "layouts": [
+                "cn(mon_trad_xibe)"
+            ]
+        },
+        {
+            "name": "cn(mon_trad_manchu)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_trad_manchu)",
+            "description": null,
+            "language": [
+                "mnc"
+            ],
+            "layouts": [
+                "cn(mon_trad_manchu)"
+            ]
+        },
+        {
+            "name": "cn(mon_trad_galik)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_trad_galik)",
+            "description": null,
+            "language": [
+                "mvf"
+            ],
+            "layouts": [
+                "cn(mon_trad_galik)"
+            ]
+        },
+        {
+            "name": "cn(mon_todo_galik)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_todo_galik)",
+            "description": null,
+            "language": [
+                "mvf"
+            ],
+            "layouts": [
+                "cn(mon_todo_galik)"
+            ]
+        },
+        {
+            "name": "cn(mon_manchu_galik)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(mon_manchu_galik)",
+            "description": null,
+            "language": [
+                "mnc"
+            ],
+            "layouts": [
+                "cn(mon_manchu_galik)"
+            ]
+        },
+        {
+            "name": "cn(tib)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(tib)",
+            "description": null,
+            "language": [
+                "bo"
+            ],
+            "layouts": [
+                "cn(tib)"
+            ]
+        },
+        {
+            "name": "cn(tib_asciinum)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(tib_asciinum)",
+            "description": null,
+            "language": [
+                "bo"
+            ],
+            "layouts": [
+                "cn(tib_asciinum)"
+            ]
+        },
+        {
+            "name": "cn(ug)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(ug)",
+            "description": "ug",
+            "language": [
+                "ug"
+            ],
+            "layouts": [
+                "cn(ug)"
+            ]
+        },
+        {
+            "name": "cn(altgr-pinyin)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cn(altgr-pinyin)",
+            "description": null,
+            "language": [
+                "zh"
+            ],
+            "layouts": [
+                "cn(altgr-pinyin)"
+            ]
+        },
+        {
+            "name": "hr",
+            "type": "ime",
+            "id": "all-xkb-layouts-hr",
+            "description": "Croatian",
+            "language": [
+                "hr"
+            ],
+            "layouts": [
+                "hr"
+            ]
+        },
+        {
+            "name": "hr(alternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hr(alternatequotes)",
+            "description": null,
+            "language": [
+                "hr"
+            ],
+            "layouts": [
+                "hr(alternatequotes)"
+            ]
+        },
+        {
+            "name": "hr(unicode)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hr(unicode)",
+            "description": null,
+            "language": [
+                "hr"
+            ],
+            "layouts": [
+                "hr(unicode)"
+            ]
+        },
+        {
+            "name": "hr(unicodeus)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hr(unicodeus)",
+            "description": null,
+            "language": [
+                "hr"
+            ],
+            "layouts": [
+                "hr(unicodeus)"
+            ]
+        },
+        {
+            "name": "hr(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hr(us)",
+            "description": null,
+            "language": [
+                "hr"
+            ],
+            "layouts": [
+                "hr(us)"
+            ]
+        },
+        {
+            "name": "cz",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz",
+            "description": "Czech",
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz"
+            ]
+        },
+        {
+            "name": "cz(bksl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(bksl)",
+            "description": null,
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz(bksl)"
+            ]
+        },
+        {
+            "name": "cz(qwerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(qwerty)",
+            "description": null,
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz(qwerty)"
+            ]
+        },
+        {
+            "name": "cz(qwerty_bksl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(qwerty_bksl)",
+            "description": null,
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz(qwerty_bksl)"
+            ]
+        },
+        {
+            "name": "cz(qwerty-mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(qwerty-mac)",
+            "description": null,
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz(qwerty-mac)"
+            ]
+        },
+        {
+            "name": "cz(ucw)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(ucw)",
+            "description": null,
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz(ucw)"
+            ]
+        },
+        {
+            "name": "cz(dvorak-ucw)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(dvorak-ucw)",
+            "description": null,
+            "language": [
+                "cs"
+            ],
+            "layouts": [
+                "cz(dvorak-ucw)"
+            ]
+        },
+        {
+            "name": "cz(rus)",
+            "type": "ime",
+            "id": "all-xkb-layouts-cz(rus)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "cz(rus)"
+            ]
+        },
+        {
+            "name": "dk",
+            "type": "ime",
+            "id": "all-xkb-layouts-dk",
+            "description": "Danish",
+            "language": [
+                "da"
+            ],
+            "layouts": [
+                "dk"
+            ]
+        },
+        {
+            "name": "dk(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dk(nodeadkeys)",
+            "description": null,
+            "language": [
+                "da"
+            ],
+            "layouts": [
+                "dk(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "dk(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dk(winkeys)",
+            "description": null,
+            "language": [
+                "da"
+            ],
+            "layouts": [
+                "dk(winkeys)"
+            ]
+        },
+        {
+            "name": "dk(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dk(mac)",
+            "description": null,
+            "language": [
+                "da"
+            ],
+            "layouts": [
+                "dk(mac)"
+            ]
+        },
+        {
+            "name": "dk(mac_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dk(mac_nodeadkeys)",
+            "description": null,
+            "language": [
+                "da"
+            ],
+            "layouts": [
+                "dk(mac_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "dk(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-dk(dvorak)",
+            "description": null,
+            "language": [
+                "da"
+            ],
+            "layouts": [
+                "dk(dvorak)"
+            ]
+        },
+        {
+            "name": "nl",
+            "type": "ime",
+            "id": "all-xkb-layouts-nl",
+            "description": "Dutch",
+            "language": [
+                "nl"
+            ],
+            "layouts": [
+                "nl"
+            ]
+        },
+        {
+            "name": "nl(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-nl(sundeadkeys)",
+            "description": null,
+            "language": [
+                "nl"
+            ],
+            "layouts": [
+                "nl(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "nl(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-nl(mac)",
+            "description": null,
+            "language": [
+                "nl"
+            ],
+            "layouts": [
+                "nl(mac)"
+            ]
+        },
+        {
+            "name": "nl(std)",
+            "type": "ime",
+            "id": "all-xkb-layouts-nl(std)",
+            "description": null,
+            "language": [
+                "nl"
+            ],
+            "layouts": [
+                "nl(std)"
+            ]
+        },
+        {
+            "name": "bt",
+            "type": "ime",
+            "id": "all-xkb-layouts-bt",
+            "description": "Dzongkha",
+            "language": [
+                "dz"
+            ],
+            "layouts": [
+                "bt"
+            ]
+        },
+        {
+            "name": "ee",
+            "type": "ime",
+            "id": "all-xkb-layouts-ee",
+            "description": "Estonian",
+            "language": [
+                "et"
+            ],
+            "layouts": [
+                "ee"
+            ]
+        },
+        {
+            "name": "ee(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ee(nodeadkeys)",
+            "description": null,
+            "language": [
+                "et"
+            ],
+            "layouts": [
+                "ee(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "ee(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ee(dvorak)",
+            "description": null,
+            "language": [
+                "et"
+            ],
+            "layouts": [
+                "ee(dvorak)"
+            ]
+        },
+        {
+            "name": "ee(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ee(us)",
+            "description": null,
+            "language": [
+                "et"
+            ],
+            "layouts": [
+                "ee(us)"
+            ]
+        },
+        {
+            "name": "ir",
+            "type": "ime",
+            "id": "all-xkb-layouts-ir",
+            "description": "Persian",
+            "language": [
+                "fa"
+            ],
+            "layouts": [
+                "ir"
+            ]
+        },
+        {
+            "name": "ir(pes_keypad)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ir(pes_keypad)",
+            "description": null,
+            "language": [
+                "fa"
+            ],
+            "layouts": [
+                "ir(pes_keypad)"
+            ]
+        },
+        {
+            "name": "ir(ku)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ir(ku)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "ir(ku)"
+            ]
+        },
+        {
+            "name": "ir(ku_f)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ir(ku_f)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "ir(ku_f)"
+            ]
+        },
+        {
+            "name": "ir(ku_alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ir(ku_alt)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "ir(ku_alt)"
+            ]
+        },
+        {
+            "name": "ir(ku_ara)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ir(ku_ara)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "ir(ku_ara)"
+            ]
+        },
+        {
+            "name": "iq",
+            "type": "ime",
+            "id": "all-xkb-layouts-iq",
+            "description": "Iraqi",
+            "language": [
+                "ar",
+                "ku"
+            ],
+            "layouts": [
+                "iq"
+            ]
+        },
+        {
+            "name": "iq(ku)",
+            "type": "ime",
+            "id": "all-xkb-layouts-iq(ku)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "iq(ku)"
+            ]
+        },
+        {
+            "name": "iq(ku_f)",
+            "type": "ime",
+            "id": "all-xkb-layouts-iq(ku_f)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "iq(ku_f)"
+            ]
+        },
+        {
+            "name": "iq(ku_alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-iq(ku_alt)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "iq(ku_alt)"
+            ]
+        },
+        {
+            "name": "iq(ku_ara)",
+            "type": "ime",
+            "id": "all-xkb-layouts-iq(ku_ara)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "iq(ku_ara)"
+            ]
+        },
+        {
+            "name": "fo",
+            "type": "ime",
+            "id": "all-xkb-layouts-fo",
+            "description": "Faroese",
+            "language": [
+                "fo"
+            ],
+            "layouts": [
+                "fo"
+            ]
+        },
+        {
+            "name": "fo(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fo(nodeadkeys)",
+            "description": null,
+            "language": [
+                "fo"
+            ],
+            "layouts": [
+                "fo(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "fi",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi",
+            "description": "Finnish",
+            "language": [
+                "fi"
+            ],
+            "layouts": [
+                "fi"
+            ]
+        },
+        {
+            "name": "fi(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi(winkeys)",
+            "description": null,
+            "language": [
+                "fi"
+            ],
+            "layouts": [
+                "fi(winkeys)"
+            ]
+        },
+        {
+            "name": "fi(classic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi(classic)",
+            "description": null,
+            "language": [
+                "fi"
+            ],
+            "layouts": [
+                "fi(classic)"
+            ]
+        },
+        {
+            "name": "fi(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi(nodeadkeys)",
+            "description": null,
+            "language": [
+                "fi"
+            ],
+            "layouts": [
+                "fi(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "fi(smi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi(smi)",
+            "description": null,
+            "language": [
+                "se"
+            ],
+            "layouts": [
+                "fi(smi)"
+            ]
+        },
+        {
+            "name": "fi(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi(mac)",
+            "description": null,
+            "language": [
+                "fi"
+            ],
+            "layouts": [
+                "fi(mac)"
+            ]
+        },
+        {
+            "name": "fr",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr",
+            "description": "French",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr"
+            ]
+        },
+        {
+            "name": "fr(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(nodeadkeys)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "fr(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(sundeadkeys)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "fr(oss)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(oss)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(oss)"
+            ]
+        },
+        {
+            "name": "fr(oss_latin9)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(oss_latin9)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(oss_latin9)"
+            ]
+        },
+        {
+            "name": "fr(oss_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(oss_nodeadkeys)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(oss_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "fr(oss_sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(oss_sundeadkeys)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(oss_sundeadkeys)"
+            ]
+        },
+        {
+            "name": "fr(latin9)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(latin9)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(latin9)"
+            ]
+        },
+        {
+            "name": "fr(latin9_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(latin9_nodeadkeys)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(latin9_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "fr(latin9_sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(latin9_sundeadkeys)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(latin9_sundeadkeys)"
+            ]
+        },
+        {
+            "name": "fr(bepo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(bepo)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(bepo)"
+            ]
+        },
+        {
+            "name": "fr(bepo_latin9)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(bepo_latin9)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(bepo_latin9)"
+            ]
+        },
+        {
+            "name": "fr(bepo_afnor)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(bepo_afnor)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(bepo_afnor)"
+            ]
+        },
+        {
+            "name": "fr(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(dvorak)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(dvorak)"
+            ]
+        },
+        {
+            "name": "fr(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(mac)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(mac)"
+            ]
+        },
+        {
+            "name": "fr(azerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(azerty)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(azerty)"
+            ]
+        },
+        {
+            "name": "fr(afnor)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(afnor)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(afnor)"
+            ]
+        },
+        {
+            "name": "fr(bre)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(bre)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(bre)"
+            ]
+        },
+        {
+            "name": "fr(oci)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(oci)",
+            "description": null,
+            "language": [
+                "oc"
+            ],
+            "layouts": [
+                "fr(oci)"
+            ]
+        },
+        {
+            "name": "fr(geo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(geo)",
+            "description": null,
+            "language": [
+                "ka"
+            ],
+            "layouts": [
+                "fr(geo)"
+            ]
+        },
+        {
+            "name": "fr(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fr(us)",
+            "description": null,
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "fr(us)"
+            ]
+        },
+        {
+            "name": "gh",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh",
+            "description": "English (Ghana)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gh"
+            ]
+        },
+        {
+            "name": "gh(generic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(generic)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gh(generic)"
+            ]
+        },
+        {
+            "name": "gh(akan)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(akan)",
+            "description": "ak",
+            "language": [
+                "ak"
+            ],
+            "layouts": [
+                "gh(akan)"
+            ]
+        },
+        {
+            "name": "gh(ewe)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(ewe)",
+            "description": "ee",
+            "language": [
+                "ee"
+            ],
+            "layouts": [
+                "gh(ewe)"
+            ]
+        },
+        {
+            "name": "gh(fula)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(fula)",
+            "description": "ff",
+            "language": [
+                "ff"
+            ],
+            "layouts": [
+                "gh(fula)"
+            ]
+        },
+        {
+            "name": "gh(ga)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(ga)",
+            "description": "gaa",
+            "language": [
+                "gaa"
+            ],
+            "layouts": [
+                "gh(ga)"
+            ]
+        },
+        {
+            "name": "gh(hausa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(hausa)",
+            "description": "ha",
+            "language": [
+                "ha"
+            ],
+            "layouts": [
+                "gh(hausa)"
+            ]
+        },
+        {
+            "name": "gh(avn)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(avn)",
+            "description": "avn",
+            "language": [
+                "avn"
+            ],
+            "layouts": [
+                "gh(avn)"
+            ]
+        },
+        {
+            "name": "gh(gillbt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gh(gillbt)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gh(gillbt)"
+            ]
+        },
+        {
+            "name": "gn",
+            "type": "ime",
+            "id": "all-xkb-layouts-gn",
+            "description": "French (Guinea)",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "gn"
+            ]
+        },
+        {
+            "name": "ge",
+            "type": "ime",
+            "id": "all-xkb-layouts-ge",
+            "description": "Georgian",
+            "language": [
+                "ka"
+            ],
+            "layouts": [
+                "ge"
+            ]
+        },
+        {
+            "name": "ge(ergonomic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ge(ergonomic)",
+            "description": null,
+            "language": [
+                "ka"
+            ],
+            "layouts": [
+                "ge(ergonomic)"
+            ]
+        },
+        {
+            "name": "ge(mess)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ge(mess)",
+            "description": null,
+            "language": [
+                "ka"
+            ],
+            "layouts": [
+                "ge(mess)"
+            ]
+        },
+        {
+            "name": "ge(ru)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ge(ru)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ge(ru)"
+            ]
+        },
+        {
+            "name": "ge(os)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ge(os)",
+            "description": null,
+            "language": [
+                "os"
+            ],
+            "layouts": [
+                "ge(os)"
+            ]
+        },
+        {
+            "name": "de",
+            "type": "ime",
+            "id": "all-xkb-layouts-de",
+            "description": "German",
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de"
+            ]
+        },
+        {
+            "name": "de(deadacute)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(deadacute)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(deadacute)"
+            ]
+        },
+        {
+            "name": "de(deadgraveacute)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(deadgraveacute)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(deadgraveacute)"
+            ]
+        },
+        {
+            "name": "de(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(nodeadkeys)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "de(T3)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(T3)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(T3)"
+            ]
+        },
+        {
+            "name": "de(ro)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(ro)",
+            "description": null,
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "de(ro)"
+            ]
+        },
+        {
+            "name": "de(ro_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(ro_nodeadkeys)",
+            "description": null,
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "de(ro_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "de(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(dvorak)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(dvorak)"
+            ]
+        },
+        {
+            "name": "de(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(sundeadkeys)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "de(neo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(neo)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(neo)"
+            ]
+        },
+        {
+            "name": "de(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(mac)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(mac)"
+            ]
+        },
+        {
+            "name": "de(mac_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(mac_nodeadkeys)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(mac_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "de(dsb)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(dsb)",
+            "description": null,
+            "language": [
+                "dsb"
+            ],
+            "layouts": [
+                "de(dsb)"
+            ]
+        },
+        {
+            "name": "de(dsb_qwertz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(dsb_qwertz)",
+            "description": null,
+            "language": [
+                "dsb"
+            ],
+            "layouts": [
+                "de(dsb_qwertz)"
+            ]
+        },
+        {
+            "name": "de(qwerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(qwerty)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(qwerty)"
+            ]
+        },
+        {
+            "name": "de(tr)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(tr)",
+            "description": null,
+            "language": [
+                "tr"
+            ],
+            "layouts": [
+                "de(tr)"
+            ]
+        },
+        {
+            "name": "de(ru)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(ru)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "de(ru)"
+            ]
+        },
+        {
+            "name": "de(deadtilde)",
+            "type": "ime",
+            "id": "all-xkb-layouts-de(deadtilde)",
+            "description": null,
+            "language": [
+                "de"
+            ],
+            "layouts": [
+                "de(deadtilde)"
+            ]
+        },
+        {
+            "name": "gr",
+            "type": "ime",
+            "id": "all-xkb-layouts-gr",
+            "description": "Greek",
+            "language": [
+                "el"
+            ],
+            "layouts": [
+                "gr"
+            ]
+        },
+        {
+            "name": "gr(simple)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gr(simple)",
+            "description": null,
+            "language": [
+                "el"
+            ],
+            "layouts": [
+                "gr(simple)"
+            ]
+        },
+        {
+            "name": "gr(extended)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gr(extended)",
+            "description": null,
+            "language": [
+                "el"
+            ],
+            "layouts": [
+                "gr(extended)"
+            ]
+        },
+        {
+            "name": "gr(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gr(nodeadkeys)",
+            "description": null,
+            "language": [
+                "el"
+            ],
+            "layouts": [
+                "gr(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "gr(polytonic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gr(polytonic)",
+            "description": null,
+            "language": [
+                "el"
+            ],
+            "layouts": [
+                "gr(polytonic)"
+            ]
+        },
+        {
+            "name": "hu",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu",
+            "description": "Hungarian",
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu"
+            ]
+        },
+        {
+            "name": "hu(standard)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(standard)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(standard)"
+            ]
+        },
+        {
+            "name": "hu(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(nodeadkeys)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "hu(qwerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(qwerty)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(qwerty)"
+            ]
+        },
+        {
+            "name": "hu(101_qwertz_comma_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwertz_comma_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwertz_comma_dead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwertz_comma_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwertz_comma_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwertz_comma_nodead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwertz_dot_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwertz_dot_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwertz_dot_dead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwertz_dot_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwertz_dot_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwertz_dot_nodead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwerty_comma_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwerty_comma_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwerty_comma_dead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwerty_comma_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwerty_comma_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwerty_comma_nodead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwerty_dot_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwerty_dot_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwerty_dot_dead)"
+            ]
+        },
+        {
+            "name": "hu(101_qwerty_dot_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(101_qwerty_dot_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(101_qwerty_dot_nodead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwertz_comma_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwertz_comma_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwertz_comma_dead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwertz_comma_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwertz_comma_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwertz_comma_nodead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwertz_dot_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwertz_dot_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwertz_dot_dead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwertz_dot_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwertz_dot_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwertz_dot_nodead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwerty_comma_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwerty_comma_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwerty_comma_dead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwerty_comma_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwerty_comma_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwerty_comma_nodead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwerty_dot_dead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwerty_dot_dead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwerty_dot_dead)"
+            ]
+        },
+        {
+            "name": "hu(102_qwerty_dot_nodead)",
+            "type": "ime",
+            "id": "all-xkb-layouts-hu(102_qwerty_dot_nodead)",
+            "description": null,
+            "language": [
+                "hu"
+            ],
+            "layouts": [
+                "hu(102_qwerty_dot_nodead)"
+            ]
+        },
+        {
+            "name": "is",
+            "type": "ime",
+            "id": "all-xkb-layouts-is",
+            "description": "Icelandic",
+            "language": [
+                "is"
+            ],
+            "layouts": [
+                "is"
+            ]
+        },
+        {
+            "name": "is(Sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-is(Sundeadkeys)",
+            "description": null,
+            "language": [
+                "is"
+            ],
+            "layouts": [
+                "is(Sundeadkeys)"
+            ]
+        },
+        {
+            "name": "is(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-is(nodeadkeys)",
+            "description": null,
+            "language": [
+                "is"
+            ],
+            "layouts": [
+                "is(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "is(mac_legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-is(mac_legacy)",
+            "description": null,
+            "language": [
+                "is"
+            ],
+            "layouts": [
+                "is(mac_legacy)"
+            ]
+        },
+        {
+            "name": "is(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-is(mac)",
+            "description": null,
+            "language": [
+                "is"
+            ],
+            "layouts": [
+                "is(mac)"
+            ]
+        },
+        {
+            "name": "is(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-is(dvorak)",
+            "description": null,
+            "language": [
+                "is"
+            ],
+            "layouts": [
+                "is(dvorak)"
+            ]
+        },
+        {
+            "name": "il",
+            "type": "ime",
+            "id": "all-xkb-layouts-il",
+            "description": "Hebrew",
+            "language": [
+                "he"
+            ],
+            "layouts": [
+                "il"
+            ]
+        },
+        {
+            "name": "il(lyx)",
+            "type": "ime",
+            "id": "all-xkb-layouts-il(lyx)",
+            "description": null,
+            "language": [
+                "he"
+            ],
+            "layouts": [
+                "il(lyx)"
+            ]
+        },
+        {
+            "name": "il(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-il(phonetic)",
+            "description": null,
+            "language": [
+                "he"
+            ],
+            "layouts": [
+                "il(phonetic)"
+            ]
+        },
+        {
+            "name": "il(biblical)",
+            "type": "ime",
+            "id": "all-xkb-layouts-il(biblical)",
+            "description": null,
+            "language": [
+                "he"
+            ],
+            "layouts": [
+                "il(biblical)"
+            ]
+        },
+        {
+            "name": "it",
+            "type": "ime",
+            "id": "all-xkb-layouts-it",
+            "description": "Italian",
+            "language": [
+                "it"
+            ],
+            "layouts": [
+                "it"
+            ]
+        },
+        {
+            "name": "it(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(nodeadkeys)",
+            "description": null,
+            "language": [
+                "it"
+            ],
+            "layouts": [
+                "it(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "it(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(winkeys)",
+            "description": null,
+            "language": [
+                "it"
+            ],
+            "layouts": [
+                "it(winkeys)"
+            ]
+        },
+        {
+            "name": "it(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(mac)",
+            "description": null,
+            "language": [
+                "it"
+            ],
+            "layouts": [
+                "it(mac)"
+            ]
+        },
+        {
+            "name": "it(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(us)",
+            "description": null,
+            "language": [
+                "it"
+            ],
+            "layouts": [
+                "it(us)"
+            ]
+        },
+        {
+            "name": "it(geo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(geo)",
+            "description": null,
+            "language": [
+                "ka"
+            ],
+            "layouts": [
+                "it(geo)"
+            ]
+        },
+        {
+            "name": "it(ibm)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(ibm)",
+            "description": null,
+            "language": [
+                "it"
+            ],
+            "layouts": [
+                "it(ibm)"
+            ]
+        },
+        {
+            "name": "it(intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(intl)",
+            "description": null,
+            "language": [
+                "de",
+                "fr",
+                "it",
+                "sk",
+                "sc",
+                "nap",
+                "scn",
+                "fur"
+            ],
+            "layouts": [
+                "it(intl)"
+            ]
+        },
+        {
+            "name": "it(scn)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(scn)",
+            "description": null,
+            "language": [
+                "it",
+                "scn"
+            ],
+            "layouts": [
+                "it(scn)"
+            ]
+        },
+        {
+            "name": "it(fur)",
+            "type": "ime",
+            "id": "all-xkb-layouts-it(fur)",
+            "description": null,
+            "language": [
+                "fur"
+            ],
+            "layouts": [
+                "it(fur)"
+            ]
+        },
+        {
+            "name": "jp",
+            "type": "ime",
+            "id": "all-xkb-layouts-jp",
+            "description": "Japanese",
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "jp"
+            ]
+        },
+        {
+            "name": "jp(kana)",
+            "type": "ime",
+            "id": "all-xkb-layouts-jp(kana)",
+            "description": null,
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "jp(kana)"
+            ]
+        },
+        {
+            "name": "jp(kana86)",
+            "type": "ime",
+            "id": "all-xkb-layouts-jp(kana86)",
+            "description": null,
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "jp(kana86)"
+            ]
+        },
+        {
+            "name": "jp(OADG109A)",
+            "type": "ime",
+            "id": "all-xkb-layouts-jp(OADG109A)",
+            "description": null,
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "jp(OADG109A)"
+            ]
+        },
+        {
+            "name": "jp(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-jp(mac)",
+            "description": null,
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "jp(mac)"
+            ]
+        },
+        {
+            "name": "jp(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-jp(dvorak)",
+            "description": null,
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "jp(dvorak)"
+            ]
+        },
+        {
+            "name": "kg",
+            "type": "ime",
+            "id": "all-xkb-layouts-kg",
+            "description": "Kyrgyz",
+            "language": [
+                "ky"
+            ],
+            "layouts": [
+                "kg"
+            ]
+        },
+        {
+            "name": "kg(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-kg(phonetic)",
+            "description": null,
+            "language": [
+                "ky"
+            ],
+            "layouts": [
+                "kg(phonetic)"
+            ]
+        },
+        {
+            "name": "kh",
+            "type": "ime",
+            "id": "all-xkb-layouts-kh",
+            "description": "Khmer (Cambodia)",
+            "language": [
+                "km"
+            ],
+            "layouts": [
+                "kh"
+            ]
+        },
+        {
+            "name": "kz",
+            "type": "ime",
+            "id": "all-xkb-layouts-kz",
+            "description": "Kazakh",
+            "language": [
+                "kk"
+            ],
+            "layouts": [
+                "kz"
+            ]
+        },
+        {
+            "name": "kz(ruskaz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-kz(ruskaz)",
+            "description": "ru",
+            "language": [
+                "kk",
+                "ru"
+            ],
+            "layouts": [
+                "kz(ruskaz)"
+            ]
+        },
+        {
+            "name": "kz(kazrus)",
+            "type": "ime",
+            "id": "all-xkb-layouts-kz(kazrus)",
+            "description": null,
+            "language": [
+                "kk",
+                "ru"
+            ],
+            "layouts": [
+                "kz(kazrus)"
+            ]
+        },
+        {
+            "name": "kz(ext)",
+            "type": "ime",
+            "id": "all-xkb-layouts-kz(ext)",
+            "description": null,
+            "language": [
+                "kk"
+            ],
+            "layouts": [
+                "kz(ext)"
+            ]
+        },
+        {
+            "name": "kz(latin)",
+            "type": "ime",
+            "id": "all-xkb-layouts-kz(latin)",
+            "description": null,
+            "language": [
+                "kk"
+            ],
+            "layouts": [
+                "kz(latin)"
+            ]
+        },
+        {
+            "name": "la",
+            "type": "ime",
+            "id": "all-xkb-layouts-la",
+            "description": "Lao",
+            "language": [
+                "lo"
+            ],
+            "layouts": [
+                "la"
+            ]
+        },
+        {
+            "name": "la(stea)",
+            "type": "ime",
+            "id": "all-xkb-layouts-la(stea)",
+            "description": null,
+            "language": [
+                "lo"
+            ],
+            "layouts": [
+                "la(stea)"
+            ]
+        },
+        {
+            "name": "latam",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam",
+            "description": "Spanish (Latin American)",
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam"
+            ]
+        },
+        {
+            "name": "latam(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam(nodeadkeys)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "latam(deadtilde)",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam(deadtilde)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam(deadtilde)"
+            ]
+        },
+        {
+            "name": "latam(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam(sundeadkeys)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "latam(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam(dvorak)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam(dvorak)"
+            ]
+        },
+        {
+            "name": "latam(colemak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam(colemak)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam(colemak)"
+            ]
+        },
+        {
+            "name": "latam(colemak-gaming)",
+            "type": "ime",
+            "id": "all-xkb-layouts-latam(colemak-gaming)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "latam(colemak-gaming)"
+            ]
+        },
+        {
+            "name": "lt",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt",
+            "description": "Lithuanian",
+            "language": [
+                "lt"
+            ],
+            "layouts": [
+                "lt"
+            ]
+        },
+        {
+            "name": "lt(std)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt(std)",
+            "description": null,
+            "language": [
+                "lt"
+            ],
+            "layouts": [
+                "lt(std)"
+            ]
+        },
+        {
+            "name": "lt(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt(us)",
+            "description": null,
+            "language": [
+                "lt"
+            ],
+            "layouts": [
+                "lt(us)"
+            ]
+        },
+        {
+            "name": "lt(ibm)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt(ibm)",
+            "description": null,
+            "language": [
+                "lt"
+            ],
+            "layouts": [
+                "lt(ibm)"
+            ]
+        },
+        {
+            "name": "lt(lekp)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt(lekp)",
+            "description": null,
+            "language": [
+                "lt"
+            ],
+            "layouts": [
+                "lt(lekp)"
+            ]
+        },
+        {
+            "name": "lt(lekpa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt(lekpa)",
+            "description": null,
+            "language": [
+                "lt"
+            ],
+            "layouts": [
+                "lt(lekpa)"
+            ]
+        },
+        {
+            "name": "lt(sgs)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lt(sgs)",
+            "description": null,
+            "language": [
+                "sgs"
+            ],
+            "layouts": [
+                "lt(sgs)"
+            ]
+        },
+        {
+            "name": "lv",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv",
+            "description": "Latvian",
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv"
+            ]
+        },
+        {
+            "name": "lv(apostrophe)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv(apostrophe)",
+            "description": null,
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv(apostrophe)"
+            ]
+        },
+        {
+            "name": "lv(tilde)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv(tilde)",
+            "description": null,
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv(tilde)"
+            ]
+        },
+        {
+            "name": "lv(fkey)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv(fkey)",
+            "description": null,
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv(fkey)"
+            ]
+        },
+        {
+            "name": "lv(modern)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv(modern)",
+            "description": null,
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv(modern)"
+            ]
+        },
+        {
+            "name": "lv(ergonomic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv(ergonomic)",
+            "description": null,
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv(ergonomic)"
+            ]
+        },
+        {
+            "name": "lv(adapted)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lv(adapted)",
+            "description": null,
+            "language": [
+                "lv"
+            ],
+            "layouts": [
+                "lv(adapted)"
+            ]
+        },
+        {
+            "name": "mao",
+            "type": "ime",
+            "id": "all-xkb-layouts-mao",
+            "description": "Maori",
+            "language": [
+                "mi"
+            ],
+            "layouts": [
+                "mao"
+            ]
+        },
+        {
+            "name": "me",
+            "type": "ime",
+            "id": "all-xkb-layouts-me",
+            "description": "Montenegrin",
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me"
+            ]
+        },
+        {
+            "name": "me(cyrillic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(cyrillic)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(cyrillic)"
+            ]
+        },
+        {
+            "name": "me(cyrillicyz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(cyrillicyz)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(cyrillicyz)"
+            ]
+        },
+        {
+            "name": "me(latinunicode)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(latinunicode)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(latinunicode)"
+            ]
+        },
+        {
+            "name": "me(latinyz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(latinyz)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(latinyz)"
+            ]
+        },
+        {
+            "name": "me(latinunicodeyz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(latinunicodeyz)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(latinunicodeyz)"
+            ]
+        },
+        {
+            "name": "me(cyrillicalternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(cyrillicalternatequotes)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(cyrillicalternatequotes)"
+            ]
+        },
+        {
+            "name": "me(latinalternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-me(latinalternatequotes)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "me(latinalternatequotes)"
+            ]
+        },
+        {
+            "name": "mk",
+            "type": "ime",
+            "id": "all-xkb-layouts-mk",
+            "description": "Macedonian",
+            "language": [
+                "mk"
+            ],
+            "layouts": [
+                "mk"
+            ]
+        },
+        {
+            "name": "mk(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-mk(nodeadkeys)",
+            "description": null,
+            "language": [
+                "mk"
+            ],
+            "layouts": [
+                "mk(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "mt",
+            "type": "ime",
+            "id": "all-xkb-layouts-mt",
+            "description": "Maltese",
+            "language": [
+                "mt"
+            ],
+            "layouts": [
+                "mt"
+            ]
+        },
+        {
+            "name": "mt(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-mt(us)",
+            "description": null,
+            "language": [
+                "mt"
+            ],
+            "layouts": [
+                "mt(us)"
+            ]
+        },
+        {
+            "name": "mt(alt-us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-mt(alt-us)",
+            "description": null,
+            "language": [
+                "mt"
+            ],
+            "layouts": [
+                "mt(alt-us)"
+            ]
+        },
+        {
+            "name": "mt(alt-gb)",
+            "type": "ime",
+            "id": "all-xkb-layouts-mt(alt-gb)",
+            "description": null,
+            "language": [
+                "mt"
+            ],
+            "layouts": [
+                "mt(alt-gb)"
+            ]
+        },
+        {
+            "name": "mn",
+            "type": "ime",
+            "id": "all-xkb-layouts-mn",
+            "description": "Mongolian",
+            "language": [
+                "mn"
+            ],
+            "layouts": [
+                "mn"
+            ]
+        },
+        {
+            "name": "no",
+            "type": "ime",
+            "id": "all-xkb-layouts-no",
+            "description": "Norwegian",
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no"
+            ]
+        },
+        {
+            "name": "no(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(nodeadkeys)",
+            "description": null,
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "no(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(winkeys)",
+            "description": null,
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no(winkeys)"
+            ]
+        },
+        {
+            "name": "no(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(dvorak)",
+            "description": null,
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no(dvorak)"
+            ]
+        },
+        {
+            "name": "no(smi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(smi)",
+            "description": null,
+            "language": [
+                "se"
+            ],
+            "layouts": [
+                "no(smi)"
+            ]
+        },
+        {
+            "name": "no(smi_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(smi_nodeadkeys)",
+            "description": null,
+            "language": [
+                "se"
+            ],
+            "layouts": [
+                "no(smi_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "no(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(mac)",
+            "description": null,
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no(mac)"
+            ]
+        },
+        {
+            "name": "no(mac_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(mac_nodeadkeys)",
+            "description": null,
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no(mac_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "no(colemak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-no(colemak)",
+            "description": null,
+            "language": [
+                "nb",
+                "nb",
+                "nn"
+            ],
+            "layouts": [
+                "no(colemak)"
+            ]
+        },
+        {
+            "name": "pl",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl",
+            "description": "Polish",
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl"
+            ]
+        },
+        {
+            "name": "pl(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(legacy)",
+            "description": null,
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl(legacy)"
+            ]
+        },
+        {
+            "name": "pl(qwertz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(qwertz)",
+            "description": null,
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl(qwertz)"
+            ]
+        },
+        {
+            "name": "pl(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(dvorak)",
+            "description": null,
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl(dvorak)"
+            ]
+        },
+        {
+            "name": "pl(dvorak_quotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(dvorak_quotes)",
+            "description": null,
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl(dvorak_quotes)"
+            ]
+        },
+        {
+            "name": "pl(dvorak_altquotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(dvorak_altquotes)",
+            "description": null,
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl(dvorak_altquotes)"
+            ]
+        },
+        {
+            "name": "pl(csb)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(csb)",
+            "description": null,
+            "language": [
+                "csb"
+            ],
+            "layouts": [
+                "pl(csb)"
+            ]
+        },
+        {
+            "name": "pl(szl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(szl)",
+            "description": null,
+            "language": [
+                "szl"
+            ],
+            "layouts": [
+                "pl(szl)"
+            ]
+        },
+        {
+            "name": "pl(ru_phonetic_dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(ru_phonetic_dvorak)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "pl(ru_phonetic_dvorak)"
+            ]
+        },
+        {
+            "name": "pl(dvp)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pl(dvp)",
+            "description": null,
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "pl(dvp)"
+            ]
+        },
+        {
+            "name": "pt",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt",
+            "description": "Portuguese",
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt"
+            ]
+        },
+        {
+            "name": "pt(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(nodeadkeys)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "pt(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(sundeadkeys)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "pt(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(mac)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(mac)"
+            ]
+        },
+        {
+            "name": "pt(mac_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(mac_nodeadkeys)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(mac_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "pt(mac_sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(mac_sundeadkeys)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(mac_sundeadkeys)"
+            ]
+        },
+        {
+            "name": "pt(nativo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(nativo)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(nativo)"
+            ]
+        },
+        {
+            "name": "pt(nativo-us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(nativo-us)",
+            "description": null,
+            "language": [
+                "pt"
+            ],
+            "layouts": [
+                "pt(nativo-us)"
+            ]
+        },
+        {
+            "name": "pt(nativo-epo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pt(nativo-epo)",
+            "description": null,
+            "language": [
+                "eo"
+            ],
+            "layouts": [
+                "pt(nativo-epo)"
+            ]
+        },
+        {
+            "name": "ro",
+            "type": "ime",
+            "id": "all-xkb-layouts-ro",
+            "description": "Romanian",
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "ro"
+            ]
+        },
+        {
+            "name": "ro(cedilla)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ro(cedilla)",
+            "description": null,
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "ro(cedilla)"
+            ]
+        },
+        {
+            "name": "ro(std)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ro(std)",
+            "description": null,
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "ro(std)"
+            ]
+        },
+        {
+            "name": "ro(std_cedilla)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ro(std_cedilla)",
+            "description": null,
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "ro(std_cedilla)"
+            ]
+        },
+        {
+            "name": "ro(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ro(winkeys)",
+            "description": null,
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "ro(winkeys)"
+            ]
+        },
+        {
+            "name": "ru",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru",
+            "description": "Russian",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru"
+            ]
+        },
+        {
+            "name": "ru(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(phonetic)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(phonetic)"
+            ]
+        },
+        {
+            "name": "ru(phonetic_winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(phonetic_winkeys)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(phonetic_winkeys)"
+            ]
+        },
+        {
+            "name": "ru(phonetic_yazherty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(phonetic_yazherty)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(phonetic_yazherty)"
+            ]
+        },
+        {
+            "name": "ru(typewriter)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(typewriter)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(typewriter)"
+            ]
+        },
+        {
+            "name": "ru(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(legacy)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(legacy)"
+            ]
+        },
+        {
+            "name": "ru(typewriter-legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(typewriter-legacy)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(typewriter-legacy)"
+            ]
+        },
+        {
+            "name": "ru(tt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(tt)",
+            "description": null,
+            "language": [
+                "tt"
+            ],
+            "layouts": [
+                "ru(tt)"
+            ]
+        },
+        {
+            "name": "ru(os_legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(os_legacy)",
+            "description": null,
+            "language": [
+                "os"
+            ],
+            "layouts": [
+                "ru(os_legacy)"
+            ]
+        },
+        {
+            "name": "ru(os_winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(os_winkeys)",
+            "description": null,
+            "language": [
+                "os"
+            ],
+            "layouts": [
+                "ru(os_winkeys)"
+            ]
+        },
+        {
+            "name": "ru(cv)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(cv)",
+            "description": null,
+            "language": [
+                "cv"
+            ],
+            "layouts": [
+                "ru(cv)"
+            ]
+        },
+        {
+            "name": "ru(cv_latin)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(cv_latin)",
+            "description": null,
+            "language": [
+                "cv"
+            ],
+            "layouts": [
+                "ru(cv_latin)"
+            ]
+        },
+        {
+            "name": "ru(udm)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(udm)",
+            "description": null,
+            "language": [
+                "udm"
+            ],
+            "layouts": [
+                "ru(udm)"
+            ]
+        },
+        {
+            "name": "ru(kom)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(kom)",
+            "description": null,
+            "language": [
+                "kv"
+            ],
+            "layouts": [
+                "ru(kom)"
+            ]
+        },
+        {
+            "name": "ru(sah)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(sah)",
+            "description": null,
+            "language": [
+                "sah"
+            ],
+            "layouts": [
+                "ru(sah)"
+            ]
+        },
+        {
+            "name": "ru(xal)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(xal)",
+            "description": null,
+            "language": [
+                "xal"
+            ],
+            "layouts": [
+                "ru(xal)"
+            ]
+        },
+        {
+            "name": "ru(dos)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(dos)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(dos)"
+            ]
+        },
+        {
+            "name": "ru(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(mac)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(mac)"
+            ]
+        },
+        {
+            "name": "ru(srp)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(srp)",
+            "description": null,
+            "language": [
+                "ru",
+                "sr"
+            ],
+            "layouts": [
+                "ru(srp)"
+            ]
+        },
+        {
+            "name": "ru(bak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(bak)",
+            "description": null,
+            "language": [
+                "ba"
+            ],
+            "layouts": [
+                "ru(bak)"
+            ]
+        },
+        {
+            "name": "ru(chm)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(chm)",
+            "description": null,
+            "language": [
+                "chm"
+            ],
+            "layouts": [
+                "ru(chm)"
+            ]
+        },
+        {
+            "name": "ru(phonetic_azerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(phonetic_azerty)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(phonetic_azerty)"
+            ]
+        },
+        {
+            "name": "ru(phonetic_dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(phonetic_dvorak)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(phonetic_dvorak)"
+            ]
+        },
+        {
+            "name": "ru(phonetic_fr)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ru(phonetic_fr)",
+            "description": null,
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "ru(phonetic_fr)"
+            ]
+        },
+        {
+            "name": "rs",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs",
+            "description": "Serbian",
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs"
+            ]
+        },
+        {
+            "name": "rs(yz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(yz)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(yz)"
+            ]
+        },
+        {
+            "name": "rs(latin)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(latin)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(latin)"
+            ]
+        },
+        {
+            "name": "rs(latinunicode)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(latinunicode)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(latinunicode)"
+            ]
+        },
+        {
+            "name": "rs(latinyz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(latinyz)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(latinyz)"
+            ]
+        },
+        {
+            "name": "rs(latinunicodeyz)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(latinunicodeyz)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(latinunicodeyz)"
+            ]
+        },
+        {
+            "name": "rs(alternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(alternatequotes)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(alternatequotes)"
+            ]
+        },
+        {
+            "name": "rs(latinalternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(latinalternatequotes)",
+            "description": null,
+            "language": [
+                "sr"
+            ],
+            "layouts": [
+                "rs(latinalternatequotes)"
+            ]
+        },
+        {
+            "name": "rs(rue)",
+            "type": "ime",
+            "id": "all-xkb-layouts-rs(rue)",
+            "description": null,
+            "language": [
+                "rue"
+            ],
+            "layouts": [
+                "rs(rue)"
+            ]
+        },
+        {
+            "name": "si",
+            "type": "ime",
+            "id": "all-xkb-layouts-si",
+            "description": "Slovenian",
+            "language": [
+                "sl"
+            ],
+            "layouts": [
+                "si"
+            ]
+        },
+        {
+            "name": "si(alternatequotes)",
+            "type": "ime",
+            "id": "all-xkb-layouts-si(alternatequotes)",
+            "description": null,
+            "language": [
+                "sl"
+            ],
+            "layouts": [
+                "si(alternatequotes)"
+            ]
+        },
+        {
+            "name": "si(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-si(us)",
+            "description": null,
+            "language": [
+                "sl"
+            ],
+            "layouts": [
+                "si(us)"
+            ]
+        },
+        {
+            "name": "sk",
+            "type": "ime",
+            "id": "all-xkb-layouts-sk",
+            "description": "Slovak",
+            "language": [
+                "sk"
+            ],
+            "layouts": [
+                "sk"
+            ]
+        },
+        {
+            "name": "sk(bksl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sk(bksl)",
+            "description": null,
+            "language": [
+                "sk"
+            ],
+            "layouts": [
+                "sk(bksl)"
+            ]
+        },
+        {
+            "name": "sk(qwerty)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sk(qwerty)",
+            "description": null,
+            "language": [
+                "sk"
+            ],
+            "layouts": [
+                "sk(qwerty)"
+            ]
+        },
+        {
+            "name": "sk(qwerty_bksl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sk(qwerty_bksl)",
+            "description": null,
+            "language": [
+                "sk"
+            ],
+            "layouts": [
+                "sk(qwerty_bksl)"
+            ]
+        },
+        {
+            "name": "es",
+            "type": "ime",
+            "id": "all-xkb-layouts-es",
+            "description": "Spanish",
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es"
+            ]
+        },
+        {
+            "name": "es(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(nodeadkeys)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "es(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(winkeys)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es(winkeys)"
+            ]
+        },
+        {
+            "name": "es(deadtilde)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(deadtilde)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es(deadtilde)"
+            ]
+        },
+        {
+            "name": "es(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(sundeadkeys)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "es(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(dvorak)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es(dvorak)"
+            ]
+        },
+        {
+            "name": "es(ast)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(ast)",
+            "description": "ast",
+            "language": [
+                "ast"
+            ],
+            "layouts": [
+                "es(ast)"
+            ]
+        },
+        {
+            "name": "es(cat)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(cat)",
+            "description": "ca",
+            "language": [
+                "ca"
+            ],
+            "layouts": [
+                "es(cat)"
+            ]
+        },
+        {
+            "name": "es(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-es(mac)",
+            "description": null,
+            "language": [
+                "es"
+            ],
+            "layouts": [
+                "es(mac)"
+            ]
+        },
+        {
+            "name": "se",
+            "type": "ime",
+            "id": "all-xkb-layouts-se",
+            "description": "Swedish",
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se"
+            ]
+        },
+        {
+            "name": "se(nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(nodeadkeys)",
+            "description": null,
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "se(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(dvorak)",
+            "description": null,
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se(dvorak)"
+            ]
+        },
+        {
+            "name": "se(rus)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(rus)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "se(rus)"
+            ]
+        },
+        {
+            "name": "se(rus_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(rus_nodeadkeys)",
+            "description": "ru",
+            "language": [
+                "ru"
+            ],
+            "layouts": [
+                "se(rus_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "se(smi)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(smi)",
+            "description": null,
+            "language": [
+                "se"
+            ],
+            "layouts": [
+                "se(smi)"
+            ]
+        },
+        {
+            "name": "se(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(mac)",
+            "description": null,
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se(mac)"
+            ]
+        },
+        {
+            "name": "se(svdvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(svdvorak)",
+            "description": null,
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se(svdvorak)"
+            ]
+        },
+        {
+            "name": "se(us_dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(us_dvorak)",
+            "description": null,
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se(us_dvorak)"
+            ]
+        },
+        {
+            "name": "se(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(us)",
+            "description": null,
+            "language": [
+                "sv"
+            ],
+            "layouts": [
+                "se(us)"
+            ]
+        },
+        {
+            "name": "se(swl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-se(swl)",
+            "description": null,
+            "language": [
+                "swl"
+            ],
+            "layouts": [
+                "se(swl)"
+            ]
+        },
+        {
+            "name": "ch",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch",
+            "description": "German (Switzerland)",
+            "language": [
+                "de",
+                "gsw"
+            ],
+            "layouts": [
+                "ch"
+            ]
+        },
+        {
+            "name": "ch(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(legacy)",
+            "description": null,
+            "language": [
+                "de",
+                "gsw"
+            ],
+            "layouts": [
+                "ch(legacy)"
+            ]
+        },
+        {
+            "name": "ch(de_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(de_nodeadkeys)",
+            "description": "de",
+            "language": [
+                "de",
+                "gsw"
+            ],
+            "layouts": [
+                "ch(de_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "ch(de_sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(de_sundeadkeys)",
+            "description": "de",
+            "language": [
+                "de",
+                "gsw"
+            ],
+            "layouts": [
+                "ch(de_sundeadkeys)"
+            ]
+        },
+        {
+            "name": "ch(fr)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(fr)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ch(fr)"
+            ]
+        },
+        {
+            "name": "ch(fr_nodeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(fr_nodeadkeys)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ch(fr_nodeadkeys)"
+            ]
+        },
+        {
+            "name": "ch(fr_sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(fr_sundeadkeys)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ch(fr_sundeadkeys)"
+            ]
+        },
+        {
+            "name": "ch(fr_mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(fr_mac)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ch(fr_mac)"
+            ]
+        },
+        {
+            "name": "ch(de_mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ch(de_mac)",
+            "description": "de",
+            "language": [
+                "de",
+                "gsw"
+            ],
+            "layouts": [
+                "ch(de_mac)"
+            ]
+        },
+        {
+            "name": "sy",
+            "type": "ime",
+            "id": "all-xkb-layouts-sy",
+            "description": "Arabic (Syria)",
+            "language": [
+                "syr"
+            ],
+            "layouts": [
+                "sy"
+            ]
+        },
+        {
+            "name": "sy(syc)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sy(syc)",
+            "description": "syc",
+            "language": [
+                "syr"
+            ],
+            "layouts": [
+                "sy(syc)"
+            ]
+        },
+        {
+            "name": "sy(syc_phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sy(syc_phonetic)",
+            "description": "syc",
+            "language": [
+                "syr"
+            ],
+            "layouts": [
+                "sy(syc_phonetic)"
+            ]
+        },
+        {
+            "name": "sy(ku)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sy(ku)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "sy(ku)"
+            ]
+        },
+        {
+            "name": "sy(ku_f)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sy(ku_f)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "sy(ku_f)"
+            ]
+        },
+        {
+            "name": "sy(ku_alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-sy(ku_alt)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "sy(ku_alt)"
+            ]
+        },
+        {
+            "name": "tj",
+            "type": "ime",
+            "id": "all-xkb-layouts-tj",
+            "description": "Tajik",
+            "language": [
+                "tg"
+            ],
+            "layouts": [
+                "tj"
+            ]
+        },
+        {
+            "name": "tj(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tj(legacy)",
+            "description": null,
+            "language": [
+                "tg"
+            ],
+            "layouts": [
+                "tj(legacy)"
+            ]
+        },
+        {
+            "name": "lk",
+            "type": "ime",
+            "id": "all-xkb-layouts-lk",
+            "description": "Sinhala (phonetic)",
+            "language": [
+                "si"
+            ],
+            "layouts": [
+                "lk"
+            ]
+        },
+        {
+            "name": "lk(tam_unicode)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lk(tam_unicode)",
+            "description": "ta",
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "lk(tam_unicode)"
+            ]
+        },
+        {
+            "name": "lk(tam_TAB)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lk(tam_TAB)",
+            "description": null,
+            "language": [
+                "ta"
+            ],
+            "layouts": [
+                "lk(tam_TAB)"
+            ]
+        },
+        {
+            "name": "lk(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-lk(us)",
+            "description": "us",
+            "language": [
+                "si"
+            ],
+            "layouts": [
+                "lk(us)"
+            ]
+        },
+        {
+            "name": "th",
+            "type": "ime",
+            "id": "all-xkb-layouts-th",
+            "description": "Thai",
+            "language": [
+                "th"
+            ],
+            "layouts": [
+                "th"
+            ]
+        },
+        {
+            "name": "th(tis)",
+            "type": "ime",
+            "id": "all-xkb-layouts-th(tis)",
+            "description": null,
+            "language": [
+                "th"
+            ],
+            "layouts": [
+                "th(tis)"
+            ]
+        },
+        {
+            "name": "th(pat)",
+            "type": "ime",
+            "id": "all-xkb-layouts-th(pat)",
+            "description": null,
+            "language": [
+                "th"
+            ],
+            "layouts": [
+                "th(pat)"
+            ]
+        },
+        {
+            "name": "tr",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr",
+            "description": "Turkish",
+            "language": [
+                "tr"
+            ],
+            "layouts": [
+                "tr"
+            ]
+        },
+        {
+            "name": "tr(f)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(f)",
+            "description": null,
+            "language": [
+                "tr"
+            ],
+            "layouts": [
+                "tr(f)"
+            ]
+        },
+        {
+            "name": "tr(alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(alt)",
+            "description": null,
+            "language": [
+                "tr"
+            ],
+            "layouts": [
+                "tr(alt)"
+            ]
+        },
+        {
+            "name": "tr(sundeadkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(sundeadkeys)",
+            "description": null,
+            "language": [
+                "tr"
+            ],
+            "layouts": [
+                "tr(sundeadkeys)"
+            ]
+        },
+        {
+            "name": "tr(ku)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(ku)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "tr(ku)"
+            ]
+        },
+        {
+            "name": "tr(ku_f)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(ku_f)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "tr(ku_f)"
+            ]
+        },
+        {
+            "name": "tr(ku_alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(ku_alt)",
+            "description": "ku",
+            "language": [
+                "ku"
+            ],
+            "layouts": [
+                "tr(ku_alt)"
+            ]
+        },
+        {
+            "name": "tr(intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(intl)",
+            "description": null,
+            "language": [
+                "tr"
+            ],
+            "layouts": [
+                "tr(intl)"
+            ]
+        },
+        {
+            "name": "tr(crh)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(crh)",
+            "description": "crh",
+            "language": [
+                "crh"
+            ],
+            "layouts": [
+                "tr(crh)"
+            ]
+        },
+        {
+            "name": "tr(crh_f)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(crh_f)",
+            "description": "crh",
+            "language": [
+                "crh"
+            ],
+            "layouts": [
+                "tr(crh_f)"
+            ]
+        },
+        {
+            "name": "tr(crh_alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tr(crh_alt)",
+            "description": "crh",
+            "language": [
+                "crh"
+            ],
+            "layouts": [
+                "tr(crh_alt)"
+            ]
+        },
+        {
+            "name": "tw",
+            "type": "ime",
+            "id": "all-xkb-layouts-tw",
+            "description": "Taiwanese",
+            "language": [
+                "fox"
+            ],
+            "layouts": [
+                "tw"
+            ]
+        },
+        {
+            "name": "tw(indigenous)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tw(indigenous)",
+            "description": null,
+            "language": [
+                "ami",
+                "tay",
+                "bnn",
+                "ckv",
+                "pwn",
+                "pyu",
+                "dru",
+                "ais",
+                "ssf",
+                "tao",
+                "tsu",
+                "trv",
+                "xnb",
+                "sxr",
+                "uun",
+                "fos"
+            ],
+            "layouts": [
+                "tw(indigenous)"
+            ]
+        },
+        {
+            "name": "tw(saisiyat)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tw(saisiyat)",
+            "description": "xsy",
+            "language": [
+                "xsy"
+            ],
+            "layouts": [
+                "tw(saisiyat)"
+            ]
+        },
+        {
+            "name": "ua",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua",
+            "description": "Ukrainian",
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua"
+            ]
+        },
+        {
+            "name": "ua(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(phonetic)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(phonetic)"
+            ]
+        },
+        {
+            "name": "ua(typewriter)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(typewriter)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(typewriter)"
+            ]
+        },
+        {
+            "name": "ua(winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(winkeys)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(winkeys)"
+            ]
+        },
+        {
+            "name": "ua(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(legacy)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(legacy)"
+            ]
+        },
+        {
+            "name": "ua(rstu)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(rstu)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(rstu)"
+            ]
+        },
+        {
+            "name": "ua(rstu_ru)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(rstu_ru)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(rstu_ru)"
+            ]
+        },
+        {
+            "name": "ua(homophonic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ua(homophonic)",
+            "description": null,
+            "language": [
+                "uk"
+            ],
+            "layouts": [
+                "ua(homophonic)"
+            ]
+        },
+        {
+            "name": "gb",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb",
+            "description": "English (UK)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb"
+            ]
+        },
+        {
+            "name": "gb(extd)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(extd)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(extd)"
+            ]
+        },
+        {
+            "name": "gb(intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(intl)"
+            ]
+        },
+        {
+            "name": "gb(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(dvorak)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(dvorak)"
+            ]
+        },
+        {
+            "name": "gb(dvorakukp)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(dvorakukp)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(dvorakukp)"
+            ]
+        },
+        {
+            "name": "gb(mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(mac)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(mac)"
+            ]
+        },
+        {
+            "name": "gb(mac_intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(mac_intl)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(mac_intl)"
+            ]
+        },
+        {
+            "name": "gb(colemak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(colemak)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "gb(colemak)"
+            ]
+        },
+        {
+            "name": "gb(pl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-gb(pl)",
+            "description": "pl",
+            "language": [
+                "pl"
+            ],
+            "layouts": [
+                "gb(pl)"
+            ]
+        },
+        {
+            "name": "uz",
+            "type": "ime",
+            "id": "all-xkb-layouts-uz",
+            "description": "Uzbek",
+            "language": [
+                "uz"
+            ],
+            "layouts": [
+                "uz"
+            ]
+        },
+        {
+            "name": "uz(latin)",
+            "type": "ime",
+            "id": "all-xkb-layouts-uz(latin)",
+            "description": null,
+            "language": [
+                "uz"
+            ],
+            "layouts": [
+                "uz(latin)"
+            ]
+        },
+        {
+            "name": "vn",
+            "type": "ime",
+            "id": "all-xkb-layouts-vn",
+            "description": "Vietnamese",
+            "language": [
+                "vi"
+            ],
+            "layouts": [
+                "vn"
+            ]
+        },
+        {
+            "name": "vn(us)",
+            "type": "ime",
+            "id": "all-xkb-layouts-vn(us)",
+            "description": null,
+            "language": [
+                "vi"
+            ],
+            "layouts": [
+                "vn(us)"
+            ]
+        },
+        {
+            "name": "vn(fr)",
+            "type": "ime",
+            "id": "all-xkb-layouts-vn(fr)",
+            "description": null,
+            "language": [
+                "vi"
+            ],
+            "layouts": [
+                "vn(fr)"
+            ]
+        },
+        {
+            "name": "kr",
+            "type": "ime",
+            "id": "all-xkb-layouts-kr",
+            "description": "Korean",
+            "language": [
+                "ko"
+            ],
+            "layouts": [
+                "kr"
+            ]
+        },
+        {
+            "name": "kr(kr104)",
+            "type": "ime",
+            "id": "all-xkb-layouts-kr(kr104)",
+            "description": null,
+            "language": [
+                "ko"
+            ],
+            "layouts": [
+                "kr(kr104)"
+            ]
+        },
+        {
+            "name": "nec_vndr/jp",
+            "type": "ime",
+            "id": "all-xkb-layouts-nec_vndr/jp",
+            "description": "Japanese (PC-98)",
+            "language": [
+                "ja"
+            ],
+            "layouts": [
+                "nec_vndr/jp"
+            ]
+        },
+        {
+            "name": "ie",
+            "type": "ime",
+            "id": "all-xkb-layouts-ie",
+            "description": "Irish",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "ie"
+            ]
+        },
+        {
+            "name": "ie(CloGaelach)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ie(CloGaelach)",
+            "description": null,
+            "language": [
+                "ga"
+            ],
+            "layouts": [
+                "ie(CloGaelach)"
+            ]
+        },
+        {
+            "name": "ie(UnicodeExpert)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ie(UnicodeExpert)",
+            "description": null,
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "ie(UnicodeExpert)"
+            ]
+        },
+        {
+            "name": "ie(ogam)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ie(ogam)",
+            "description": null,
+            "language": [
+                "sga"
+            ],
+            "layouts": [
+                "ie(ogam)"
+            ]
+        },
+        {
+            "name": "ie(ogam_is434)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ie(ogam_is434)",
+            "description": null,
+            "language": [
+                "sga"
+            ],
+            "layouts": [
+                "ie(ogam_is434)"
+            ]
+        },
+        {
+            "name": "pk",
+            "type": "ime",
+            "id": "all-xkb-layouts-pk",
+            "description": "Urdu (Pakistan)",
+            "language": [
+                "ur"
+            ],
+            "layouts": [
+                "pk"
+            ]
+        },
+        {
+            "name": "pk(urd-crulp)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pk(urd-crulp)",
+            "description": null,
+            "language": [
+                "ur"
+            ],
+            "layouts": [
+                "pk(urd-crulp)"
+            ]
+        },
+        {
+            "name": "pk(urd-nla)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pk(urd-nla)",
+            "description": null,
+            "language": [
+                "ur"
+            ],
+            "layouts": [
+                "pk(urd-nla)"
+            ]
+        },
+        {
+            "name": "pk(ara)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pk(ara)",
+            "description": "ar",
+            "language": [
+                "ar"
+            ],
+            "layouts": [
+                "pk(ara)"
+            ]
+        },
+        {
+            "name": "pk(snd)",
+            "type": "ime",
+            "id": "all-xkb-layouts-pk(snd)",
+            "description": "sd",
+            "language": [
+                "sd"
+            ],
+            "layouts": [
+                "pk(snd)"
+            ]
+        },
+        {
+            "name": "mv",
+            "type": "ime",
+            "id": "all-xkb-layouts-mv",
+            "description": "Dhivehi",
+            "language": [
+                "dv"
+            ],
+            "layouts": [
+                "mv"
+            ]
+        },
+        {
+            "name": "za",
+            "type": "ime",
+            "id": "all-xkb-layouts-za",
+            "description": "English (South Africa)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "za"
+            ]
+        },
+        {
+            "name": "epo",
+            "type": "ime",
+            "id": "all-xkb-layouts-epo",
+            "description": "Esperanto",
+            "language": [
+                "eo"
+            ],
+            "layouts": [
+                "epo"
+            ]
+        },
+        {
+            "name": "epo(legacy)",
+            "type": "ime",
+            "id": "all-xkb-layouts-epo(legacy)",
+            "description": null,
+            "language": [
+                "eo"
+            ],
+            "layouts": [
+                "epo(legacy)"
+            ]
+        },
+        {
+            "name": "np",
+            "type": "ime",
+            "id": "all-xkb-layouts-np",
+            "description": "Nepali",
+            "language": [
+                "ne",
+                "sat"
+            ],
+            "layouts": [
+                "np"
+            ]
+        },
+        {
+            "name": "ng",
+            "type": "ime",
+            "id": "all-xkb-layouts-ng",
+            "description": "English (Nigeria)",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "ng"
+            ]
+        },
+        {
+            "name": "ng(igbo)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ng(igbo)",
+            "description": "ig",
+            "language": [
+                "ig"
+            ],
+            "layouts": [
+                "ng(igbo)"
+            ]
+        },
+        {
+            "name": "ng(yoruba)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ng(yoruba)",
+            "description": "yo",
+            "language": [
+                "yo"
+            ],
+            "layouts": [
+                "ng(yoruba)"
+            ]
+        },
+        {
+            "name": "ng(hausa)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ng(hausa)",
+            "description": "ha",
+            "language": [
+                "ha"
+            ],
+            "layouts": [
+                "ng(hausa)"
+            ]
+        },
+        {
+            "name": "et",
+            "type": "ime",
+            "id": "all-xkb-layouts-et",
+            "description": "Amharic",
+            "language": [
+                "am"
+            ],
+            "layouts": [
+                "et"
+            ]
+        },
+        {
+            "name": "sn",
+            "type": "ime",
+            "id": "all-xkb-layouts-sn",
+            "description": "Wolof",
+            "language": [
+                "wo"
+            ],
+            "layouts": [
+                "sn"
+            ]
+        },
+        {
+            "name": "brai",
+            "type": "ime",
+            "id": "all-xkb-layouts-brai",
+            "description": "Braille",
+            "layouts": [
+                "brai"
+            ]
+        },
+        {
+            "name": "brai(left_hand)",
+            "type": "ime",
+            "id": "all-xkb-layouts-brai(left_hand)",
+            "description": null,
+            "layouts": [
+                "brai(left_hand)"
+            ]
+        },
+        {
+            "name": "brai(left_hand_invert)",
+            "type": "ime",
+            "id": "all-xkb-layouts-brai(left_hand_invert)",
+            "description": null,
+            "layouts": [
+                "brai(left_hand_invert)"
+            ]
+        },
+        {
+            "name": "brai(right_hand)",
+            "type": "ime",
+            "id": "all-xkb-layouts-brai(right_hand)",
+            "description": null,
+            "layouts": [
+                "brai(right_hand)"
+            ]
+        },
+        {
+            "name": "brai(right_hand_invert)",
+            "type": "ime",
+            "id": "all-xkb-layouts-brai(right_hand_invert)",
+            "description": null,
+            "layouts": [
+                "brai(right_hand_invert)"
+            ]
+        },
+        {
+            "name": "tm",
+            "type": "ime",
+            "id": "all-xkb-layouts-tm",
+            "description": "Turkmen",
+            "language": [
+                "tk"
+            ],
+            "layouts": [
+                "tm"
+            ]
+        },
+        {
+            "name": "tm(alt)",
+            "type": "ime",
+            "id": "all-xkb-layouts-tm(alt)",
+            "description": null,
+            "language": [
+                "tk"
+            ],
+            "layouts": [
+                "tm(alt)"
+            ]
+        },
+        {
+            "name": "ml",
+            "type": "ime",
+            "id": "all-xkb-layouts-ml",
+            "description": "Bambara",
+            "language": [
+                "bm"
+            ],
+            "layouts": [
+                "ml"
+            ]
+        },
+        {
+            "name": "ml(fr-oss)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ml(fr-oss)",
+            "description": "fr",
+            "language": [
+                "fr"
+            ],
+            "layouts": [
+                "ml(fr-oss)"
+            ]
+        },
+        {
+            "name": "ml(us-mac)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ml(us-mac)",
+            "description": "en",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "ml(us-mac)"
+            ]
+        },
+        {
+            "name": "ml(us-intl)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ml(us-intl)",
+            "description": "en",
+            "language": [
+                "en"
+            ],
+            "layouts": [
+                "ml(us-intl)"
+            ]
+        },
+        {
+            "name": "tz",
+            "type": "ime",
+            "id": "all-xkb-layouts-tz",
+            "description": "Swahili (Tanzania)",
+            "language": [
+                "sw"
+            ],
+            "layouts": [
+                "tz"
+            ]
+        },
+        {
+            "name": "tg",
+            "type": "ime",
+            "id": "all-xkb-layouts-tg",
+            "description": "French (Togo)",
+            "language": [
+                "fr",
+                "ajg",
+                "blo",
+                "kpo",
+                "ee",
+                "fon",
+                "fue",
+                "gej",
+                "ife",
+                "kbp",
+                "las",
+                "dop",
+                "mfg",
+                "nmz",
+                "bud",
+                "gng",
+                "kdh",
+                "soy"
+            ],
+            "layouts": [
+                "tg"
+            ]
+        },
+        {
+            "name": "ke",
+            "type": "ime",
+            "id": "all-xkb-layouts-ke",
+            "description": "Swahili (Kenya)",
+            "language": [
+                "sw"
+            ],
+            "layouts": [
+                "ke"
+            ]
+        },
+        {
+            "name": "ke(kik)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ke(kik)",
+            "description": "ki",
+            "language": [
+                "ki"
+            ],
+            "layouts": [
+                "ke(kik)"
+            ]
+        },
+        {
+            "name": "bw",
+            "type": "ime",
+            "id": "all-xkb-layouts-bw",
+            "description": "Tswana",
+            "language": [
+                "tn"
+            ],
+            "layouts": [
+                "bw"
+            ]
+        },
+        {
+            "name": "ph",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph",
+            "description": "Filipino",
+            "language": [
+                "en",
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph"
+            ]
+        },
+        {
+            "name": "ph(qwerty-bay)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(qwerty-bay)",
+            "description": null,
+            "language": [
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(qwerty-bay)"
+            ]
+        },
+        {
+            "name": "ph(capewell-dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(capewell-dvorak)",
+            "description": null,
+            "language": [
+                "en",
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(capewell-dvorak)"
+            ]
+        },
+        {
+            "name": "ph(capewell-dvorak-bay)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(capewell-dvorak-bay)",
+            "description": null,
+            "language": [
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(capewell-dvorak-bay)"
+            ]
+        },
+        {
+            "name": "ph(capewell-qwerf2k6)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(capewell-qwerf2k6)",
+            "description": null,
+            "language": [
+                "en",
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(capewell-qwerf2k6)"
+            ]
+        },
+        {
+            "name": "ph(capewell-qwerf2k6-bay)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(capewell-qwerf2k6-bay)",
+            "description": null,
+            "language": [
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(capewell-qwerf2k6-bay)"
+            ]
+        },
+        {
+            "name": "ph(colemak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(colemak)",
+            "description": null,
+            "language": [
+                "en",
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(colemak)"
+            ]
+        },
+        {
+            "name": "ph(colemak-bay)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(colemak-bay)",
+            "description": null,
+            "language": [
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(colemak-bay)"
+            ]
+        },
+        {
+            "name": "ph(dvorak)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(dvorak)",
+            "description": null,
+            "language": [
+                "en",
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(dvorak)"
+            ]
+        },
+        {
+            "name": "ph(dvorak-bay)",
+            "type": "ime",
+            "id": "all-xkb-layouts-ph(dvorak-bay)",
+            "description": null,
+            "language": [
+                "bik",
+                "ceb",
+                "fil",
+                "hil",
+                "ilo",
+                "pam",
+                "pag",
+                "phi",
+                "fil",
+                "war"
+            ],
+            "layouts": [
+                "ph(dvorak-bay)"
+            ]
+        },
+        {
+            "name": "md",
+            "type": "ime",
+            "id": "all-xkb-layouts-md",
+            "description": "Moldavian",
+            "language": [
+                "ro"
+            ],
+            "layouts": [
+                "md"
+            ]
+        },
+        {
+            "name": "md(gag)",
+            "type": "ime",
+            "id": "all-xkb-layouts-md(gag)",
+            "description": "gag",
+            "language": [
+                "gag"
+            ],
+            "layouts": [
+                "md(gag)"
+            ]
+        },
+        {
+            "name": "id",
+            "type": "ime",
+            "id": "all-xkb-layouts-id",
+            "description": "Indonesian (Arab Melayu, phonetic)",
+            "language": [
+                "id",
+                "ms",
+                "min",
+                "ace",
+                "bjn",
+                "tsg",
+                "mfa"
+            ],
+            "layouts": [
+                "id"
+            ]
+        },
+        {
+            "name": "id(phoneticx)",
+            "type": "ime",
+            "id": "all-xkb-layouts-id(phoneticx)",
+            "description": null,
+            "language": [
+                "id",
+                "ms",
+                "min",
+                "ace",
+                "bjn",
+                "tsg",
+                "mfa"
+            ],
+            "layouts": [
+                "id(phoneticx)"
+            ]
+        },
+        {
+            "name": "jv",
+            "type": "ime",
+            "id": "all-xkb-layouts-jv",
+            "description": "Indonesian (Javanese)",
+            "language": [
+                "jv"
+            ],
+            "layouts": [
+                "jv"
+            ]
+        },
+        {
+            "name": "my",
+            "type": "ime",
+            "id": "all-xkb-layouts-my",
+            "description": "Malay (Jawi, Arabic Keyboard)",
+            "language": [
+                "id",
+                "ms",
+                "min",
+                "ace",
+                "bjn",
+                "tsg",
+                "mfa"
+            ],
+            "layouts": [
+                "my"
+            ]
+        },
+        {
+            "name": "my(phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-my(phonetic)",
+            "description": null,
+            "language": [
+                "id",
+                "ms",
+                "min",
+                "ace",
+                "bjn",
+                "tsg",
+                "mfa"
+            ],
+            "layouts": [
+                "my(phonetic)"
+            ]
+        }
+    ]
+}
