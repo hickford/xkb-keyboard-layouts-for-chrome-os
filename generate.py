@@ -1,14 +1,15 @@
 from lxml import etree
 import sys, json
 
-# Chrome OS uses base.xml from xkeyboard-config 2.27 ?
+# Chrome OS uses base.xml from xkeyboard-config 2.27
 # https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/x11-misc/xkeyboard-config/
+# https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27/rules/base.xml
 evdev_path = sys.argv[1] if len(sys.argv) > 1 else "/usr/share/X11/xkb/rules/evdev.xml"
 
 evdev = etree.parse(evdev_path, etree.XMLParser(dtd_validation=True))
 manifest = dict()
 manifest['name'] = 'All XKB layouts'
-manifest['version'] = '0.0.1'
+manifest['version'] = '0.0.2'
 manifest['manifest_version'] = 2
 manifest['description'] = "All XKB layouts for Chrome OS."
 manifest['permissions'] = ['input']

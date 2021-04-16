@@ -6,6 +6,11 @@ Chrome OS uses keyboard layouts based on XKB, but only a subset are visible (see
 
 Pending review https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcnjlmhflbej
 
+## Developer instructions
+
+    http --download https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.27/rules/base.xml
+    python3 generate.py base.xml
+
 ## See also
 
 https://github.com/google/extra-keyboards-for-chrome-os offers individual extensions for several layouts, some from XKB, others original.

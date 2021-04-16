@@ -1,6 +1,6 @@
 {
     "name": "All XKB layouts",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
     "description": "All XKB layouts for Chrome OS.",
     "permissions": [
@@ -230,18 +230,6 @@
             ]
         },
         {
-            "name": "XKB's us(norman) -- English (Norman)",
-            "type": "ime",
-            "id": "all-xkb-layouts-us(norman)",
-            "description": "English (Norman)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(norman)"
-            ]
-        },
-        {
             "name": "XKB's us(workman) -- English (Workman)",
             "type": "ime",
             "id": "all-xkb-layouts-us(workman)",
@@ -461,18 +449,6 @@
             ],
             "layouts": [
                 "al(plisi)"
-            ]
-        },
-        {
-            "name": "XKB's al(veqilharxhi) -- Albanian (Veqilharxhi)",
-            "type": "ime",
-            "id": "all-xkb-layouts-al(veqilharxhi)",
-            "description": "Albanian (Veqilharxhi)",
-            "language": [
-                "sq"
-            ],
-            "layouts": [
-                "al(veqilharxhi)"
             ]
         },
         {
@@ -950,6 +926,18 @@
             ],
             "layouts": [
                 "in(kan)"
+            ]
+        },
+        {
+            "name": "XKB's in(kan-kagapa) -- Kannada (KaGaPa phonetic)",
+            "type": "ime",
+            "id": "all-xkb-layouts-in(kan-kagapa)",
+            "description": "Kannada (KaGaPa phonetic)",
+            "language": [
+                "kn"
+            ],
+            "layouts": [
+                "in(kan-kagapa)"
             ]
         },
         {
@@ -1820,90 +1808,6 @@
             ]
         },
         {
-            "name": "XKB's cn(mon_trad) -- Mongolian (Bichig)",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_trad)",
-            "description": "Mongolian (Bichig)",
-            "language": [
-                "mvf"
-            ],
-            "layouts": [
-                "cn(mon_trad)"
-            ]
-        },
-        {
-            "name": "XKB's cn(mon_trad_todo) -- Mongolian Todo",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_trad_todo)",
-            "description": "Mongolian Todo",
-            "language": [
-                "mvf"
-            ],
-            "layouts": [
-                "cn(mon_trad_todo)"
-            ]
-        },
-        {
-            "name": "XKB's cn(mon_trad_xibe) -- Mongolian Xibe",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_trad_xibe)",
-            "description": "Mongolian Xibe",
-            "language": [
-                "sjo"
-            ],
-            "layouts": [
-                "cn(mon_trad_xibe)"
-            ]
-        },
-        {
-            "name": "XKB's cn(mon_trad_manchu) -- Mongolian Manchu",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_trad_manchu)",
-            "description": "Mongolian Manchu",
-            "language": [
-                "mnc"
-            ],
-            "layouts": [
-                "cn(mon_trad_manchu)"
-            ]
-        },
-        {
-            "name": "XKB's cn(mon_trad_galik) -- Mongolian Galik",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_trad_galik)",
-            "description": "Mongolian Galik",
-            "language": [
-                "mvf"
-            ],
-            "layouts": [
-                "cn(mon_trad_galik)"
-            ]
-        },
-        {
-            "name": "XKB's cn(mon_todo_galik) -- Mongolian Todo Galik",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_todo_galik)",
-            "description": "Mongolian Todo Galik",
-            "language": [
-                "mvf"
-            ],
-            "layouts": [
-                "cn(mon_todo_galik)"
-            ]
-        },
-        {
-            "name": "XKB's cn(mon_manchu_galik) -- Mongolian Manchu Galik",
-            "type": "ime",
-            "id": "all-xkb-layouts-cn(mon_manchu_galik)",
-            "description": "Mongolian Manchu Galik",
-            "language": [
-                "mnc"
-            ],
-            "layouts": [
-                "cn(mon_manchu_galik)"
-            ]
-        },
-        {
             "name": "XKB's cn(tib) -- Tibetan",
             "type": "ime",
             "id": "all-xkb-layouts-cn(tib)",
@@ -2057,18 +1961,6 @@
             ],
             "layouts": [
                 "cz(qwerty_bksl)"
-            ]
-        },
-        {
-            "name": "XKB's cz(qwerty-mac) -- Czech (QWERTY, Macintosh)",
-            "type": "ime",
-            "id": "all-xkb-layouts-cz(qwerty-mac)",
-            "description": "Czech (QWERTY, Macintosh)",
-            "language": [
-                "cs"
-            ],
-            "layouts": [
-                "cz(qwerty-mac)"
             ]
         },
         {
@@ -2457,18 +2349,6 @@
             ]
         },
         {
-            "name": "XKB's fi(winkeys) -- Finnish (Winkeys)",
-            "type": "ime",
-            "id": "all-xkb-layouts-fi(winkeys)",
-            "description": "Finnish (Winkeys)",
-            "language": [
-                "fi"
-            ],
-            "layouts": [
-                "fi(winkeys)"
-            ]
-        },
-        {
             "name": "XKB's fi(classic) -- Finnish (classic)",
             "type": "ime",
             "id": "all-xkb-layouts-fi(classic)",
@@ -2490,6 +2370,18 @@
             ],
             "layouts": [
                 "fi(nodeadkeys)"
+            ]
+        },
+        {
+            "name": "XKB's fi(winkeys) -- Finnish (Winkeys)",
+            "type": "ime",
+            "id": "all-xkb-layouts-fi(winkeys)",
+            "description": "Finnish (Winkeys)",
+            "language": [
+                "fi"
+            ],
+            "layouts": [
+                "fi(winkeys)"
             ]
         },
         {
@@ -2661,18 +2553,6 @@
             ]
         },
         {
-            "name": "XKB's fr(bepo_afnor) -- French (Bepo, ergonomic, Dvorak way, AFNOR)",
-            "type": "ime",
-            "id": "all-xkb-layouts-fr(bepo_afnor)",
-            "description": "French (Bepo, ergonomic, Dvorak way, AFNOR)",
-            "language": [
-                "fr"
-            ],
-            "layouts": [
-                "fr(bepo_afnor)"
-            ]
-        },
-        {
             "name": "XKB's fr(dvorak) -- French (Dvorak)",
             "type": "ime",
             "id": "all-xkb-layouts-fr(dvorak)",
@@ -2706,18 +2586,6 @@
             ],
             "layouts": [
                 "fr(azerty)"
-            ]
-        },
-        {
-            "name": "XKB's fr(afnor) -- French (AFNOR standardized AZERTY)",
-            "type": "ime",
-            "id": "all-xkb-layouts-fr(afnor)",
-            "description": "French (AFNOR standardized AZERTY)",
-            "language": [
-                "fr"
-            ],
-            "layouts": [
-                "fr(afnor)"
             ]
         },
         {
@@ -4060,18 +3928,6 @@
             ],
             "layouts": [
                 "lt(lekpa)"
-            ]
-        },
-        {
-            "name": "XKB's lt(sgs) -- Samogitian",
-            "type": "ime",
-            "id": "all-xkb-layouts-lt(sgs)",
-            "description": "Samogitian",
-            "language": [
-                "sgs"
-            ],
-            "layouts": [
-                "lt(sgs)"
             ]
         },
         {
@@ -6944,10 +6800,10 @@
             ]
         },
         {
-            "name": "XKB's id -- Indonesian (Arab Melayu, phonetic)",
+            "name": "XKB's id -- Indonesian (Jawi)",
             "type": "ime",
             "id": "all-xkb-layouts-id",
-            "description": "Indonesian (Arab Melayu, phonetic)",
+            "description": "Indonesian (Jawi)",
             "language": [
                 "id",
                 "ms",
@@ -6959,36 +6815,6 @@
             ],
             "layouts": [
                 "id"
-            ]
-        },
-        {
-            "name": "XKB's id(phoneticx) -- Indonesian (Arab Melayu, ext. phonetic)",
-            "type": "ime",
-            "id": "all-xkb-layouts-id(phoneticx)",
-            "description": "Indonesian (Arab Melayu, ext. phonetic)",
-            "language": [
-                "id",
-                "ms",
-                "min",
-                "ace",
-                "bjn",
-                "tsg",
-                "mfa"
-            ],
-            "layouts": [
-                "id(phoneticx)"
-            ]
-        },
-        {
-            "name": "XKB's jv -- Indonesian (Javanese)",
-            "type": "ime",
-            "id": "all-xkb-layouts-jv",
-            "description": "Indonesian (Javanese)",
-            "language": [
-                "jv"
-            ],
-            "layouts": [
-                "jv"
             ]
         },
         {
