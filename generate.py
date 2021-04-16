@@ -39,13 +39,13 @@ class LayoutDetails(NamedTuple):
 def merge(parent : ConfigItemDetails, variant : Optional[ConfigItemDetails]) -> LayoutDetails:
     if not variant:
         return LayoutDetails(layout = parent.name, variant=None, shortDescription = parent.shortDescription, description = parent.description, countries = parent.countries, languages = parent.languages)
-    return LayoutDetails(layout=parent.name, variant=variant.name, shortDescription = variant.shortDescription, description=variant.shortDescription, countries=variant.countries if variant.countries != None else parent.countries, languages = variant.languages if variant.languages != None else parent.languages)
+    return LayoutDetails(layout=parent.name, variant=variant.name, shortDescription = variant.shortDescription, description=variant.description, countries=variant.countries if variant.countries != None else parent.countries, languages = variant.languages if variant.languages != None else parent.languages)
 
 import langcodes
 
 def append_input_component(details: LayoutDetails):
     obj = dict()
-    obj['name']= details.xkb_name()
+    obj['name']= f"XKB's {details.xkb_name()} -- {details.description}"
     obj['type']='ime'
     obj['id']="all-xkb-layouts-" + details.xkb_name()
     obj['description']=details.description
@@ -71,6 +71,7 @@ for layout in evdev.findall('layoutList/layout'):
     for variant in layout.findall('variantList/variant/configItem'):
         append_input_component(merge(parent, get_config_details(variant)))
 
+# TODO: exclude layouts shipped in Chrome OS's google_xkb_manifest.json
 
 with open('manifest.json', 'w') as f:
     json.dump(manifest, f, indent=4)
