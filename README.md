@@ -1,10 +1,14 @@
 # all-xkb-layouts
 
-Chrome OS uses keyboard layouts based on [XKB](https://freedesktop.org/wiki/Software/XKeyboardConfig/), but only a subset are visible (see [google_xkb_manifest.json](https://chromium.googlesource.com/chromium/src/+/master/chrome/browser/resources/chromeos/input_method/google_xkb_manifest.json)). This extension makes [all XKB layouts](https://manpages.debian.org/buster/xkb-data/xkeyboard-config.7.en.html#LAYOUTS) visible in Chrome OS.
+Chrome OS uses keyboard layouts based on [XKB](https://freedesktop.org/wiki/Software/XKeyboardConfig/). XKB defines [over 500 layouts](https://manpages.debian.org/buster/xkb-data/xkeyboard-config.7.en.html#LAYOUTS) but Chrome OS only exposes a [subset of around 150](https://chromium.googlesource.com/chromium/src/+/master/chrome/browser/resources/chromeos/input_method/google_xkb_manifest.json). This extension makes all XKB layouts visible in Chrome OS.
 
-## Web store
+## Installation
 
-Pending review https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcnjlmhflbej
+Pending review in Chrome Web Store https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcnjlmhflbej
+
+## Charts
+
+There are charts grouped by language at https://hickford.github.io/xkb_ldml/layouts/ . The XKB layouts are labelled 'linux'. The layouts labelled 'chromeos' are available without this extension.
 
 ## Developer instructions
 
@@ -13,4 +17,4 @@ Pending review https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcn
 
 ## See also
 
-https://github.com/google/extra-keyboards-for-chrome-os offers individual extensions for several layouts, some from XKB, others original.
+https://github.com/google/extra-keyboards-for-chrome-os offers individual extensions for several layouts, including some from XKB.
