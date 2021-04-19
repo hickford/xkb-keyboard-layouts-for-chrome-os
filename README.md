@@ -4,7 +4,7 @@ Chrome OS uses keyboard layouts based on [XKB](https://freedesktop.org/wiki/Soft
 
 ## Installation
 
-Pending review in Chrome Web Store https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcnjlmhflbej
+From Chrome Web Store https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcnjlmhflbej
 
 ## Charts
 
