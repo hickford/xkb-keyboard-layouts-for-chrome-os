@@ -6,12 +6,13 @@ import sys, json
 # https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27/rules/base.xml
 evdev_path = sys.argv[1] if len(sys.argv) > 1 else "/usr/share/X11/xkb/rules/evdev.xml"
 
-evdev = etree.parse(evdev_path, etree.XMLParser(dtd_validation=True))
-manifest = dict()
-manifest['name'] = 'All XKB layouts'
-manifest['version'] = '0.0.2'
-manifest['manifest_version'] = 2
-manifest['description'] = "All XKB layouts for Chrome OS."
+evdev = etree.parse(evdev_path)
+manifest = dict() # https://developer.chrome.com/docs/extensions/mv3/manifest/
+manifest['manifest_version'] = 3
+manifest['name'] = 'XKB keyboard layouts for Chrome OS'
+manifest['version'] = '0.0.3'
+manifest['description'] = "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS."
+manifest['icons'] = {'128' : 'icon128.png'}
 manifest['permissions'] = ['input']
 manifest['input_components'] = list()
 
