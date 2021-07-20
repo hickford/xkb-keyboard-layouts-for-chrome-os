@@ -1,14 +1,11 @@
 {
     "manifest_version": 3,
     "name": "XKB keyboard layouts for Chrome OS",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS.",
     "icons": {
         "128": "icon128.png"
     },
-    "permissions": [
-        "input"
-    ],
     "input_components": [
         {
             "name": "XKB's us -- English (US)",
