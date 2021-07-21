@@ -10,10 +10,9 @@ evdev = etree.parse(evdev_path)
 manifest = dict() # https://developer.chrome.com/docs/extensions/mv3/manifest/
 manifest['manifest_version'] = 3
 manifest['name'] = 'XKB keyboard layouts for Chrome OS'
-manifest['version'] = '0.0.3'
+manifest['version'] = '0.0.5'
 manifest['description'] = "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS."
 manifest['icons'] = {'128' : 'icon128.png'}
-manifest['permissions'] = ['input']
 manifest['input_components'] = list()
 
 from typing import List, NamedTuple, Optional
