@@ -10,7 +10,7 @@ evdev = etree.parse(evdev_path)
 manifest = dict() # https://developer.chrome.com/docs/extensions/mv3/manifest/
 manifest['manifest_version'] = 3
 manifest['name'] = 'XKB keyboard layouts for Chrome OS'
-manifest['version'] = '0.0.5'
+manifest['version'] = '0.0.6'
 manifest['description'] = "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS."
 manifest['icons'] = {'128' : 'icon128.png'}
 manifest['input_components'] = list()
@@ -47,9 +47,7 @@ import langcodes
 def append_input_component(details: LayoutDetails):
     obj = dict()
     obj['name']= f"XKB's {details.xkb_name()} -- {details.description}"
-    obj['type']='ime'
     obj['id']="all-xkb-layouts-" + details.xkb_name()
-    obj['description']=details.description
     if details.languages:
         # languages = [f"{language}-{country}" for country in details.countries for language in details.languages] if details.countries else details.languages
         obj['language']=[langcodes.standardize_tag(language) for language in details.languages] # multiple allowed
@@ -71,8 +69,6 @@ for layout in evdev.findall('layoutList/layout'):
     append_input_component(merge(parent, None))
     for variant in layout.findall('variantList/variant/configItem'):
         append_input_component(merge(parent, get_config_details(variant)))
-
-# TODO: exclude layouts shipped in Chrome OS's google_xkb_manifest.json
 
 with open('manifest.json', 'w') as f:
     json.dump(manifest, f, indent=4)

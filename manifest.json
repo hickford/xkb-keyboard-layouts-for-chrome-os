@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "XKB keyboard layouts for Chrome OS",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS.",
     "icons": {
         "128": "icon128.png"
@@ -9,9 +9,7 @@
     "input_components": [
         {
             "name": "XKB's us -- English (US)",
-            "type": "ime",
             "id": "all-xkb-layouts-us",
-            "description": "English (US)",
             "language": [
                 "en"
             ],
@@ -21,9 +19,7 @@
         },
         {
             "name": "XKB's us(chr) -- Cherokee",
-            "type": "ime",
             "id": "all-xkb-layouts-us(chr)",
-            "description": "Cherokee",
             "language": [
                 "chr"
             ],
@@ -33,9 +29,7 @@
         },
         {
             "name": "XKB's us(euro) -- English (US, euro on 5)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(euro)",
-            "description": "English (US, euro on 5)",
             "language": [
                 "en"
             ],
@@ -45,9 +39,7 @@
         },
         {
             "name": "XKB's us(intl) -- English (US, intl., with dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(intl)",
-            "description": "English (US, intl., with dead keys)",
             "language": [
                 "en"
             ],
@@ -57,9 +49,7 @@
         },
         {
             "name": "XKB's us(alt-intl) -- English (US, alt. intl.)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(alt-intl)",
-            "description": "English (US, alt. intl.)",
             "language": [
                 "en"
             ],
@@ -69,9 +59,7 @@
         },
         {
             "name": "XKB's us(colemak) -- English (Colemak)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(colemak)",
-            "description": "English (Colemak)",
             "language": [
                 "en"
             ],
@@ -81,9 +69,7 @@
         },
         {
             "name": "XKB's us(dvorak) -- English (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvorak)",
-            "description": "English (Dvorak)",
             "language": [
                 "en"
             ],
@@ -93,9 +79,7 @@
         },
         {
             "name": "XKB's us(dvorak-intl) -- English (Dvorak, intl., with dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvorak-intl)",
-            "description": "English (Dvorak, intl., with dead keys)",
             "language": [
                 "en"
             ],
@@ -105,9 +89,7 @@
         },
         {
             "name": "XKB's us(dvorak-alt-intl) -- English (Dvorak, alt. intl.)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvorak-alt-intl)",
-            "description": "English (Dvorak, alt. intl.)",
             "language": [
                 "en"
             ],
@@ -117,9 +99,7 @@
         },
         {
             "name": "XKB's us(dvorak-l) -- English (Dvorak, left-handed)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvorak-l)",
-            "description": "English (Dvorak, left-handed)",
             "language": [
                 "en"
             ],
@@ -129,9 +109,7 @@
         },
         {
             "name": "XKB's us(dvorak-r) -- English (Dvorak, right-handed)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvorak-r)",
-            "description": "English (Dvorak, right-handed)",
             "language": [
                 "en"
             ],
@@ -141,9 +119,7 @@
         },
         {
             "name": "XKB's us(dvorak-classic) -- English (classic Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvorak-classic)",
-            "description": "English (classic Dvorak)",
             "language": [
                 "en"
             ],
@@ -153,9 +129,7 @@
         },
         {
             "name": "XKB's us(dvp) -- English (programmer Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(dvp)",
-            "description": "English (programmer Dvorak)",
             "language": [
                 "en"
             ],
@@ -165,9 +139,7 @@
         },
         {
             "name": "XKB's us(rus) -- Russian (US, phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(rus)",
-            "description": "Russian (US, phonetic)",
             "language": [
                 "ru"
             ],
@@ -177,9 +149,7 @@
         },
         {
             "name": "XKB's us(mac) -- English (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(mac)",
-            "description": "English (Macintosh)",
             "language": [
                 "en"
             ],
@@ -189,9 +159,7 @@
         },
         {
             "name": "XKB's us(altgr-intl) -- English (intl., with AltGr dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(altgr-intl)",
-            "description": "English (intl., with AltGr dead keys)",
             "language": [
                 "en",
                 "fr",
@@ -203,9 +171,7 @@
         },
         {
             "name": "XKB's us(olpc2) -- English (the divide/multiply keys toggle the layout)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(olpc2)",
-            "description": "English (the divide/multiply keys toggle the layout)",
             "language": [
                 "en"
             ],
@@ -215,9 +181,7 @@
         },
         {
             "name": "XKB's us(hbs) -- Serbo-Croatian (US)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(hbs)",
-            "description": "Serbo-Croatian (US)",
             "language": [
                 "en",
                 "bs",
@@ -231,9 +195,7 @@
         },
         {
             "name": "XKB's us(workman) -- English (Workman)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(workman)",
-            "description": "English (Workman)",
             "language": [
                 "en"
             ],
@@ -243,9 +205,7 @@
         },
         {
             "name": "XKB's us(workman-intl) -- English (Workman, intl., with dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-us(workman-intl)",
-            "description": "English (Workman, intl., with dead keys)",
             "language": [
                 "en"
             ],
@@ -255,18 +215,14 @@
         },
         {
             "name": "XKB's af -- Afghani",
-            "type": "ime",
             "id": "all-xkb-layouts-af",
-            "description": "Afghani",
             "layouts": [
                 "af"
             ]
         },
         {
             "name": "XKB's af(ps) -- Pashto",
-            "type": "ime",
             "id": "all-xkb-layouts-af(ps)",
-            "description": "Pashto",
             "language": [
                 "ps"
             ],
@@ -276,9 +232,7 @@
         },
         {
             "name": "XKB's af(uz) -- Uzbek (Afghanistan)",
-            "type": "ime",
             "id": "all-xkb-layouts-af(uz)",
-            "description": "Uzbek (Afghanistan)",
             "language": [
                 "uz"
             ],
@@ -288,9 +242,7 @@
         },
         {
             "name": "XKB's af(olpc-ps) -- Pashto (Afghanistan, OLPC)",
-            "type": "ime",
             "id": "all-xkb-layouts-af(olpc-ps)",
-            "description": "Pashto (Afghanistan, OLPC)",
             "language": [
                 "ps"
             ],
@@ -300,18 +252,14 @@
         },
         {
             "name": "XKB's af(fa-olpc) -- Persian (Afghanistan, Dari OLPC)",
-            "type": "ime",
             "id": "all-xkb-layouts-af(fa-olpc)",
-            "description": "Persian (Afghanistan, Dari OLPC)",
             "layouts": [
                 "af(fa-olpc)"
             ]
         },
         {
             "name": "XKB's af(uz-olpc) -- Uzbek (Afghanistan, OLPC)",
-            "type": "ime",
             "id": "all-xkb-layouts-af(uz-olpc)",
-            "description": "Uzbek (Afghanistan, OLPC)",
             "language": [
                 "uz"
             ],
@@ -321,9 +269,7 @@
         },
         {
             "name": "XKB's ara -- Arabic",
-            "type": "ime",
             "id": "all-xkb-layouts-ara",
-            "description": "Arabic",
             "language": [
                 "ar"
             ],
@@ -333,9 +279,7 @@
         },
         {
             "name": "XKB's ara(azerty) -- Arabic (AZERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(azerty)",
-            "description": "Arabic (AZERTY)",
             "language": [
                 "ar"
             ],
@@ -345,9 +289,7 @@
         },
         {
             "name": "XKB's ara(azerty_digits) -- Arabic (AZERTY/digits)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(azerty_digits)",
-            "description": "Arabic (AZERTY/digits)",
             "language": [
                 "ar"
             ],
@@ -357,9 +299,7 @@
         },
         {
             "name": "XKB's ara(digits) -- Arabic (digits)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(digits)",
-            "description": "Arabic (digits)",
             "language": [
                 "ar"
             ],
@@ -369,9 +309,7 @@
         },
         {
             "name": "XKB's ara(qwerty) -- Arabic (QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(qwerty)",
-            "description": "Arabic (QWERTY)",
             "language": [
                 "ar"
             ],
@@ -381,9 +319,7 @@
         },
         {
             "name": "XKB's ara(qwerty_digits) -- Arabic (qwerty/digits)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(qwerty_digits)",
-            "description": "Arabic (qwerty/digits)",
             "language": [
                 "ar"
             ],
@@ -393,9 +329,7 @@
         },
         {
             "name": "XKB's ara(buckwalter) -- Arabic (Buckwalter)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(buckwalter)",
-            "description": "Arabic (Buckwalter)",
             "language": [
                 "ar"
             ],
@@ -405,9 +339,7 @@
         },
         {
             "name": "XKB's ara(olpc) -- Arabic (OLPC)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(olpc)",
-            "description": "Arabic (OLPC)",
             "language": [
                 "ar"
             ],
@@ -417,9 +349,7 @@
         },
         {
             "name": "XKB's ara(mac) -- Arabic (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-ara(mac)",
-            "description": "Arabic (Macintosh)",
             "language": [
                 "ar"
             ],
@@ -429,9 +359,7 @@
         },
         {
             "name": "XKB's al -- Albanian",
-            "type": "ime",
             "id": "all-xkb-layouts-al",
-            "description": "Albanian",
             "language": [
                 "sq"
             ],
@@ -441,9 +369,7 @@
         },
         {
             "name": "XKB's al(plisi) -- Albanian (Plisi)",
-            "type": "ime",
             "id": "all-xkb-layouts-al(plisi)",
-            "description": "Albanian (Plisi)",
             "language": [
                 "sq"
             ],
@@ -453,9 +379,7 @@
         },
         {
             "name": "XKB's am -- Armenian",
-            "type": "ime",
             "id": "all-xkb-layouts-am",
-            "description": "Armenian",
             "language": [
                 "hy"
             ],
@@ -465,9 +389,7 @@
         },
         {
             "name": "XKB's am(phonetic) -- Armenian (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-am(phonetic)",
-            "description": "Armenian (phonetic)",
             "language": [
                 "hy"
             ],
@@ -477,9 +399,7 @@
         },
         {
             "name": "XKB's am(phonetic-alt) -- Armenian (alt. phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-am(phonetic-alt)",
-            "description": "Armenian (alt. phonetic)",
             "language": [
                 "hy"
             ],
@@ -489,9 +409,7 @@
         },
         {
             "name": "XKB's am(eastern) -- Armenian (eastern)",
-            "type": "ime",
             "id": "all-xkb-layouts-am(eastern)",
-            "description": "Armenian (eastern)",
             "language": [
                 "hy"
             ],
@@ -501,9 +419,7 @@
         },
         {
             "name": "XKB's am(western) -- Armenian (western)",
-            "type": "ime",
             "id": "all-xkb-layouts-am(western)",
-            "description": "Armenian (western)",
             "language": [
                 "hy"
             ],
@@ -513,9 +429,7 @@
         },
         {
             "name": "XKB's am(eastern-alt) -- Armenian (alt. eastern)",
-            "type": "ime",
             "id": "all-xkb-layouts-am(eastern-alt)",
-            "description": "Armenian (alt. eastern)",
             "language": [
                 "hy"
             ],
@@ -525,9 +439,7 @@
         },
         {
             "name": "XKB's at -- German (Austria)",
-            "type": "ime",
             "id": "all-xkb-layouts-at",
-            "description": "German (Austria)",
             "language": [
                 "de"
             ],
@@ -537,9 +449,7 @@
         },
         {
             "name": "XKB's at(nodeadkeys) -- German (Austria, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-at(nodeadkeys)",
-            "description": "German (Austria, no dead keys)",
             "language": [
                 "de"
             ],
@@ -549,9 +459,7 @@
         },
         {
             "name": "XKB's at(sundeadkeys) -- German (Austria, with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-at(sundeadkeys)",
-            "description": "German (Austria, with Sun dead keys)",
             "language": [
                 "de"
             ],
@@ -561,9 +469,7 @@
         },
         {
             "name": "XKB's at(mac) -- German (Austria, Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-at(mac)",
-            "description": "German (Austria, Macintosh)",
             "language": [
                 "de"
             ],
@@ -573,9 +479,7 @@
         },
         {
             "name": "XKB's au -- English (Australian)",
-            "type": "ime",
             "id": "all-xkb-layouts-au",
-            "description": "English (Australian)",
             "language": [
                 "en"
             ],
@@ -585,9 +489,7 @@
         },
         {
             "name": "XKB's az -- Azerbaijani",
-            "type": "ime",
             "id": "all-xkb-layouts-az",
-            "description": "Azerbaijani",
             "language": [
                 "az"
             ],
@@ -597,9 +499,7 @@
         },
         {
             "name": "XKB's az(cyrillic) -- Azerbaijani (Cyrillic)",
-            "type": "ime",
             "id": "all-xkb-layouts-az(cyrillic)",
-            "description": "Azerbaijani (Cyrillic)",
             "language": [
                 "az"
             ],
@@ -609,9 +509,7 @@
         },
         {
             "name": "XKB's by -- Belarusian",
-            "type": "ime",
             "id": "all-xkb-layouts-by",
-            "description": "Belarusian",
             "language": [
                 "be"
             ],
@@ -621,9 +519,7 @@
         },
         {
             "name": "XKB's by(legacy) -- Belarusian (legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-by(legacy)",
-            "description": "Belarusian (legacy)",
             "language": [
                 "be"
             ],
@@ -633,9 +529,7 @@
         },
         {
             "name": "XKB's by(latin) -- Belarusian (Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-by(latin)",
-            "description": "Belarusian (Latin)",
             "language": [
                 "be"
             ],
@@ -645,9 +539,7 @@
         },
         {
             "name": "XKB's be -- Belgian",
-            "type": "ime",
             "id": "all-xkb-layouts-be",
-            "description": "Belgian",
             "language": [
                 "de",
                 "nl",
@@ -659,9 +551,7 @@
         },
         {
             "name": "XKB's be(oss) -- Belgian (alt.)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(oss)",
-            "description": "Belgian (alt.)",
             "language": [
                 "de",
                 "nl",
@@ -673,9 +563,7 @@
         },
         {
             "name": "XKB's be(oss_latin9) -- Belgian (alt., Latin-9 only)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(oss_latin9)",
-            "description": "Belgian (alt., Latin-9 only)",
             "language": [
                 "de",
                 "nl",
@@ -687,9 +575,7 @@
         },
         {
             "name": "XKB's be(oss_sundeadkeys) -- Belgian (alt., with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(oss_sundeadkeys)",
-            "description": "Belgian (alt., with Sun dead keys)",
             "language": [
                 "de",
                 "nl",
@@ -701,9 +587,7 @@
         },
         {
             "name": "XKB's be(iso-alternate) -- Belgian (alt. ISO)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(iso-alternate)",
-            "description": "Belgian (alt. ISO)",
             "language": [
                 "de",
                 "nl",
@@ -715,9 +599,7 @@
         },
         {
             "name": "XKB's be(nodeadkeys) -- Belgian (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(nodeadkeys)",
-            "description": "Belgian (no dead keys)",
             "language": [
                 "de",
                 "nl",
@@ -729,9 +611,7 @@
         },
         {
             "name": "XKB's be(sundeadkeys) -- Belgian (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(sundeadkeys)",
-            "description": "Belgian (with Sun dead keys)",
             "language": [
                 "de",
                 "nl",
@@ -743,9 +623,7 @@
         },
         {
             "name": "XKB's be(wang) -- Belgian (Wang 724 AZERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-be(wang)",
-            "description": "Belgian (Wang 724 AZERTY)",
             "language": [
                 "de",
                 "nl",
@@ -757,9 +635,7 @@
         },
         {
             "name": "XKB's bd -- Bangla",
-            "type": "ime",
             "id": "all-xkb-layouts-bd",
-            "description": "Bangla",
             "language": [
                 "bn",
                 "sat"
@@ -770,9 +646,7 @@
         },
         {
             "name": "XKB's bd(probhat) -- Bangla (Probhat)",
-            "type": "ime",
             "id": "all-xkb-layouts-bd(probhat)",
-            "description": "Bangla (Probhat)",
             "language": [
                 "bn",
                 "sat"
@@ -783,18 +657,14 @@
         },
         {
             "name": "XKB's in -- Indian",
-            "type": "ime",
             "id": "all-xkb-layouts-in",
-            "description": "Indian",
             "layouts": [
                 "in"
             ]
         },
         {
             "name": "XKB's in(ben) -- Bangla (India)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ben)",
-            "description": "Bangla (India)",
             "language": [
                 "bn",
                 "sat"
@@ -805,9 +675,7 @@
         },
         {
             "name": "XKB's in(ben_probhat) -- Bangla (India, Probhat)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ben_probhat)",
-            "description": "Bangla (India, Probhat)",
             "language": [
                 "bn",
                 "sat"
@@ -818,9 +686,7 @@
         },
         {
             "name": "XKB's in(ben_baishakhi) -- Bangla (India, Baishakhi)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ben_baishakhi)",
-            "description": "Bangla (India, Baishakhi)",
             "language": [
                 "bn",
                 "sat"
@@ -831,9 +697,7 @@
         },
         {
             "name": "XKB's in(ben_bornona) -- Bangla (India, Bornona)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ben_bornona)",
-            "description": "Bangla (India, Bornona)",
             "language": [
                 "bn",
                 "sat"
@@ -844,9 +708,7 @@
         },
         {
             "name": "XKB's in(ben_gitanjali) -- Bangla (India, Uni Gitanjali)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ben_gitanjali)",
-            "description": "Bangla (India, Uni Gitanjali)",
             "language": [
                 "bn",
                 "sat"
@@ -857,9 +719,7 @@
         },
         {
             "name": "XKB's in(ben_inscript) -- Bangla (India, Baishakhi Inscript)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ben_inscript)",
-            "description": "Bangla (India, Baishakhi Inscript)",
             "language": [
                 "bn",
                 "sat"
@@ -870,9 +730,7 @@
         },
         {
             "name": "XKB's in(eeyek) -- Manipuri (Eeyek)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(eeyek)",
-            "description": "Manipuri (Eeyek)",
             "language": [
                 "mni"
             ],
@@ -882,9 +740,7 @@
         },
         {
             "name": "XKB's in(guj) -- Gujarati",
-            "type": "ime",
             "id": "all-xkb-layouts-in(guj)",
-            "description": "Gujarati",
             "language": [
                 "gu"
             ],
@@ -894,9 +750,7 @@
         },
         {
             "name": "XKB's in(guru) -- Punjabi (Gurmukhi)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(guru)",
-            "description": "Punjabi (Gurmukhi)",
             "language": [
                 "pa"
             ],
@@ -906,9 +760,7 @@
         },
         {
             "name": "XKB's in(jhelum) -- Punjabi (Gurmukhi Jhelum)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(jhelum)",
-            "description": "Punjabi (Gurmukhi Jhelum)",
             "language": [
                 "pa"
             ],
@@ -918,9 +770,7 @@
         },
         {
             "name": "XKB's in(kan) -- Kannada",
-            "type": "ime",
             "id": "all-xkb-layouts-in(kan)",
-            "description": "Kannada",
             "language": [
                 "kn"
             ],
@@ -930,9 +780,7 @@
         },
         {
             "name": "XKB's in(kan-kagapa) -- Kannada (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(kan-kagapa)",
-            "description": "Kannada (KaGaPa phonetic)",
             "language": [
                 "kn"
             ],
@@ -942,9 +790,7 @@
         },
         {
             "name": "XKB's in(kan-kagapa) -- Kannada (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(kan-kagapa)",
-            "description": "Kannada (KaGaPa phonetic)",
             "language": [
                 "kn"
             ],
@@ -954,9 +800,7 @@
         },
         {
             "name": "XKB's in(mal) -- Malayalam",
-            "type": "ime",
             "id": "all-xkb-layouts-in(mal)",
-            "description": "Malayalam",
             "language": [
                 "ml"
             ],
@@ -966,9 +810,7 @@
         },
         {
             "name": "XKB's in(mal_lalitha) -- Malayalam (Lalitha)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(mal_lalitha)",
-            "description": "Malayalam (Lalitha)",
             "language": [
                 "ml"
             ],
@@ -978,9 +820,7 @@
         },
         {
             "name": "XKB's in(mal_enhanced) -- Malayalam (enhanced Inscript, with rupee)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(mal_enhanced)",
-            "description": "Malayalam (enhanced Inscript, with rupee)",
             "language": [
                 "ml"
             ],
@@ -990,9 +830,7 @@
         },
         {
             "name": "XKB's in(ori) -- Oriya",
-            "type": "ime",
             "id": "all-xkb-layouts-in(ori)",
-            "description": "Oriya",
             "language": [
                 "or",
                 "sat"
@@ -1003,9 +841,7 @@
         },
         {
             "name": "XKB's in(olck) -- Ol Chiki",
-            "type": "ime",
             "id": "all-xkb-layouts-in(olck)",
-            "description": "Ol Chiki",
             "language": [
                 "sat"
             ],
@@ -1015,9 +851,7 @@
         },
         {
             "name": "XKB's in(tam_tamilnet) -- Tamil (TamilNet '99)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tam_tamilnet)",
-            "description": "Tamil (TamilNet '99)",
             "language": [
                 "ta"
             ],
@@ -1027,9 +861,7 @@
         },
         {
             "name": "XKB's in(tam_tamilnet_with_tam_nums) -- Tamil (TamilNet '99 with Tamil numerals)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tam_tamilnet_with_tam_nums)",
-            "description": "Tamil (TamilNet '99 with Tamil numerals)",
             "language": [
                 "ta"
             ],
@@ -1039,9 +871,7 @@
         },
         {
             "name": "XKB's in(tam_tamilnet_TAB) -- Tamil (TamilNet '99, TAB encoding)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tam_tamilnet_TAB)",
-            "description": "Tamil (TamilNet '99, TAB encoding)",
             "language": [
                 "ta"
             ],
@@ -1051,9 +881,7 @@
         },
         {
             "name": "XKB's in(tam_tamilnet_TSCII) -- Tamil (TamilNet '99, TSCII encoding)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tam_tamilnet_TSCII)",
-            "description": "Tamil (TamilNet '99, TSCII encoding)",
             "language": [
                 "ta"
             ],
@@ -1063,9 +891,7 @@
         },
         {
             "name": "XKB's in(tam) -- Tamil (Inscript)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tam)",
-            "description": "Tamil (Inscript)",
             "language": [
                 "ta"
             ],
@@ -1075,9 +901,7 @@
         },
         {
             "name": "XKB's in(tel) -- Telugu",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tel)",
-            "description": "Telugu",
             "language": [
                 "te"
             ],
@@ -1087,9 +911,7 @@
         },
         {
             "name": "XKB's in(tel-kagapa) -- Telugu (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tel-kagapa)",
-            "description": "Telugu (KaGaPa phonetic)",
             "language": [
                 "te"
             ],
@@ -1099,9 +921,7 @@
         },
         {
             "name": "XKB's in(tel-sarala) -- Telugu (Sarala)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tel-sarala)",
-            "description": "Telugu (Sarala)",
             "language": [
                 "te"
             ],
@@ -1111,9 +931,7 @@
         },
         {
             "name": "XKB's in(tel-kagapa) -- Telugu (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(tel-kagapa)",
-            "description": "Telugu (KaGaPa phonetic)",
             "language": [
                 "te"
             ],
@@ -1123,9 +941,7 @@
         },
         {
             "name": "XKB's in(urd-phonetic) -- Urdu (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(urd-phonetic)",
-            "description": "Urdu (phonetic)",
             "language": [
                 "ur"
             ],
@@ -1135,9 +951,7 @@
         },
         {
             "name": "XKB's in(urd-phonetic3) -- Urdu (alt. phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(urd-phonetic3)",
-            "description": "Urdu (alt. phonetic)",
             "language": [
                 "ur"
             ],
@@ -1147,9 +961,7 @@
         },
         {
             "name": "XKB's in(urd-winkeys) -- Urdu (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(urd-winkeys)",
-            "description": "Urdu (Win keys)",
             "language": [
                 "ur"
             ],
@@ -1159,9 +971,7 @@
         },
         {
             "name": "XKB's in(bolnagri) -- Hindi (Bolnagri)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(bolnagri)",
-            "description": "Hindi (Bolnagri)",
             "language": [
                 "hi"
             ],
@@ -1171,9 +981,7 @@
         },
         {
             "name": "XKB's in(hin-wx) -- Hindi (Wx)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(hin-wx)",
-            "description": "Hindi (Wx)",
             "language": [
                 "hi"
             ],
@@ -1183,9 +991,7 @@
         },
         {
             "name": "XKB's in(hin-kagapa) -- Hindi (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(hin-kagapa)",
-            "description": "Hindi (KaGaPa phonetic)",
             "language": [
                 "hi"
             ],
@@ -1195,9 +1001,7 @@
         },
         {
             "name": "XKB's in(san-kagapa) -- Sanskrit (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(san-kagapa)",
-            "description": "Sanskrit (KaGaPa phonetic)",
             "language": [
                 "sa"
             ],
@@ -1207,9 +1011,7 @@
         },
         {
             "name": "XKB's in(mar-kagapa) -- Marathi (KaGaPa phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(mar-kagapa)",
-            "description": "Marathi (KaGaPa phonetic)",
             "language": [
                 "mr"
             ],
@@ -1219,9 +1021,7 @@
         },
         {
             "name": "XKB's in(eng) -- English (India, with rupee)",
-            "type": "ime",
             "id": "all-xkb-layouts-in(eng)",
-            "description": "English (India, with rupee)",
             "language": [
                 "en"
             ],
@@ -1231,9 +1031,7 @@
         },
         {
             "name": "XKB's ba -- Bosnian",
-            "type": "ime",
             "id": "all-xkb-layouts-ba",
-            "description": "Bosnian",
             "language": [
                 "bs"
             ],
@@ -1243,9 +1041,7 @@
         },
         {
             "name": "XKB's ba(alternatequotes) -- Bosnian (with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-ba(alternatequotes)",
-            "description": "Bosnian (with guillemets)",
             "language": [
                 "bs"
             ],
@@ -1255,9 +1051,7 @@
         },
         {
             "name": "XKB's ba(unicode) -- Bosnian (with Bosnian digraphs)",
-            "type": "ime",
             "id": "all-xkb-layouts-ba(unicode)",
-            "description": "Bosnian (with Bosnian digraphs)",
             "language": [
                 "bs"
             ],
@@ -1267,9 +1061,7 @@
         },
         {
             "name": "XKB's ba(unicodeus) -- Bosnian (US, with Bosnian digraphs)",
-            "type": "ime",
             "id": "all-xkb-layouts-ba(unicodeus)",
-            "description": "Bosnian (US, with Bosnian digraphs)",
             "language": [
                 "bs"
             ],
@@ -1279,9 +1071,7 @@
         },
         {
             "name": "XKB's ba(us) -- Bosnian (US, with Bosnian letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-ba(us)",
-            "description": "Bosnian (US, with Bosnian letters)",
             "language": [
                 "bs"
             ],
@@ -1291,9 +1081,7 @@
         },
         {
             "name": "XKB's br -- Portuguese (Brazil)",
-            "type": "ime",
             "id": "all-xkb-layouts-br",
-            "description": "Portuguese (Brazil)",
             "language": [
                 "pt"
             ],
@@ -1303,9 +1091,7 @@
         },
         {
             "name": "XKB's br(nodeadkeys) -- Portuguese (Brazil, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-br(nodeadkeys)",
-            "description": "Portuguese (Brazil, no dead keys)",
             "language": [
                 "pt"
             ],
@@ -1315,9 +1101,7 @@
         },
         {
             "name": "XKB's br(dvorak) -- Portuguese (Brazil, Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-br(dvorak)",
-            "description": "Portuguese (Brazil, Dvorak)",
             "language": [
                 "pt"
             ],
@@ -1327,9 +1111,7 @@
         },
         {
             "name": "XKB's br(nativo) -- Portuguese (Brazil, Nativo)",
-            "type": "ime",
             "id": "all-xkb-layouts-br(nativo)",
-            "description": "Portuguese (Brazil, Nativo)",
             "language": [
                 "pt"
             ],
@@ -1339,9 +1121,7 @@
         },
         {
             "name": "XKB's br(nativo-us) -- Portuguese (Brazil, Nativo for US keyboards)",
-            "type": "ime",
             "id": "all-xkb-layouts-br(nativo-us)",
-            "description": "Portuguese (Brazil, Nativo for US keyboards)",
             "language": [
                 "pt"
             ],
@@ -1351,9 +1131,7 @@
         },
         {
             "name": "XKB's br(nativo-epo) -- Esperanto (Brazil, Nativo)",
-            "type": "ime",
             "id": "all-xkb-layouts-br(nativo-epo)",
-            "description": "Esperanto (Brazil, Nativo)",
             "language": [
                 "eo"
             ],
@@ -1363,9 +1141,7 @@
         },
         {
             "name": "XKB's br(thinkpad) -- Portuguese (Brazil, IBM/Lenovo ThinkPad)",
-            "type": "ime",
             "id": "all-xkb-layouts-br(thinkpad)",
-            "description": "Portuguese (Brazil, IBM/Lenovo ThinkPad)",
             "language": [
                 "pt"
             ],
@@ -1375,9 +1151,7 @@
         },
         {
             "name": "XKB's bg -- Bulgarian",
-            "type": "ime",
             "id": "all-xkb-layouts-bg",
-            "description": "Bulgarian",
             "language": [
                 "bg"
             ],
@@ -1387,9 +1161,7 @@
         },
         {
             "name": "XKB's bg(phonetic) -- Bulgarian (traditional phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-bg(phonetic)",
-            "description": "Bulgarian (traditional phonetic)",
             "language": [
                 "bg"
             ],
@@ -1399,9 +1171,7 @@
         },
         {
             "name": "XKB's bg(bas_phonetic) -- Bulgarian (new phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-bg(bas_phonetic)",
-            "description": "Bulgarian (new phonetic)",
             "language": [
                 "bg"
             ],
@@ -1411,18 +1181,14 @@
         },
         {
             "name": "XKB's dz -- Berber (Algeria, Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-dz",
-            "description": "Berber (Algeria, Latin)",
             "layouts": [
                 "dz"
             ]
         },
         {
             "name": "XKB's dz(ber) -- Berber (Algeria, Tifinagh)",
-            "type": "ime",
             "id": "all-xkb-layouts-dz(ber)",
-            "description": "Berber (Algeria, Tifinagh)",
             "language": [
                 "ber"
             ],
@@ -1432,9 +1198,7 @@
         },
         {
             "name": "XKB's dz(ar) -- Arabic (Algeria)",
-            "type": "ime",
             "id": "all-xkb-layouts-dz(ar)",
-            "description": "Arabic (Algeria)",
             "language": [
                 "ar"
             ],
@@ -1444,18 +1208,14 @@
         },
         {
             "name": "XKB's ma -- Arabic (Morocco)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma",
-            "description": "Arabic (Morocco)",
             "layouts": [
                 "ma"
             ]
         },
         {
             "name": "XKB's ma(french) -- French (Morocco)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(french)",
-            "description": "French (Morocco)",
             "language": [
                 "fr"
             ],
@@ -1465,9 +1225,7 @@
         },
         {
             "name": "XKB's ma(tifinagh) -- Berber (Morocco, Tifinagh)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(tifinagh)",
-            "description": "Berber (Morocco, Tifinagh)",
             "language": [
                 "ber"
             ],
@@ -1477,9 +1235,7 @@
         },
         {
             "name": "XKB's ma(tifinagh-alt) -- Berber (Morocco, Tifinagh alt.)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(tifinagh-alt)",
-            "description": "Berber (Morocco, Tifinagh alt.)",
             "language": [
                 "ber"
             ],
@@ -1489,9 +1245,7 @@
         },
         {
             "name": "XKB's ma(tifinagh-alt-phonetic) -- Berber (Morocco, Tifinagh alt. phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(tifinagh-alt-phonetic)",
-            "description": "Berber (Morocco, Tifinagh alt. phonetic)",
             "language": [
                 "ber"
             ],
@@ -1501,9 +1255,7 @@
         },
         {
             "name": "XKB's ma(tifinagh-extended) -- Berber (Morocco, Tifinagh extended)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(tifinagh-extended)",
-            "description": "Berber (Morocco, Tifinagh extended)",
             "language": [
                 "ber"
             ],
@@ -1513,9 +1265,7 @@
         },
         {
             "name": "XKB's ma(tifinagh-phonetic) -- Berber (Morocco, Tifinagh phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(tifinagh-phonetic)",
-            "description": "Berber (Morocco, Tifinagh phonetic)",
             "language": [
                 "ber"
             ],
@@ -1525,9 +1275,7 @@
         },
         {
             "name": "XKB's ma(tifinagh-extended-phonetic) -- Berber (Morocco, Tifinagh extended phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ma(tifinagh-extended-phonetic)",
-            "description": "Berber (Morocco, Tifinagh extended phonetic)",
             "language": [
                 "ber"
             ],
@@ -1537,9 +1285,7 @@
         },
         {
             "name": "XKB's cm -- English (Cameroon)",
-            "type": "ime",
             "id": "all-xkb-layouts-cm",
-            "description": "English (Cameroon)",
             "language": [
                 "en"
             ],
@@ -1549,9 +1295,7 @@
         },
         {
             "name": "XKB's cm(french) -- French (Cameroon)",
-            "type": "ime",
             "id": "all-xkb-layouts-cm(french)",
-            "description": "French (Cameroon)",
             "language": [
                 "fr"
             ],
@@ -1561,9 +1305,7 @@
         },
         {
             "name": "XKB's cm(qwerty) -- Cameroon Multilingual (QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-cm(qwerty)",
-            "description": "Cameroon Multilingual (QWERTY)",
             "language": [
                 "en",
                 "bas",
@@ -1601,9 +1343,7 @@
         },
         {
             "name": "XKB's cm(azerty) -- Cameroon Multilingual (AZERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-cm(azerty)",
-            "description": "Cameroon Multilingual (AZERTY)",
             "language": [
                 "fr",
                 "bas",
@@ -1641,9 +1381,7 @@
         },
         {
             "name": "XKB's cm(dvorak) -- Cameroon Multilingual (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-cm(dvorak)",
-            "description": "Cameroon Multilingual (Dvorak)",
             "language": [
                 "en"
             ],
@@ -1653,9 +1391,7 @@
         },
         {
             "name": "XKB's cm(mmuock) -- Mmuock",
-            "type": "ime",
             "id": "all-xkb-layouts-cm(mmuock)",
-            "description": "Mmuock",
             "language": [
                 "en"
             ],
@@ -1665,9 +1401,7 @@
         },
         {
             "name": "XKB's mm -- Burmese",
-            "type": "ime",
             "id": "all-xkb-layouts-mm",
-            "description": "Burmese",
             "language": [
                 "my"
             ],
@@ -1677,9 +1411,7 @@
         },
         {
             "name": "XKB's mm(zawgyi) -- Burmese Zawgyi",
-            "type": "ime",
             "id": "all-xkb-layouts-mm(zawgyi)",
-            "description": "Burmese Zawgyi",
             "language": [
                 "my"
             ],
@@ -1689,9 +1421,7 @@
         },
         {
             "name": "XKB's ca -- French (Canada)",
-            "type": "ime",
             "id": "all-xkb-layouts-ca",
-            "description": "French (Canada)",
             "language": [
                 "fr"
             ],
@@ -1701,9 +1431,7 @@
         },
         {
             "name": "XKB's ca(fr-dvorak) -- French (Canada, Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(fr-dvorak)",
-            "description": "French (Canada, Dvorak)",
             "language": [
                 "fr"
             ],
@@ -1713,9 +1441,7 @@
         },
         {
             "name": "XKB's ca(fr-legacy) -- French (Canada, legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(fr-legacy)",
-            "description": "French (Canada, legacy)",
             "language": [
                 "fr"
             ],
@@ -1725,9 +1451,7 @@
         },
         {
             "name": "XKB's ca(multix) -- Canadian Multilingual",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(multix)",
-            "description": "Canadian Multilingual",
             "language": [
                 "fr"
             ],
@@ -1737,9 +1461,7 @@
         },
         {
             "name": "XKB's ca(multi) -- Canadian Multilingual (1st part)",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(multi)",
-            "description": "Canadian Multilingual (1st part)",
             "language": [
                 "fr"
             ],
@@ -1749,9 +1471,7 @@
         },
         {
             "name": "XKB's ca(multi-2gr) -- Canadian Multilingual (2nd part)",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(multi-2gr)",
-            "description": "Canadian Multilingual (2nd part)",
             "language": [
                 "fr"
             ],
@@ -1761,9 +1481,7 @@
         },
         {
             "name": "XKB's ca(ike) -- Inuktitut",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(ike)",
-            "description": "Inuktitut",
             "language": [
                 "iu"
             ],
@@ -1773,9 +1491,7 @@
         },
         {
             "name": "XKB's ca(eng) -- English (Canada)",
-            "type": "ime",
             "id": "all-xkb-layouts-ca(eng)",
-            "description": "English (Canada)",
             "language": [
                 "en"
             ],
@@ -1785,9 +1501,7 @@
         },
         {
             "name": "XKB's cd -- French (Democratic Republic of the Congo)",
-            "type": "ime",
             "id": "all-xkb-layouts-cd",
-            "description": "French (Democratic Republic of the Congo)",
             "language": [
                 "fr"
             ],
@@ -1797,9 +1511,7 @@
         },
         {
             "name": "XKB's cn -- Chinese",
-            "type": "ime",
             "id": "all-xkb-layouts-cn",
-            "description": "Chinese",
             "language": [
                 "zh"
             ],
@@ -1809,9 +1521,7 @@
         },
         {
             "name": "XKB's cn(tib) -- Tibetan",
-            "type": "ime",
             "id": "all-xkb-layouts-cn(tib)",
-            "description": "Tibetan",
             "language": [
                 "bo"
             ],
@@ -1821,9 +1531,7 @@
         },
         {
             "name": "XKB's cn(tib_asciinum) -- Tibetan (with ASCII numerals)",
-            "type": "ime",
             "id": "all-xkb-layouts-cn(tib_asciinum)",
-            "description": "Tibetan (with ASCII numerals)",
             "language": [
                 "bo"
             ],
@@ -1833,9 +1541,7 @@
         },
         {
             "name": "XKB's cn(ug) -- Uyghur",
-            "type": "ime",
             "id": "all-xkb-layouts-cn(ug)",
-            "description": "Uyghur",
             "language": [
                 "ug"
             ],
@@ -1845,9 +1551,7 @@
         },
         {
             "name": "XKB's cn(altgr-pinyin) -- Hanyu Pinyin (altgr)",
-            "type": "ime",
             "id": "all-xkb-layouts-cn(altgr-pinyin)",
-            "description": "Hanyu Pinyin (altgr)",
             "language": [
                 "zh"
             ],
@@ -1857,9 +1561,7 @@
         },
         {
             "name": "XKB's hr -- Croatian",
-            "type": "ime",
             "id": "all-xkb-layouts-hr",
-            "description": "Croatian",
             "language": [
                 "hr"
             ],
@@ -1869,9 +1571,7 @@
         },
         {
             "name": "XKB's hr(alternatequotes) -- Croatian (with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-hr(alternatequotes)",
-            "description": "Croatian (with guillemets)",
             "language": [
                 "hr"
             ],
@@ -1881,9 +1581,7 @@
         },
         {
             "name": "XKB's hr(unicode) -- Croatian (with Croatian digraphs)",
-            "type": "ime",
             "id": "all-xkb-layouts-hr(unicode)",
-            "description": "Croatian (with Croatian digraphs)",
             "language": [
                 "hr"
             ],
@@ -1893,9 +1591,7 @@
         },
         {
             "name": "XKB's hr(unicodeus) -- Croatian (US, with Croatian digraphs)",
-            "type": "ime",
             "id": "all-xkb-layouts-hr(unicodeus)",
-            "description": "Croatian (US, with Croatian digraphs)",
             "language": [
                 "hr"
             ],
@@ -1905,9 +1601,7 @@
         },
         {
             "name": "XKB's hr(us) -- Croatian (US, with Croatian letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-hr(us)",
-            "description": "Croatian (US, with Croatian letters)",
             "language": [
                 "hr"
             ],
@@ -1917,9 +1611,7 @@
         },
         {
             "name": "XKB's cz -- Czech",
-            "type": "ime",
             "id": "all-xkb-layouts-cz",
-            "description": "Czech",
             "language": [
                 "cs"
             ],
@@ -1929,9 +1621,7 @@
         },
         {
             "name": "XKB's cz(bksl) -- Czech (with <\\|> key)",
-            "type": "ime",
             "id": "all-xkb-layouts-cz(bksl)",
-            "description": "Czech (with <\\|> key)",
             "language": [
                 "cs"
             ],
@@ -1941,9 +1631,7 @@
         },
         {
             "name": "XKB's cz(qwerty) -- Czech (QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-cz(qwerty)",
-            "description": "Czech (QWERTY)",
             "language": [
                 "cs"
             ],
@@ -1953,9 +1641,7 @@
         },
         {
             "name": "XKB's cz(qwerty_bksl) -- Czech (QWERTY, extended backslash)",
-            "type": "ime",
             "id": "all-xkb-layouts-cz(qwerty_bksl)",
-            "description": "Czech (QWERTY, extended backslash)",
             "language": [
                 "cs"
             ],
@@ -1965,9 +1651,7 @@
         },
         {
             "name": "XKB's cz(ucw) -- Czech (UCW, only accented letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-cz(ucw)",
-            "description": "Czech (UCW, only accented letters)",
             "language": [
                 "cs"
             ],
@@ -1977,9 +1661,7 @@
         },
         {
             "name": "XKB's cz(dvorak-ucw) -- Czech (US, Dvorak, UCW support)",
-            "type": "ime",
             "id": "all-xkb-layouts-cz(dvorak-ucw)",
-            "description": "Czech (US, Dvorak, UCW support)",
             "language": [
                 "cs"
             ],
@@ -1989,9 +1671,7 @@
         },
         {
             "name": "XKB's cz(rus) -- Russian (Czech, phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-cz(rus)",
-            "description": "Russian (Czech, phonetic)",
             "language": [
                 "ru"
             ],
@@ -2001,9 +1681,7 @@
         },
         {
             "name": "XKB's dk -- Danish",
-            "type": "ime",
             "id": "all-xkb-layouts-dk",
-            "description": "Danish",
             "language": [
                 "da"
             ],
@@ -2013,9 +1691,7 @@
         },
         {
             "name": "XKB's dk(nodeadkeys) -- Danish (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-dk(nodeadkeys)",
-            "description": "Danish (no dead keys)",
             "language": [
                 "da"
             ],
@@ -2025,9 +1701,7 @@
         },
         {
             "name": "XKB's dk(winkeys) -- Danish (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-dk(winkeys)",
-            "description": "Danish (Win keys)",
             "language": [
                 "da"
             ],
@@ -2037,9 +1711,7 @@
         },
         {
             "name": "XKB's dk(mac) -- Danish (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-dk(mac)",
-            "description": "Danish (Macintosh)",
             "language": [
                 "da"
             ],
@@ -2049,9 +1721,7 @@
         },
         {
             "name": "XKB's dk(mac_nodeadkeys) -- Danish (Macintosh, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-dk(mac_nodeadkeys)",
-            "description": "Danish (Macintosh, no dead keys)",
             "language": [
                 "da"
             ],
@@ -2061,9 +1731,7 @@
         },
         {
             "name": "XKB's dk(dvorak) -- Danish (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-dk(dvorak)",
-            "description": "Danish (Dvorak)",
             "language": [
                 "da"
             ],
@@ -2073,9 +1741,7 @@
         },
         {
             "name": "XKB's nl -- Dutch",
-            "type": "ime",
             "id": "all-xkb-layouts-nl",
-            "description": "Dutch",
             "language": [
                 "nl"
             ],
@@ -2085,9 +1751,7 @@
         },
         {
             "name": "XKB's nl(sundeadkeys) -- Dutch (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-nl(sundeadkeys)",
-            "description": "Dutch (with Sun dead keys)",
             "language": [
                 "nl"
             ],
@@ -2097,9 +1761,7 @@
         },
         {
             "name": "XKB's nl(mac) -- Dutch (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-nl(mac)",
-            "description": "Dutch (Macintosh)",
             "language": [
                 "nl"
             ],
@@ -2109,9 +1771,7 @@
         },
         {
             "name": "XKB's nl(std) -- Dutch (standard)",
-            "type": "ime",
             "id": "all-xkb-layouts-nl(std)",
-            "description": "Dutch (standard)",
             "language": [
                 "nl"
             ],
@@ -2121,9 +1781,7 @@
         },
         {
             "name": "XKB's bt -- Dzongkha",
-            "type": "ime",
             "id": "all-xkb-layouts-bt",
-            "description": "Dzongkha",
             "language": [
                 "dz"
             ],
@@ -2133,9 +1791,7 @@
         },
         {
             "name": "XKB's ee -- Estonian",
-            "type": "ime",
             "id": "all-xkb-layouts-ee",
-            "description": "Estonian",
             "language": [
                 "et"
             ],
@@ -2145,9 +1801,7 @@
         },
         {
             "name": "XKB's ee(nodeadkeys) -- Estonian (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ee(nodeadkeys)",
-            "description": "Estonian (no dead keys)",
             "language": [
                 "et"
             ],
@@ -2157,9 +1811,7 @@
         },
         {
             "name": "XKB's ee(dvorak) -- Estonian (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-ee(dvorak)",
-            "description": "Estonian (Dvorak)",
             "language": [
                 "et"
             ],
@@ -2169,9 +1821,7 @@
         },
         {
             "name": "XKB's ee(us) -- Estonian (US, with Estonian letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-ee(us)",
-            "description": "Estonian (US, with Estonian letters)",
             "language": [
                 "et"
             ],
@@ -2181,9 +1831,7 @@
         },
         {
             "name": "XKB's ir -- Persian",
-            "type": "ime",
             "id": "all-xkb-layouts-ir",
-            "description": "Persian",
             "language": [
                 "fa"
             ],
@@ -2193,9 +1841,7 @@
         },
         {
             "name": "XKB's ir(pes_keypad) -- Persian (with Persian keypad)",
-            "type": "ime",
             "id": "all-xkb-layouts-ir(pes_keypad)",
-            "description": "Persian (with Persian keypad)",
             "language": [
                 "fa"
             ],
@@ -2205,9 +1851,7 @@
         },
         {
             "name": "XKB's ir(ku) -- Kurdish (Iran, Latin Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-ir(ku)",
-            "description": "Kurdish (Iran, Latin Q)",
             "language": [
                 "ku"
             ],
@@ -2217,9 +1861,7 @@
         },
         {
             "name": "XKB's ir(ku_f) -- Kurdish (Iran, F)",
-            "type": "ime",
             "id": "all-xkb-layouts-ir(ku_f)",
-            "description": "Kurdish (Iran, F)",
             "language": [
                 "ku"
             ],
@@ -2229,9 +1871,7 @@
         },
         {
             "name": "XKB's ir(ku_alt) -- Kurdish (Iran, Latin Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-ir(ku_alt)",
-            "description": "Kurdish (Iran, Latin Alt-Q)",
             "language": [
                 "ku"
             ],
@@ -2241,9 +1881,7 @@
         },
         {
             "name": "XKB's ir(ku_ara) -- Kurdish (Iran, Arabic-Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ir(ku_ara)",
-            "description": "Kurdish (Iran, Arabic-Latin)",
             "language": [
                 "ku"
             ],
@@ -2253,9 +1891,7 @@
         },
         {
             "name": "XKB's iq -- Iraqi",
-            "type": "ime",
             "id": "all-xkb-layouts-iq",
-            "description": "Iraqi",
             "language": [
                 "ar",
                 "ku"
@@ -2266,9 +1902,7 @@
         },
         {
             "name": "XKB's iq(ku) -- Kurdish (Iraq, Latin Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-iq(ku)",
-            "description": "Kurdish (Iraq, Latin Q)",
             "language": [
                 "ku"
             ],
@@ -2278,9 +1912,7 @@
         },
         {
             "name": "XKB's iq(ku_f) -- Kurdish (Iraq, F)",
-            "type": "ime",
             "id": "all-xkb-layouts-iq(ku_f)",
-            "description": "Kurdish (Iraq, F)",
             "language": [
                 "ku"
             ],
@@ -2290,9 +1922,7 @@
         },
         {
             "name": "XKB's iq(ku_alt) -- Kurdish (Iraq, Latin Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-iq(ku_alt)",
-            "description": "Kurdish (Iraq, Latin Alt-Q)",
             "language": [
                 "ku"
             ],
@@ -2302,9 +1932,7 @@
         },
         {
             "name": "XKB's iq(ku_ara) -- Kurdish (Iraq, Arabic-Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-iq(ku_ara)",
-            "description": "Kurdish (Iraq, Arabic-Latin)",
             "language": [
                 "ku"
             ],
@@ -2314,9 +1942,7 @@
         },
         {
             "name": "XKB's fo -- Faroese",
-            "type": "ime",
             "id": "all-xkb-layouts-fo",
-            "description": "Faroese",
             "language": [
                 "fo"
             ],
@@ -2326,9 +1952,7 @@
         },
         {
             "name": "XKB's fo(nodeadkeys) -- Faroese (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fo(nodeadkeys)",
-            "description": "Faroese (no dead keys)",
             "language": [
                 "fo"
             ],
@@ -2338,9 +1962,7 @@
         },
         {
             "name": "XKB's fi -- Finnish",
-            "type": "ime",
             "id": "all-xkb-layouts-fi",
-            "description": "Finnish",
             "language": [
                 "fi"
             ],
@@ -2350,9 +1972,7 @@
         },
         {
             "name": "XKB's fi(classic) -- Finnish (classic)",
-            "type": "ime",
             "id": "all-xkb-layouts-fi(classic)",
-            "description": "Finnish (classic)",
             "language": [
                 "fi"
             ],
@@ -2362,9 +1982,7 @@
         },
         {
             "name": "XKB's fi(nodeadkeys) -- Finnish (classic, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fi(nodeadkeys)",
-            "description": "Finnish (classic, no dead keys)",
             "language": [
                 "fi"
             ],
@@ -2374,9 +1992,7 @@
         },
         {
             "name": "XKB's fi(winkeys) -- Finnish (Winkeys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fi(winkeys)",
-            "description": "Finnish (Winkeys)",
             "language": [
                 "fi"
             ],
@@ -2386,9 +2002,7 @@
         },
         {
             "name": "XKB's fi(smi) -- Northern Saami (Finland)",
-            "type": "ime",
             "id": "all-xkb-layouts-fi(smi)",
-            "description": "Northern Saami (Finland)",
             "language": [
                 "se"
             ],
@@ -2398,9 +2012,7 @@
         },
         {
             "name": "XKB's fi(mac) -- Finnish (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-fi(mac)",
-            "description": "Finnish (Macintosh)",
             "language": [
                 "fi"
             ],
@@ -2410,9 +2022,7 @@
         },
         {
             "name": "XKB's fr -- French",
-            "type": "ime",
             "id": "all-xkb-layouts-fr",
-            "description": "French",
             "language": [
                 "fr"
             ],
@@ -2422,9 +2032,7 @@
         },
         {
             "name": "XKB's fr(nodeadkeys) -- French (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(nodeadkeys)",
-            "description": "French (no dead keys)",
             "language": [
                 "fr"
             ],
@@ -2434,9 +2042,7 @@
         },
         {
             "name": "XKB's fr(sundeadkeys) -- French (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(sundeadkeys)",
-            "description": "French (with Sun dead keys)",
             "language": [
                 "fr"
             ],
@@ -2446,9 +2052,7 @@
         },
         {
             "name": "XKB's fr(oss) -- French (alt.)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(oss)",
-            "description": "French (alt.)",
             "language": [
                 "fr"
             ],
@@ -2458,9 +2062,7 @@
         },
         {
             "name": "XKB's fr(oss_latin9) -- French (alt., Latin-9 only)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(oss_latin9)",
-            "description": "French (alt., Latin-9 only)",
             "language": [
                 "fr"
             ],
@@ -2470,9 +2072,7 @@
         },
         {
             "name": "XKB's fr(oss_nodeadkeys) -- French (alt., no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(oss_nodeadkeys)",
-            "description": "French (alt., no dead keys)",
             "language": [
                 "fr"
             ],
@@ -2482,9 +2082,7 @@
         },
         {
             "name": "XKB's fr(oss_sundeadkeys) -- French (alt., with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(oss_sundeadkeys)",
-            "description": "French (alt., with Sun dead keys)",
             "language": [
                 "fr"
             ],
@@ -2494,9 +2092,7 @@
         },
         {
             "name": "XKB's fr(latin9) -- French (legacy, alt.)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(latin9)",
-            "description": "French (legacy, alt.)",
             "language": [
                 "fr"
             ],
@@ -2506,9 +2102,7 @@
         },
         {
             "name": "XKB's fr(latin9_nodeadkeys) -- French (legacy, alt., no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(latin9_nodeadkeys)",
-            "description": "French (legacy, alt., no dead keys)",
             "language": [
                 "fr"
             ],
@@ -2518,9 +2112,7 @@
         },
         {
             "name": "XKB's fr(latin9_sundeadkeys) -- French (legacy, alt., with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(latin9_sundeadkeys)",
-            "description": "French (legacy, alt., with Sun dead keys)",
             "language": [
                 "fr"
             ],
@@ -2530,9 +2122,7 @@
         },
         {
             "name": "XKB's fr(bepo) -- French (Bepo, ergonomic, Dvorak way)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(bepo)",
-            "description": "French (Bepo, ergonomic, Dvorak way)",
             "language": [
                 "fr"
             ],
@@ -2542,9 +2132,7 @@
         },
         {
             "name": "XKB's fr(bepo_latin9) -- French (Bepo, ergonomic, Dvorak way, Latin-9 only)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(bepo_latin9)",
-            "description": "French (Bepo, ergonomic, Dvorak way, Latin-9 only)",
             "language": [
                 "fr"
             ],
@@ -2554,9 +2142,7 @@
         },
         {
             "name": "XKB's fr(dvorak) -- French (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(dvorak)",
-            "description": "French (Dvorak)",
             "language": [
                 "fr"
             ],
@@ -2566,9 +2152,7 @@
         },
         {
             "name": "XKB's fr(mac) -- French (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(mac)",
-            "description": "French (Macintosh)",
             "language": [
                 "fr"
             ],
@@ -2578,9 +2162,7 @@
         },
         {
             "name": "XKB's fr(azerty) -- French (AZERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(azerty)",
-            "description": "French (AZERTY)",
             "language": [
                 "fr"
             ],
@@ -2590,9 +2172,7 @@
         },
         {
             "name": "XKB's fr(bre) -- French (Breton)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(bre)",
-            "description": "French (Breton)",
             "language": [
                 "fr"
             ],
@@ -2602,9 +2182,7 @@
         },
         {
             "name": "XKB's fr(oci) -- Occitan",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(oci)",
-            "description": "Occitan",
             "language": [
                 "oc"
             ],
@@ -2614,9 +2192,7 @@
         },
         {
             "name": "XKB's fr(geo) -- Georgian (France, AZERTY Tskapo)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(geo)",
-            "description": "Georgian (France, AZERTY Tskapo)",
             "language": [
                 "ka"
             ],
@@ -2626,9 +2202,7 @@
         },
         {
             "name": "XKB's fr(us) -- French (US, with French letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-fr(us)",
-            "description": "French (US, with French letters)",
             "language": [
                 "fr"
             ],
@@ -2638,9 +2212,7 @@
         },
         {
             "name": "XKB's gh -- English (Ghana)",
-            "type": "ime",
             "id": "all-xkb-layouts-gh",
-            "description": "English (Ghana)",
             "language": [
                 "en"
             ],
@@ -2650,9 +2222,7 @@
         },
         {
             "name": "XKB's gh(generic) -- English (Ghana, multilingual)",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(generic)",
-            "description": "English (Ghana, multilingual)",
             "language": [
                 "en"
             ],
@@ -2662,9 +2232,7 @@
         },
         {
             "name": "XKB's gh(akan) -- Akan",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(akan)",
-            "description": "Akan",
             "language": [
                 "ak"
             ],
@@ -2674,9 +2242,7 @@
         },
         {
             "name": "XKB's gh(ewe) -- Ewe",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(ewe)",
-            "description": "Ewe",
             "language": [
                 "ee"
             ],
@@ -2686,9 +2252,7 @@
         },
         {
             "name": "XKB's gh(fula) -- Fula",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(fula)",
-            "description": "Fula",
             "language": [
                 "ff"
             ],
@@ -2698,9 +2262,7 @@
         },
         {
             "name": "XKB's gh(ga) -- Ga",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(ga)",
-            "description": "Ga",
             "language": [
                 "gaa"
             ],
@@ -2710,9 +2272,7 @@
         },
         {
             "name": "XKB's gh(hausa) -- Hausa (Ghana)",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(hausa)",
-            "description": "Hausa (Ghana)",
             "language": [
                 "ha"
             ],
@@ -2722,9 +2282,7 @@
         },
         {
             "name": "XKB's gh(avn) -- Avatime",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(avn)",
-            "description": "Avatime",
             "language": [
                 "avn"
             ],
@@ -2734,9 +2292,7 @@
         },
         {
             "name": "XKB's gh(gillbt) -- English (Ghana, GILLBT)",
-            "type": "ime",
             "id": "all-xkb-layouts-gh(gillbt)",
-            "description": "English (Ghana, GILLBT)",
             "language": [
                 "en"
             ],
@@ -2746,9 +2302,7 @@
         },
         {
             "name": "XKB's gn -- French (Guinea)",
-            "type": "ime",
             "id": "all-xkb-layouts-gn",
-            "description": "French (Guinea)",
             "language": [
                 "fr"
             ],
@@ -2758,9 +2312,7 @@
         },
         {
             "name": "XKB's ge -- Georgian",
-            "type": "ime",
             "id": "all-xkb-layouts-ge",
-            "description": "Georgian",
             "language": [
                 "ka"
             ],
@@ -2770,9 +2322,7 @@
         },
         {
             "name": "XKB's ge(ergonomic) -- Georgian (ergonomic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ge(ergonomic)",
-            "description": "Georgian (ergonomic)",
             "language": [
                 "ka"
             ],
@@ -2782,9 +2332,7 @@
         },
         {
             "name": "XKB's ge(mess) -- Georgian (MESS)",
-            "type": "ime",
             "id": "all-xkb-layouts-ge(mess)",
-            "description": "Georgian (MESS)",
             "language": [
                 "ka"
             ],
@@ -2794,9 +2342,7 @@
         },
         {
             "name": "XKB's ge(ru) -- Russian (Georgia)",
-            "type": "ime",
             "id": "all-xkb-layouts-ge(ru)",
-            "description": "Russian (Georgia)",
             "language": [
                 "ru"
             ],
@@ -2806,9 +2352,7 @@
         },
         {
             "name": "XKB's ge(os) -- Ossetian (Georgia)",
-            "type": "ime",
             "id": "all-xkb-layouts-ge(os)",
-            "description": "Ossetian (Georgia)",
             "language": [
                 "os"
             ],
@@ -2818,9 +2362,7 @@
         },
         {
             "name": "XKB's de -- German",
-            "type": "ime",
             "id": "all-xkb-layouts-de",
-            "description": "German",
             "language": [
                 "de"
             ],
@@ -2830,9 +2372,7 @@
         },
         {
             "name": "XKB's de(deadacute) -- German (dead acute)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(deadacute)",
-            "description": "German (dead acute)",
             "language": [
                 "de"
             ],
@@ -2842,9 +2382,7 @@
         },
         {
             "name": "XKB's de(deadgraveacute) -- German (dead grave acute)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(deadgraveacute)",
-            "description": "German (dead grave acute)",
             "language": [
                 "de"
             ],
@@ -2854,9 +2392,7 @@
         },
         {
             "name": "XKB's de(nodeadkeys) -- German (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(nodeadkeys)",
-            "description": "German (no dead keys)",
             "language": [
                 "de"
             ],
@@ -2866,9 +2402,7 @@
         },
         {
             "name": "XKB's de(T3) -- German (T3)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(T3)",
-            "description": "German (T3)",
             "language": [
                 "de"
             ],
@@ -2878,9 +2412,7 @@
         },
         {
             "name": "XKB's de(ro) -- Romanian (Germany)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(ro)",
-            "description": "Romanian (Germany)",
             "language": [
                 "ro"
             ],
@@ -2890,9 +2422,7 @@
         },
         {
             "name": "XKB's de(ro_nodeadkeys) -- Romanian (Germany, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(ro_nodeadkeys)",
-            "description": "Romanian (Germany, no dead keys)",
             "language": [
                 "ro"
             ],
@@ -2902,9 +2432,7 @@
         },
         {
             "name": "XKB's de(dvorak) -- German (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(dvorak)",
-            "description": "German (Dvorak)",
             "language": [
                 "de"
             ],
@@ -2914,9 +2442,7 @@
         },
         {
             "name": "XKB's de(sundeadkeys) -- German (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(sundeadkeys)",
-            "description": "German (with Sun dead keys)",
             "language": [
                 "de"
             ],
@@ -2926,9 +2452,7 @@
         },
         {
             "name": "XKB's de(neo) -- German (Neo 2)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(neo)",
-            "description": "German (Neo 2)",
             "language": [
                 "de"
             ],
@@ -2938,9 +2462,7 @@
         },
         {
             "name": "XKB's de(mac) -- German (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(mac)",
-            "description": "German (Macintosh)",
             "language": [
                 "de"
             ],
@@ -2950,9 +2472,7 @@
         },
         {
             "name": "XKB's de(mac_nodeadkeys) -- German (Macintosh, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(mac_nodeadkeys)",
-            "description": "German (Macintosh, no dead keys)",
             "language": [
                 "de"
             ],
@@ -2962,9 +2482,7 @@
         },
         {
             "name": "XKB's de(dsb) -- Lower Sorbian",
-            "type": "ime",
             "id": "all-xkb-layouts-de(dsb)",
-            "description": "Lower Sorbian",
             "language": [
                 "dsb"
             ],
@@ -2974,9 +2492,7 @@
         },
         {
             "name": "XKB's de(dsb_qwertz) -- Lower Sorbian (QWERTZ)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(dsb_qwertz)",
-            "description": "Lower Sorbian (QWERTZ)",
             "language": [
                 "dsb"
             ],
@@ -2986,9 +2502,7 @@
         },
         {
             "name": "XKB's de(qwerty) -- German (QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(qwerty)",
-            "description": "German (QWERTY)",
             "language": [
                 "de"
             ],
@@ -2998,9 +2512,7 @@
         },
         {
             "name": "XKB's de(tr) -- Turkish (Germany)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(tr)",
-            "description": "Turkish (Germany)",
             "language": [
                 "tr"
             ],
@@ -3010,9 +2522,7 @@
         },
         {
             "name": "XKB's de(ru) -- Russian (Germany, phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(ru)",
-            "description": "Russian (Germany, phonetic)",
             "language": [
                 "ru"
             ],
@@ -3022,9 +2532,7 @@
         },
         {
             "name": "XKB's de(deadtilde) -- German (dead tilde)",
-            "type": "ime",
             "id": "all-xkb-layouts-de(deadtilde)",
-            "description": "German (dead tilde)",
             "language": [
                 "de"
             ],
@@ -3034,9 +2542,7 @@
         },
         {
             "name": "XKB's gr -- Greek",
-            "type": "ime",
             "id": "all-xkb-layouts-gr",
-            "description": "Greek",
             "language": [
                 "el"
             ],
@@ -3046,9 +2552,7 @@
         },
         {
             "name": "XKB's gr(simple) -- Greek (simple)",
-            "type": "ime",
             "id": "all-xkb-layouts-gr(simple)",
-            "description": "Greek (simple)",
             "language": [
                 "el"
             ],
@@ -3058,9 +2562,7 @@
         },
         {
             "name": "XKB's gr(extended) -- Greek (extended)",
-            "type": "ime",
             "id": "all-xkb-layouts-gr(extended)",
-            "description": "Greek (extended)",
             "language": [
                 "el"
             ],
@@ -3070,9 +2572,7 @@
         },
         {
             "name": "XKB's gr(nodeadkeys) -- Greek (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-gr(nodeadkeys)",
-            "description": "Greek (no dead keys)",
             "language": [
                 "el"
             ],
@@ -3082,9 +2582,7 @@
         },
         {
             "name": "XKB's gr(polytonic) -- Greek (polytonic)",
-            "type": "ime",
             "id": "all-xkb-layouts-gr(polytonic)",
-            "description": "Greek (polytonic)",
             "language": [
                 "el"
             ],
@@ -3094,9 +2592,7 @@
         },
         {
             "name": "XKB's hu -- Hungarian",
-            "type": "ime",
             "id": "all-xkb-layouts-hu",
-            "description": "Hungarian",
             "language": [
                 "hu"
             ],
@@ -3106,9 +2602,7 @@
         },
         {
             "name": "XKB's hu(standard) -- Hungarian (standard)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(standard)",
-            "description": "Hungarian (standard)",
             "language": [
                 "hu"
             ],
@@ -3118,9 +2612,7 @@
         },
         {
             "name": "XKB's hu(nodeadkeys) -- Hungarian (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(nodeadkeys)",
-            "description": "Hungarian (no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3130,9 +2622,7 @@
         },
         {
             "name": "XKB's hu(qwerty) -- Hungarian (QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(qwerty)",
-            "description": "Hungarian (QWERTY)",
             "language": [
                 "hu"
             ],
@@ -3142,9 +2632,7 @@
         },
         {
             "name": "XKB's hu(101_qwertz_comma_dead) -- Hungarian (101/QWERTZ/comma/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwertz_comma_dead)",
-            "description": "Hungarian (101/QWERTZ/comma/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3154,9 +2642,7 @@
         },
         {
             "name": "XKB's hu(101_qwertz_comma_nodead) -- Hungarian (101/QWERTZ/comma/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwertz_comma_nodead)",
-            "description": "Hungarian (101/QWERTZ/comma/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3166,9 +2652,7 @@
         },
         {
             "name": "XKB's hu(101_qwertz_dot_dead) -- Hungarian (101/QWERTZ/dot/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwertz_dot_dead)",
-            "description": "Hungarian (101/QWERTZ/dot/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3178,9 +2662,7 @@
         },
         {
             "name": "XKB's hu(101_qwertz_dot_nodead) -- Hungarian (101/QWERTZ/dot/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwertz_dot_nodead)",
-            "description": "Hungarian (101/QWERTZ/dot/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3190,9 +2672,7 @@
         },
         {
             "name": "XKB's hu(101_qwerty_comma_dead) -- Hungarian (101/QWERTY/comma/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwerty_comma_dead)",
-            "description": "Hungarian (101/QWERTY/comma/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3202,9 +2682,7 @@
         },
         {
             "name": "XKB's hu(101_qwerty_comma_nodead) -- Hungarian (101/QWERTY/comma/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwerty_comma_nodead)",
-            "description": "Hungarian (101/QWERTY/comma/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3214,9 +2692,7 @@
         },
         {
             "name": "XKB's hu(101_qwerty_dot_dead) -- Hungarian (101/QWERTY/dot/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwerty_dot_dead)",
-            "description": "Hungarian (101/QWERTY/dot/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3226,9 +2702,7 @@
         },
         {
             "name": "XKB's hu(101_qwerty_dot_nodead) -- Hungarian (101/QWERTY/dot/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(101_qwerty_dot_nodead)",
-            "description": "Hungarian (101/QWERTY/dot/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3238,9 +2712,7 @@
         },
         {
             "name": "XKB's hu(102_qwertz_comma_dead) -- Hungarian (102/QWERTZ/comma/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwertz_comma_dead)",
-            "description": "Hungarian (102/QWERTZ/comma/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3250,9 +2722,7 @@
         },
         {
             "name": "XKB's hu(102_qwertz_comma_nodead) -- Hungarian (102/QWERTZ/comma/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwertz_comma_nodead)",
-            "description": "Hungarian (102/QWERTZ/comma/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3262,9 +2732,7 @@
         },
         {
             "name": "XKB's hu(102_qwertz_dot_dead) -- Hungarian (102/QWERTZ/dot/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwertz_dot_dead)",
-            "description": "Hungarian (102/QWERTZ/dot/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3274,9 +2742,7 @@
         },
         {
             "name": "XKB's hu(102_qwertz_dot_nodead) -- Hungarian (102/QWERTZ/dot/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwertz_dot_nodead)",
-            "description": "Hungarian (102/QWERTZ/dot/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3286,9 +2752,7 @@
         },
         {
             "name": "XKB's hu(102_qwerty_comma_dead) -- Hungarian (102/QWERTY/comma/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwerty_comma_dead)",
-            "description": "Hungarian (102/QWERTY/comma/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3298,9 +2762,7 @@
         },
         {
             "name": "XKB's hu(102_qwerty_comma_nodead) -- Hungarian (102/QWERTY/comma/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwerty_comma_nodead)",
-            "description": "Hungarian (102/QWERTY/comma/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3310,9 +2772,7 @@
         },
         {
             "name": "XKB's hu(102_qwerty_dot_dead) -- Hungarian (102/QWERTY/dot/dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwerty_dot_dead)",
-            "description": "Hungarian (102/QWERTY/dot/dead keys)",
             "language": [
                 "hu"
             ],
@@ -3322,9 +2782,7 @@
         },
         {
             "name": "XKB's hu(102_qwerty_dot_nodead) -- Hungarian (102/QWERTY/dot/no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-hu(102_qwerty_dot_nodead)",
-            "description": "Hungarian (102/QWERTY/dot/no dead keys)",
             "language": [
                 "hu"
             ],
@@ -3334,9 +2792,7 @@
         },
         {
             "name": "XKB's is -- Icelandic",
-            "type": "ime",
             "id": "all-xkb-layouts-is",
-            "description": "Icelandic",
             "language": [
                 "is"
             ],
@@ -3346,9 +2802,7 @@
         },
         {
             "name": "XKB's is(Sundeadkeys) -- Icelandic (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-is(Sundeadkeys)",
-            "description": "Icelandic (with Sun dead keys)",
             "language": [
                 "is"
             ],
@@ -3358,9 +2812,7 @@
         },
         {
             "name": "XKB's is(nodeadkeys) -- Icelandic (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-is(nodeadkeys)",
-            "description": "Icelandic (no dead keys)",
             "language": [
                 "is"
             ],
@@ -3370,9 +2822,7 @@
         },
         {
             "name": "XKB's is(mac_legacy) -- Icelandic (Macintosh, legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-is(mac_legacy)",
-            "description": "Icelandic (Macintosh, legacy)",
             "language": [
                 "is"
             ],
@@ -3382,9 +2832,7 @@
         },
         {
             "name": "XKB's is(mac) -- Icelandic (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-is(mac)",
-            "description": "Icelandic (Macintosh)",
             "language": [
                 "is"
             ],
@@ -3394,9 +2842,7 @@
         },
         {
             "name": "XKB's is(dvorak) -- Icelandic (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-is(dvorak)",
-            "description": "Icelandic (Dvorak)",
             "language": [
                 "is"
             ],
@@ -3406,9 +2852,7 @@
         },
         {
             "name": "XKB's il -- Hebrew",
-            "type": "ime",
             "id": "all-xkb-layouts-il",
-            "description": "Hebrew",
             "language": [
                 "he"
             ],
@@ -3418,9 +2862,7 @@
         },
         {
             "name": "XKB's il(lyx) -- Hebrew (lyx)",
-            "type": "ime",
             "id": "all-xkb-layouts-il(lyx)",
-            "description": "Hebrew (lyx)",
             "language": [
                 "he"
             ],
@@ -3430,9 +2872,7 @@
         },
         {
             "name": "XKB's il(phonetic) -- Hebrew (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-il(phonetic)",
-            "description": "Hebrew (phonetic)",
             "language": [
                 "he"
             ],
@@ -3442,9 +2882,7 @@
         },
         {
             "name": "XKB's il(biblical) -- Hebrew (Biblical, Tiro)",
-            "type": "ime",
             "id": "all-xkb-layouts-il(biblical)",
-            "description": "Hebrew (Biblical, Tiro)",
             "language": [
                 "he"
             ],
@@ -3454,9 +2892,7 @@
         },
         {
             "name": "XKB's it -- Italian",
-            "type": "ime",
             "id": "all-xkb-layouts-it",
-            "description": "Italian",
             "language": [
                 "it"
             ],
@@ -3466,9 +2902,7 @@
         },
         {
             "name": "XKB's it(nodeadkeys) -- Italian (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(nodeadkeys)",
-            "description": "Italian (no dead keys)",
             "language": [
                 "it"
             ],
@@ -3478,9 +2912,7 @@
         },
         {
             "name": "XKB's it(winkeys) -- Italian (Winkeys)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(winkeys)",
-            "description": "Italian (Winkeys)",
             "language": [
                 "it"
             ],
@@ -3490,9 +2922,7 @@
         },
         {
             "name": "XKB's it(mac) -- Italian (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(mac)",
-            "description": "Italian (Macintosh)",
             "language": [
                 "it"
             ],
@@ -3502,9 +2932,7 @@
         },
         {
             "name": "XKB's it(us) -- Italian (US, with Italian letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(us)",
-            "description": "Italian (US, with Italian letters)",
             "language": [
                 "it"
             ],
@@ -3514,9 +2942,7 @@
         },
         {
             "name": "XKB's it(geo) -- Georgian (Italy)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(geo)",
-            "description": "Georgian (Italy)",
             "language": [
                 "ka"
             ],
@@ -3526,9 +2952,7 @@
         },
         {
             "name": "XKB's it(ibm) -- Italian (IBM 142)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(ibm)",
-            "description": "Italian (IBM 142)",
             "language": [
                 "it"
             ],
@@ -3538,9 +2962,7 @@
         },
         {
             "name": "XKB's it(intl) -- Italian (intl., with dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(intl)",
-            "description": "Italian (intl., with dead keys)",
             "language": [
                 "de",
                 "fr",
@@ -3557,9 +2979,7 @@
         },
         {
             "name": "XKB's it(scn) -- Sicilian",
-            "type": "ime",
             "id": "all-xkb-layouts-it(scn)",
-            "description": "Sicilian",
             "language": [
                 "it",
                 "scn"
@@ -3570,9 +2990,7 @@
         },
         {
             "name": "XKB's it(fur) -- Friulian (Italy)",
-            "type": "ime",
             "id": "all-xkb-layouts-it(fur)",
-            "description": "Friulian (Italy)",
             "language": [
                 "fur"
             ],
@@ -3582,9 +3000,7 @@
         },
         {
             "name": "XKB's jp -- Japanese",
-            "type": "ime",
             "id": "all-xkb-layouts-jp",
-            "description": "Japanese",
             "language": [
                 "ja"
             ],
@@ -3594,9 +3010,7 @@
         },
         {
             "name": "XKB's jp(kana) -- Japanese (Kana)",
-            "type": "ime",
             "id": "all-xkb-layouts-jp(kana)",
-            "description": "Japanese (Kana)",
             "language": [
                 "ja"
             ],
@@ -3606,9 +3020,7 @@
         },
         {
             "name": "XKB's jp(kana86) -- Japanese (Kana 86)",
-            "type": "ime",
             "id": "all-xkb-layouts-jp(kana86)",
-            "description": "Japanese (Kana 86)",
             "language": [
                 "ja"
             ],
@@ -3618,9 +3030,7 @@
         },
         {
             "name": "XKB's jp(OADG109A) -- Japanese (OADG 109A)",
-            "type": "ime",
             "id": "all-xkb-layouts-jp(OADG109A)",
-            "description": "Japanese (OADG 109A)",
             "language": [
                 "ja"
             ],
@@ -3630,9 +3040,7 @@
         },
         {
             "name": "XKB's jp(mac) -- Japanese (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-jp(mac)",
-            "description": "Japanese (Macintosh)",
             "language": [
                 "ja"
             ],
@@ -3642,9 +3050,7 @@
         },
         {
             "name": "XKB's jp(dvorak) -- Japanese (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-jp(dvorak)",
-            "description": "Japanese (Dvorak)",
             "language": [
                 "ja"
             ],
@@ -3654,9 +3060,7 @@
         },
         {
             "name": "XKB's kg -- Kyrgyz",
-            "type": "ime",
             "id": "all-xkb-layouts-kg",
-            "description": "Kyrgyz",
             "language": [
                 "ky"
             ],
@@ -3666,9 +3070,7 @@
         },
         {
             "name": "XKB's kg(phonetic) -- Kyrgyz (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-kg(phonetic)",
-            "description": "Kyrgyz (phonetic)",
             "language": [
                 "ky"
             ],
@@ -3678,9 +3080,7 @@
         },
         {
             "name": "XKB's kh -- Khmer (Cambodia)",
-            "type": "ime",
             "id": "all-xkb-layouts-kh",
-            "description": "Khmer (Cambodia)",
             "language": [
                 "km"
             ],
@@ -3690,9 +3090,7 @@
         },
         {
             "name": "XKB's kz -- Kazakh",
-            "type": "ime",
             "id": "all-xkb-layouts-kz",
-            "description": "Kazakh",
             "language": [
                 "kk"
             ],
@@ -3702,9 +3100,7 @@
         },
         {
             "name": "XKB's kz(ruskaz) -- Russian (Kazakhstan, with Kazakh)",
-            "type": "ime",
             "id": "all-xkb-layouts-kz(ruskaz)",
-            "description": "Russian (Kazakhstan, with Kazakh)",
             "language": [
                 "kk",
                 "ru"
@@ -3715,9 +3111,7 @@
         },
         {
             "name": "XKB's kz(kazrus) -- Kazakh (with Russian)",
-            "type": "ime",
             "id": "all-xkb-layouts-kz(kazrus)",
-            "description": "Kazakh (with Russian)",
             "language": [
                 "kk",
                 "ru"
@@ -3728,9 +3122,7 @@
         },
         {
             "name": "XKB's kz(ext) -- Kazakh (extended)",
-            "type": "ime",
             "id": "all-xkb-layouts-kz(ext)",
-            "description": "Kazakh (extended)",
             "language": [
                 "kk"
             ],
@@ -3740,9 +3132,7 @@
         },
         {
             "name": "XKB's kz(latin) -- Kazakh (Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-kz(latin)",
-            "description": "Kazakh (Latin)",
             "language": [
                 "kk"
             ],
@@ -3752,9 +3142,7 @@
         },
         {
             "name": "XKB's la -- Lao",
-            "type": "ime",
             "id": "all-xkb-layouts-la",
-            "description": "Lao",
             "language": [
                 "lo"
             ],
@@ -3764,9 +3152,7 @@
         },
         {
             "name": "XKB's la(stea) -- Lao (STEA proposed standard layout)",
-            "type": "ime",
             "id": "all-xkb-layouts-la(stea)",
-            "description": "Lao (STEA proposed standard layout)",
             "language": [
                 "lo"
             ],
@@ -3776,9 +3162,7 @@
         },
         {
             "name": "XKB's latam -- Spanish (Latin American)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam",
-            "description": "Spanish (Latin American)",
             "language": [
                 "es"
             ],
@@ -3788,9 +3172,7 @@
         },
         {
             "name": "XKB's latam(nodeadkeys) -- Spanish (Latin American, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam(nodeadkeys)",
-            "description": "Spanish (Latin American, no dead keys)",
             "language": [
                 "es"
             ],
@@ -3800,9 +3182,7 @@
         },
         {
             "name": "XKB's latam(deadtilde) -- Spanish (Latin American, dead tilde)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam(deadtilde)",
-            "description": "Spanish (Latin American, dead tilde)",
             "language": [
                 "es"
             ],
@@ -3812,9 +3192,7 @@
         },
         {
             "name": "XKB's latam(sundeadkeys) -- Spanish (Latin American, with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam(sundeadkeys)",
-            "description": "Spanish (Latin American, with Sun dead keys)",
             "language": [
                 "es"
             ],
@@ -3824,9 +3202,7 @@
         },
         {
             "name": "XKB's latam(dvorak) -- Spanish (Latin American, Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam(dvorak)",
-            "description": "Spanish (Latin American, Dvorak)",
             "language": [
                 "es"
             ],
@@ -3836,9 +3212,7 @@
         },
         {
             "name": "XKB's latam(colemak) -- Spanish (Latin American, Colemak)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam(colemak)",
-            "description": "Spanish (Latin American, Colemak)",
             "language": [
                 "es"
             ],
@@ -3848,9 +3222,7 @@
         },
         {
             "name": "XKB's latam(colemak-gaming) -- Spanish (Latin American, Colemak for gaming)",
-            "type": "ime",
             "id": "all-xkb-layouts-latam(colemak-gaming)",
-            "description": "Spanish (Latin American, Colemak for gaming)",
             "language": [
                 "es"
             ],
@@ -3860,9 +3232,7 @@
         },
         {
             "name": "XKB's lt -- Lithuanian",
-            "type": "ime",
             "id": "all-xkb-layouts-lt",
-            "description": "Lithuanian",
             "language": [
                 "lt"
             ],
@@ -3872,9 +3242,7 @@
         },
         {
             "name": "XKB's lt(std) -- Lithuanian (standard)",
-            "type": "ime",
             "id": "all-xkb-layouts-lt(std)",
-            "description": "Lithuanian (standard)",
             "language": [
                 "lt"
             ],
@@ -3884,9 +3252,7 @@
         },
         {
             "name": "XKB's lt(us) -- Lithuanian (US, with Lithuanian letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-lt(us)",
-            "description": "Lithuanian (US, with Lithuanian letters)",
             "language": [
                 "lt"
             ],
@@ -3896,9 +3262,7 @@
         },
         {
             "name": "XKB's lt(ibm) -- Lithuanian (IBM LST 1205-92)",
-            "type": "ime",
             "id": "all-xkb-layouts-lt(ibm)",
-            "description": "Lithuanian (IBM LST 1205-92)",
             "language": [
                 "lt"
             ],
@@ -3908,9 +3272,7 @@
         },
         {
             "name": "XKB's lt(lekp) -- Lithuanian (LEKP)",
-            "type": "ime",
             "id": "all-xkb-layouts-lt(lekp)",
-            "description": "Lithuanian (LEKP)",
             "language": [
                 "lt"
             ],
@@ -3920,9 +3282,7 @@
         },
         {
             "name": "XKB's lt(lekpa) -- Lithuanian (LEKPa)",
-            "type": "ime",
             "id": "all-xkb-layouts-lt(lekpa)",
-            "description": "Lithuanian (LEKPa)",
             "language": [
                 "lt"
             ],
@@ -3932,9 +3292,7 @@
         },
         {
             "name": "XKB's lv -- Latvian",
-            "type": "ime",
             "id": "all-xkb-layouts-lv",
-            "description": "Latvian",
             "language": [
                 "lv"
             ],
@@ -3944,9 +3302,7 @@
         },
         {
             "name": "XKB's lv(apostrophe) -- Latvian (apostrophe)",
-            "type": "ime",
             "id": "all-xkb-layouts-lv(apostrophe)",
-            "description": "Latvian (apostrophe)",
             "language": [
                 "lv"
             ],
@@ -3956,9 +3312,7 @@
         },
         {
             "name": "XKB's lv(tilde) -- Latvian (tilde)",
-            "type": "ime",
             "id": "all-xkb-layouts-lv(tilde)",
-            "description": "Latvian (tilde)",
             "language": [
                 "lv"
             ],
@@ -3968,9 +3322,7 @@
         },
         {
             "name": "XKB's lv(fkey) -- Latvian (F)",
-            "type": "ime",
             "id": "all-xkb-layouts-lv(fkey)",
-            "description": "Latvian (F)",
             "language": [
                 "lv"
             ],
@@ -3980,9 +3332,7 @@
         },
         {
             "name": "XKB's lv(modern) -- Latvian (modern)",
-            "type": "ime",
             "id": "all-xkb-layouts-lv(modern)",
-            "description": "Latvian (modern)",
             "language": [
                 "lv"
             ],
@@ -3992,9 +3342,7 @@
         },
         {
             "name": "XKB's lv(ergonomic) -- Latvian (ergonomic, \u016aGJRMV)",
-            "type": "ime",
             "id": "all-xkb-layouts-lv(ergonomic)",
-            "description": "Latvian (ergonomic, \u016aGJRMV)",
             "language": [
                 "lv"
             ],
@@ -4004,9 +3352,7 @@
         },
         {
             "name": "XKB's lv(adapted) -- Latvian (adapted)",
-            "type": "ime",
             "id": "all-xkb-layouts-lv(adapted)",
-            "description": "Latvian (adapted)",
             "language": [
                 "lv"
             ],
@@ -4016,9 +3362,7 @@
         },
         {
             "name": "XKB's mao -- Maori",
-            "type": "ime",
             "id": "all-xkb-layouts-mao",
-            "description": "Maori",
             "language": [
                 "mi"
             ],
@@ -4028,9 +3372,7 @@
         },
         {
             "name": "XKB's me -- Montenegrin",
-            "type": "ime",
             "id": "all-xkb-layouts-me",
-            "description": "Montenegrin",
             "language": [
                 "sr"
             ],
@@ -4040,9 +3382,7 @@
         },
         {
             "name": "XKB's me(cyrillic) -- Montenegrin (Cyrillic)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(cyrillic)",
-            "description": "Montenegrin (Cyrillic)",
             "language": [
                 "sr"
             ],
@@ -4052,9 +3392,7 @@
         },
         {
             "name": "XKB's me(cyrillicyz) -- Montenegrin (Cyrillic, ZE and ZHE swapped)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(cyrillicyz)",
-            "description": "Montenegrin (Cyrillic, ZE and ZHE swapped)",
             "language": [
                 "sr"
             ],
@@ -4064,9 +3402,7 @@
         },
         {
             "name": "XKB's me(latinunicode) -- Montenegrin (Latin, Unicode)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(latinunicode)",
-            "description": "Montenegrin (Latin, Unicode)",
             "language": [
                 "sr"
             ],
@@ -4076,9 +3412,7 @@
         },
         {
             "name": "XKB's me(latinyz) -- Montenegrin (Latin, QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(latinyz)",
-            "description": "Montenegrin (Latin, QWERTY)",
             "language": [
                 "sr"
             ],
@@ -4088,9 +3422,7 @@
         },
         {
             "name": "XKB's me(latinunicodeyz) -- Montenegrin (Latin, Unicode, QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(latinunicodeyz)",
-            "description": "Montenegrin (Latin, Unicode, QWERTY)",
             "language": [
                 "sr"
             ],
@@ -4100,9 +3432,7 @@
         },
         {
             "name": "XKB's me(cyrillicalternatequotes) -- Montenegrin (Cyrillic with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(cyrillicalternatequotes)",
-            "description": "Montenegrin (Cyrillic with guillemets)",
             "language": [
                 "sr"
             ],
@@ -4112,9 +3442,7 @@
         },
         {
             "name": "XKB's me(latinalternatequotes) -- Montenegrin (Latin with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-me(latinalternatequotes)",
-            "description": "Montenegrin (Latin with guillemets)",
             "language": [
                 "sr"
             ],
@@ -4124,9 +3452,7 @@
         },
         {
             "name": "XKB's mk -- Macedonian",
-            "type": "ime",
             "id": "all-xkb-layouts-mk",
-            "description": "Macedonian",
             "language": [
                 "mk"
             ],
@@ -4136,9 +3462,7 @@
         },
         {
             "name": "XKB's mk(nodeadkeys) -- Macedonian (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-mk(nodeadkeys)",
-            "description": "Macedonian (no dead keys)",
             "language": [
                 "mk"
             ],
@@ -4148,9 +3472,7 @@
         },
         {
             "name": "XKB's mt -- Maltese",
-            "type": "ime",
             "id": "all-xkb-layouts-mt",
-            "description": "Maltese",
             "language": [
                 "mt"
             ],
@@ -4160,9 +3482,7 @@
         },
         {
             "name": "XKB's mt(us) -- Maltese (with US layout)",
-            "type": "ime",
             "id": "all-xkb-layouts-mt(us)",
-            "description": "Maltese (with US layout)",
             "language": [
                 "mt"
             ],
@@ -4172,9 +3492,7 @@
         },
         {
             "name": "XKB's mt(alt-us) -- Maltese (US layout with AltGr overrides)",
-            "type": "ime",
             "id": "all-xkb-layouts-mt(alt-us)",
-            "description": "Maltese (US layout with AltGr overrides)",
             "language": [
                 "mt"
             ],
@@ -4184,9 +3502,7 @@
         },
         {
             "name": "XKB's mt(alt-gb) -- Maltese (UK layout with AltGr overrides)",
-            "type": "ime",
             "id": "all-xkb-layouts-mt(alt-gb)",
-            "description": "Maltese (UK layout with AltGr overrides)",
             "language": [
                 "mt"
             ],
@@ -4196,9 +3512,7 @@
         },
         {
             "name": "XKB's mn -- Mongolian",
-            "type": "ime",
             "id": "all-xkb-layouts-mn",
-            "description": "Mongolian",
             "language": [
                 "mn"
             ],
@@ -4208,9 +3522,7 @@
         },
         {
             "name": "XKB's no -- Norwegian",
-            "type": "ime",
             "id": "all-xkb-layouts-no",
-            "description": "Norwegian",
             "language": [
                 "nb",
                 "nb",
@@ -4222,9 +3534,7 @@
         },
         {
             "name": "XKB's no(nodeadkeys) -- Norwegian (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(nodeadkeys)",
-            "description": "Norwegian (no dead keys)",
             "language": [
                 "nb",
                 "nb",
@@ -4236,9 +3546,7 @@
         },
         {
             "name": "XKB's no(winkeys) -- Norwegian (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(winkeys)",
-            "description": "Norwegian (Win keys)",
             "language": [
                 "nb",
                 "nb",
@@ -4250,9 +3558,7 @@
         },
         {
             "name": "XKB's no(dvorak) -- Norwegian (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(dvorak)",
-            "description": "Norwegian (Dvorak)",
             "language": [
                 "nb",
                 "nb",
@@ -4264,9 +3570,7 @@
         },
         {
             "name": "XKB's no(smi) -- Northern Saami (Norway)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(smi)",
-            "description": "Northern Saami (Norway)",
             "language": [
                 "se"
             ],
@@ -4276,9 +3580,7 @@
         },
         {
             "name": "XKB's no(smi_nodeadkeys) -- Northern Saami (Norway, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(smi_nodeadkeys)",
-            "description": "Northern Saami (Norway, no dead keys)",
             "language": [
                 "se"
             ],
@@ -4288,9 +3590,7 @@
         },
         {
             "name": "XKB's no(mac) -- Norwegian (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(mac)",
-            "description": "Norwegian (Macintosh)",
             "language": [
                 "nb",
                 "nb",
@@ -4302,9 +3602,7 @@
         },
         {
             "name": "XKB's no(mac_nodeadkeys) -- Norwegian (Macintosh, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(mac_nodeadkeys)",
-            "description": "Norwegian (Macintosh, no dead keys)",
             "language": [
                 "nb",
                 "nb",
@@ -4316,9 +3614,7 @@
         },
         {
             "name": "XKB's no(colemak) -- Norwegian (Colemak)",
-            "type": "ime",
             "id": "all-xkb-layouts-no(colemak)",
-            "description": "Norwegian (Colemak)",
             "language": [
                 "nb",
                 "nb",
@@ -4330,9 +3626,7 @@
         },
         {
             "name": "XKB's pl -- Polish",
-            "type": "ime",
             "id": "all-xkb-layouts-pl",
-            "description": "Polish",
             "language": [
                 "pl"
             ],
@@ -4342,9 +3636,7 @@
         },
         {
             "name": "XKB's pl(legacy) -- Polish (legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(legacy)",
-            "description": "Polish (legacy)",
             "language": [
                 "pl"
             ],
@@ -4354,9 +3646,7 @@
         },
         {
             "name": "XKB's pl(qwertz) -- Polish (QWERTZ)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(qwertz)",
-            "description": "Polish (QWERTZ)",
             "language": [
                 "pl"
             ],
@@ -4366,9 +3656,7 @@
         },
         {
             "name": "XKB's pl(dvorak) -- Polish (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(dvorak)",
-            "description": "Polish (Dvorak)",
             "language": [
                 "pl"
             ],
@@ -4378,9 +3666,7 @@
         },
         {
             "name": "XKB's pl(dvorak_quotes) -- Polish (Dvorak, with Polish quotes on quotemark key)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(dvorak_quotes)",
-            "description": "Polish (Dvorak, with Polish quotes on quotemark key)",
             "language": [
                 "pl"
             ],
@@ -4390,9 +3676,7 @@
         },
         {
             "name": "XKB's pl(dvorak_altquotes) -- Polish (Dvorak, with Polish quotes on key 1)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(dvorak_altquotes)",
-            "description": "Polish (Dvorak, with Polish quotes on key 1)",
             "language": [
                 "pl"
             ],
@@ -4402,9 +3686,7 @@
         },
         {
             "name": "XKB's pl(csb) -- Kashubian",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(csb)",
-            "description": "Kashubian",
             "language": [
                 "csb"
             ],
@@ -4414,9 +3696,7 @@
         },
         {
             "name": "XKB's pl(szl) -- Silesian",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(szl)",
-            "description": "Silesian",
             "language": [
                 "szl"
             ],
@@ -4426,9 +3706,7 @@
         },
         {
             "name": "XKB's pl(ru_phonetic_dvorak) -- Russian (Poland, phonetic Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(ru_phonetic_dvorak)",
-            "description": "Russian (Poland, phonetic Dvorak)",
             "language": [
                 "ru"
             ],
@@ -4438,9 +3716,7 @@
         },
         {
             "name": "XKB's pl(dvp) -- Polish (programmer Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-pl(dvp)",
-            "description": "Polish (programmer Dvorak)",
             "language": [
                 "pl"
             ],
@@ -4450,9 +3726,7 @@
         },
         {
             "name": "XKB's pt -- Portuguese",
-            "type": "ime",
             "id": "all-xkb-layouts-pt",
-            "description": "Portuguese",
             "language": [
                 "pt"
             ],
@@ -4462,9 +3736,7 @@
         },
         {
             "name": "XKB's pt(nodeadkeys) -- Portuguese (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(nodeadkeys)",
-            "description": "Portuguese (no dead keys)",
             "language": [
                 "pt"
             ],
@@ -4474,9 +3746,7 @@
         },
         {
             "name": "XKB's pt(sundeadkeys) -- Portuguese (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(sundeadkeys)",
-            "description": "Portuguese (with Sun dead keys)",
             "language": [
                 "pt"
             ],
@@ -4486,9 +3756,7 @@
         },
         {
             "name": "XKB's pt(mac) -- Portuguese (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(mac)",
-            "description": "Portuguese (Macintosh)",
             "language": [
                 "pt"
             ],
@@ -4498,9 +3766,7 @@
         },
         {
             "name": "XKB's pt(mac_nodeadkeys) -- Portuguese (Macintosh, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(mac_nodeadkeys)",
-            "description": "Portuguese (Macintosh, no dead keys)",
             "language": [
                 "pt"
             ],
@@ -4510,9 +3776,7 @@
         },
         {
             "name": "XKB's pt(mac_sundeadkeys) -- Portuguese (Macintosh, with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(mac_sundeadkeys)",
-            "description": "Portuguese (Macintosh, with Sun dead keys)",
             "language": [
                 "pt"
             ],
@@ -4522,9 +3786,7 @@
         },
         {
             "name": "XKB's pt(nativo) -- Portuguese (Nativo)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(nativo)",
-            "description": "Portuguese (Nativo)",
             "language": [
                 "pt"
             ],
@@ -4534,9 +3796,7 @@
         },
         {
             "name": "XKB's pt(nativo-us) -- Portuguese (Nativo for US keyboards)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(nativo-us)",
-            "description": "Portuguese (Nativo for US keyboards)",
             "language": [
                 "pt"
             ],
@@ -4546,9 +3806,7 @@
         },
         {
             "name": "XKB's pt(nativo-epo) -- Esperanto (Portugal, Nativo)",
-            "type": "ime",
             "id": "all-xkb-layouts-pt(nativo-epo)",
-            "description": "Esperanto (Portugal, Nativo)",
             "language": [
                 "eo"
             ],
@@ -4558,9 +3816,7 @@
         },
         {
             "name": "XKB's ro -- Romanian",
-            "type": "ime",
             "id": "all-xkb-layouts-ro",
-            "description": "Romanian",
             "language": [
                 "ro"
             ],
@@ -4570,9 +3826,7 @@
         },
         {
             "name": "XKB's ro(cedilla) -- Romanian (cedilla)",
-            "type": "ime",
             "id": "all-xkb-layouts-ro(cedilla)",
-            "description": "Romanian (cedilla)",
             "language": [
                 "ro"
             ],
@@ -4582,9 +3836,7 @@
         },
         {
             "name": "XKB's ro(std) -- Romanian (standard)",
-            "type": "ime",
             "id": "all-xkb-layouts-ro(std)",
-            "description": "Romanian (standard)",
             "language": [
                 "ro"
             ],
@@ -4594,9 +3846,7 @@
         },
         {
             "name": "XKB's ro(std_cedilla) -- Romanian (standard cedilla)",
-            "type": "ime",
             "id": "all-xkb-layouts-ro(std_cedilla)",
-            "description": "Romanian (standard cedilla)",
             "language": [
                 "ro"
             ],
@@ -4606,9 +3856,7 @@
         },
         {
             "name": "XKB's ro(winkeys) -- Romanian (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ro(winkeys)",
-            "description": "Romanian (Win keys)",
             "language": [
                 "ro"
             ],
@@ -4618,9 +3866,7 @@
         },
         {
             "name": "XKB's ru -- Russian",
-            "type": "ime",
             "id": "all-xkb-layouts-ru",
-            "description": "Russian",
             "language": [
                 "ru"
             ],
@@ -4630,9 +3876,7 @@
         },
         {
             "name": "XKB's ru(phonetic) -- Russian (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(phonetic)",
-            "description": "Russian (phonetic)",
             "language": [
                 "ru"
             ],
@@ -4642,9 +3886,7 @@
         },
         {
             "name": "XKB's ru(phonetic_winkeys) -- Russian (phonetic, with Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(phonetic_winkeys)",
-            "description": "Russian (phonetic, with Win keys)",
             "language": [
                 "ru"
             ],
@@ -4654,9 +3896,7 @@
         },
         {
             "name": "XKB's ru(phonetic_yazherty) -- Russian (phonetic yazherty)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(phonetic_yazherty)",
-            "description": "Russian (phonetic yazherty)",
             "language": [
                 "ru"
             ],
@@ -4666,9 +3906,7 @@
         },
         {
             "name": "XKB's ru(typewriter) -- Russian (typewriter)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(typewriter)",
-            "description": "Russian (typewriter)",
             "language": [
                 "ru"
             ],
@@ -4678,9 +3916,7 @@
         },
         {
             "name": "XKB's ru(legacy) -- Russian (legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(legacy)",
-            "description": "Russian (legacy)",
             "language": [
                 "ru"
             ],
@@ -4690,9 +3926,7 @@
         },
         {
             "name": "XKB's ru(typewriter-legacy) -- Russian (typewriter, legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(typewriter-legacy)",
-            "description": "Russian (typewriter, legacy)",
             "language": [
                 "ru"
             ],
@@ -4702,9 +3936,7 @@
         },
         {
             "name": "XKB's ru(tt) -- Tatar",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(tt)",
-            "description": "Tatar",
             "language": [
                 "tt"
             ],
@@ -4714,9 +3946,7 @@
         },
         {
             "name": "XKB's ru(os_legacy) -- Ossetian (legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(os_legacy)",
-            "description": "Ossetian (legacy)",
             "language": [
                 "os"
             ],
@@ -4726,9 +3956,7 @@
         },
         {
             "name": "XKB's ru(os_winkeys) -- Ossetian (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(os_winkeys)",
-            "description": "Ossetian (Win keys)",
             "language": [
                 "os"
             ],
@@ -4738,9 +3966,7 @@
         },
         {
             "name": "XKB's ru(cv) -- Chuvash",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(cv)",
-            "description": "Chuvash",
             "language": [
                 "cv"
             ],
@@ -4750,9 +3976,7 @@
         },
         {
             "name": "XKB's ru(cv_latin) -- Chuvash (Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(cv_latin)",
-            "description": "Chuvash (Latin)",
             "language": [
                 "cv"
             ],
@@ -4762,9 +3986,7 @@
         },
         {
             "name": "XKB's ru(udm) -- Udmurt",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(udm)",
-            "description": "Udmurt",
             "language": [
                 "udm"
             ],
@@ -4774,9 +3996,7 @@
         },
         {
             "name": "XKB's ru(kom) -- Komi",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(kom)",
-            "description": "Komi",
             "language": [
                 "kv"
             ],
@@ -4786,9 +4006,7 @@
         },
         {
             "name": "XKB's ru(sah) -- Yakut",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(sah)",
-            "description": "Yakut",
             "language": [
                 "sah"
             ],
@@ -4798,9 +4016,7 @@
         },
         {
             "name": "XKB's ru(xal) -- Kalmyk",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(xal)",
-            "description": "Kalmyk",
             "language": [
                 "xal"
             ],
@@ -4810,9 +4026,7 @@
         },
         {
             "name": "XKB's ru(dos) -- Russian (DOS)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(dos)",
-            "description": "Russian (DOS)",
             "language": [
                 "ru"
             ],
@@ -4822,9 +4036,7 @@
         },
         {
             "name": "XKB's ru(mac) -- Russian (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(mac)",
-            "description": "Russian (Macintosh)",
             "language": [
                 "ru"
             ],
@@ -4834,9 +4046,7 @@
         },
         {
             "name": "XKB's ru(srp) -- Serbian (Russia)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(srp)",
-            "description": "Serbian (Russia)",
             "language": [
                 "ru",
                 "sr"
@@ -4847,9 +4057,7 @@
         },
         {
             "name": "XKB's ru(bak) -- Bashkirian",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(bak)",
-            "description": "Bashkirian",
             "language": [
                 "ba"
             ],
@@ -4859,9 +4067,7 @@
         },
         {
             "name": "XKB's ru(chm) -- Mari",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(chm)",
-            "description": "Mari",
             "language": [
                 "chm"
             ],
@@ -4871,9 +4077,7 @@
         },
         {
             "name": "XKB's ru(phonetic_azerty) -- Russian (phonetic, AZERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(phonetic_azerty)",
-            "description": "Russian (phonetic, AZERTY)",
             "language": [
                 "ru"
             ],
@@ -4883,9 +4087,7 @@
         },
         {
             "name": "XKB's ru(phonetic_dvorak) -- Russian (phonetic, Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(phonetic_dvorak)",
-            "description": "Russian (phonetic, Dvorak)",
             "language": [
                 "ru"
             ],
@@ -4895,9 +4097,7 @@
         },
         {
             "name": "XKB's ru(phonetic_fr) -- Russian (phonetic, French)",
-            "type": "ime",
             "id": "all-xkb-layouts-ru(phonetic_fr)",
-            "description": "Russian (phonetic, French)",
             "language": [
                 "ru"
             ],
@@ -4907,9 +4107,7 @@
         },
         {
             "name": "XKB's rs -- Serbian",
-            "type": "ime",
             "id": "all-xkb-layouts-rs",
-            "description": "Serbian",
             "language": [
                 "sr"
             ],
@@ -4919,9 +4117,7 @@
         },
         {
             "name": "XKB's rs(yz) -- Serbian (Cyrillic, ZE and ZHE swapped)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(yz)",
-            "description": "Serbian (Cyrillic, ZE and ZHE swapped)",
             "language": [
                 "sr"
             ],
@@ -4931,9 +4127,7 @@
         },
         {
             "name": "XKB's rs(latin) -- Serbian (Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(latin)",
-            "description": "Serbian (Latin)",
             "language": [
                 "sr"
             ],
@@ -4943,9 +4137,7 @@
         },
         {
             "name": "XKB's rs(latinunicode) -- Serbian (Latin, Unicode)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(latinunicode)",
-            "description": "Serbian (Latin, Unicode)",
             "language": [
                 "sr"
             ],
@@ -4955,9 +4147,7 @@
         },
         {
             "name": "XKB's rs(latinyz) -- Serbian (Latin, QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(latinyz)",
-            "description": "Serbian (Latin, QWERTY)",
             "language": [
                 "sr"
             ],
@@ -4967,9 +4157,7 @@
         },
         {
             "name": "XKB's rs(latinunicodeyz) -- Serbian (Latin, Unicode, QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(latinunicodeyz)",
-            "description": "Serbian (Latin, Unicode, QWERTY)",
             "language": [
                 "sr"
             ],
@@ -4979,9 +4167,7 @@
         },
         {
             "name": "XKB's rs(alternatequotes) -- Serbian (Cyrillic with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(alternatequotes)",
-            "description": "Serbian (Cyrillic with guillemets)",
             "language": [
                 "sr"
             ],
@@ -4991,9 +4177,7 @@
         },
         {
             "name": "XKB's rs(latinalternatequotes) -- Serbian (Latin with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(latinalternatequotes)",
-            "description": "Serbian (Latin with guillemets)",
             "language": [
                 "sr"
             ],
@@ -5003,9 +4187,7 @@
         },
         {
             "name": "XKB's rs(rue) -- Pannonian Rusyn",
-            "type": "ime",
             "id": "all-xkb-layouts-rs(rue)",
-            "description": "Pannonian Rusyn",
             "language": [
                 "rue"
             ],
@@ -5015,9 +4197,7 @@
         },
         {
             "name": "XKB's si -- Slovenian",
-            "type": "ime",
             "id": "all-xkb-layouts-si",
-            "description": "Slovenian",
             "language": [
                 "sl"
             ],
@@ -5027,9 +4207,7 @@
         },
         {
             "name": "XKB's si(alternatequotes) -- Slovenian (with guillemets)",
-            "type": "ime",
             "id": "all-xkb-layouts-si(alternatequotes)",
-            "description": "Slovenian (with guillemets)",
             "language": [
                 "sl"
             ],
@@ -5039,9 +4217,7 @@
         },
         {
             "name": "XKB's si(us) -- Slovenian (US, with Slovenian letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-si(us)",
-            "description": "Slovenian (US, with Slovenian letters)",
             "language": [
                 "sl"
             ],
@@ -5051,9 +4227,7 @@
         },
         {
             "name": "XKB's sk -- Slovak",
-            "type": "ime",
             "id": "all-xkb-layouts-sk",
-            "description": "Slovak",
             "language": [
                 "sk"
             ],
@@ -5063,9 +4237,7 @@
         },
         {
             "name": "XKB's sk(bksl) -- Slovak (extended backslash)",
-            "type": "ime",
             "id": "all-xkb-layouts-sk(bksl)",
-            "description": "Slovak (extended backslash)",
             "language": [
                 "sk"
             ],
@@ -5075,9 +4247,7 @@
         },
         {
             "name": "XKB's sk(qwerty) -- Slovak (QWERTY)",
-            "type": "ime",
             "id": "all-xkb-layouts-sk(qwerty)",
-            "description": "Slovak (QWERTY)",
             "language": [
                 "sk"
             ],
@@ -5087,9 +4257,7 @@
         },
         {
             "name": "XKB's sk(qwerty_bksl) -- Slovak (QWERTY, extended backslash)",
-            "type": "ime",
             "id": "all-xkb-layouts-sk(qwerty_bksl)",
-            "description": "Slovak (QWERTY, extended backslash)",
             "language": [
                 "sk"
             ],
@@ -5099,9 +4267,7 @@
         },
         {
             "name": "XKB's es -- Spanish",
-            "type": "ime",
             "id": "all-xkb-layouts-es",
-            "description": "Spanish",
             "language": [
                 "es"
             ],
@@ -5111,9 +4277,7 @@
         },
         {
             "name": "XKB's es(nodeadkeys) -- Spanish (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(nodeadkeys)",
-            "description": "Spanish (no dead keys)",
             "language": [
                 "es"
             ],
@@ -5123,9 +4287,7 @@
         },
         {
             "name": "XKB's es(winkeys) -- Spanish (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(winkeys)",
-            "description": "Spanish (Win keys)",
             "language": [
                 "es"
             ],
@@ -5135,9 +4297,7 @@
         },
         {
             "name": "XKB's es(deadtilde) -- Spanish (dead tilde)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(deadtilde)",
-            "description": "Spanish (dead tilde)",
             "language": [
                 "es"
             ],
@@ -5147,9 +4307,7 @@
         },
         {
             "name": "XKB's es(sundeadkeys) -- Spanish (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(sundeadkeys)",
-            "description": "Spanish (with Sun dead keys)",
             "language": [
                 "es"
             ],
@@ -5159,9 +4317,7 @@
         },
         {
             "name": "XKB's es(dvorak) -- Spanish (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(dvorak)",
-            "description": "Spanish (Dvorak)",
             "language": [
                 "es"
             ],
@@ -5171,9 +4327,7 @@
         },
         {
             "name": "XKB's es(ast) -- Asturian (Spain, with bottom-dot H and bottom-dot L)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(ast)",
-            "description": "Asturian (Spain, with bottom-dot H and bottom-dot L)",
             "language": [
                 "ast"
             ],
@@ -5183,9 +4337,7 @@
         },
         {
             "name": "XKB's es(cat) -- Catalan (Spain, with middle-dot L)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(cat)",
-            "description": "Catalan (Spain, with middle-dot L)",
             "language": [
                 "ca"
             ],
@@ -5195,9 +4347,7 @@
         },
         {
             "name": "XKB's es(mac) -- Spanish (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-es(mac)",
-            "description": "Spanish (Macintosh)",
             "language": [
                 "es"
             ],
@@ -5207,9 +4357,7 @@
         },
         {
             "name": "XKB's se -- Swedish",
-            "type": "ime",
             "id": "all-xkb-layouts-se",
-            "description": "Swedish",
             "language": [
                 "sv"
             ],
@@ -5219,9 +4367,7 @@
         },
         {
             "name": "XKB's se(nodeadkeys) -- Swedish (no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(nodeadkeys)",
-            "description": "Swedish (no dead keys)",
             "language": [
                 "sv"
             ],
@@ -5231,9 +4377,7 @@
         },
         {
             "name": "XKB's se(dvorak) -- Swedish (Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(dvorak)",
-            "description": "Swedish (Dvorak)",
             "language": [
                 "sv"
             ],
@@ -5243,9 +4387,7 @@
         },
         {
             "name": "XKB's se(rus) -- Russian (Sweden, phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(rus)",
-            "description": "Russian (Sweden, phonetic)",
             "language": [
                 "ru"
             ],
@@ -5255,9 +4397,7 @@
         },
         {
             "name": "XKB's se(rus_nodeadkeys) -- Russian (Sweden, phonetic, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(rus_nodeadkeys)",
-            "description": "Russian (Sweden, phonetic, no dead keys)",
             "language": [
                 "ru"
             ],
@@ -5267,9 +4407,7 @@
         },
         {
             "name": "XKB's se(smi) -- Northern Saami (Sweden)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(smi)",
-            "description": "Northern Saami (Sweden)",
             "language": [
                 "se"
             ],
@@ -5279,9 +4417,7 @@
         },
         {
             "name": "XKB's se(mac) -- Swedish (Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(mac)",
-            "description": "Swedish (Macintosh)",
             "language": [
                 "sv"
             ],
@@ -5291,9 +4427,7 @@
         },
         {
             "name": "XKB's se(svdvorak) -- Swedish (Svdvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(svdvorak)",
-            "description": "Swedish (Svdvorak)",
             "language": [
                 "sv"
             ],
@@ -5303,9 +4437,7 @@
         },
         {
             "name": "XKB's se(us_dvorak) -- Swedish (based on US Intl. Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(us_dvorak)",
-            "description": "Swedish (based on US Intl. Dvorak)",
             "language": [
                 "sv"
             ],
@@ -5315,9 +4447,7 @@
         },
         {
             "name": "XKB's se(us) -- Swedish (US, with Swedish letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-se(us)",
-            "description": "Swedish (US, with Swedish letters)",
             "language": [
                 "sv"
             ],
@@ -5327,9 +4457,7 @@
         },
         {
             "name": "XKB's se(swl) -- Swedish Sign Language",
-            "type": "ime",
             "id": "all-xkb-layouts-se(swl)",
-            "description": "Swedish Sign Language",
             "language": [
                 "swl"
             ],
@@ -5339,9 +4467,7 @@
         },
         {
             "name": "XKB's ch -- German (Switzerland)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch",
-            "description": "German (Switzerland)",
             "language": [
                 "de",
                 "gsw"
@@ -5352,9 +4478,7 @@
         },
         {
             "name": "XKB's ch(legacy) -- German (Switzerland, legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(legacy)",
-            "description": "German (Switzerland, legacy)",
             "language": [
                 "de",
                 "gsw"
@@ -5365,9 +4489,7 @@
         },
         {
             "name": "XKB's ch(de_nodeadkeys) -- German (Switzerland, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(de_nodeadkeys)",
-            "description": "German (Switzerland, no dead keys)",
             "language": [
                 "de",
                 "gsw"
@@ -5378,9 +4500,7 @@
         },
         {
             "name": "XKB's ch(de_sundeadkeys) -- German (Switzerland, with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(de_sundeadkeys)",
-            "description": "German (Switzerland, with Sun dead keys)",
             "language": [
                 "de",
                 "gsw"
@@ -5391,9 +4511,7 @@
         },
         {
             "name": "XKB's ch(fr) -- French (Switzerland)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(fr)",
-            "description": "French (Switzerland)",
             "language": [
                 "fr"
             ],
@@ -5403,9 +4521,7 @@
         },
         {
             "name": "XKB's ch(fr_nodeadkeys) -- French (Switzerland, no dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(fr_nodeadkeys)",
-            "description": "French (Switzerland, no dead keys)",
             "language": [
                 "fr"
             ],
@@ -5415,9 +4531,7 @@
         },
         {
             "name": "XKB's ch(fr_sundeadkeys) -- French (Switzerland, with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(fr_sundeadkeys)",
-            "description": "French (Switzerland, with Sun dead keys)",
             "language": [
                 "fr"
             ],
@@ -5427,9 +4541,7 @@
         },
         {
             "name": "XKB's ch(fr_mac) -- French (Switzerland, Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(fr_mac)",
-            "description": "French (Switzerland, Macintosh)",
             "language": [
                 "fr"
             ],
@@ -5439,9 +4551,7 @@
         },
         {
             "name": "XKB's ch(de_mac) -- German (Switzerland, Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-ch(de_mac)",
-            "description": "German (Switzerland, Macintosh)",
             "language": [
                 "de",
                 "gsw"
@@ -5452,9 +4562,7 @@
         },
         {
             "name": "XKB's sy -- Arabic (Syria)",
-            "type": "ime",
             "id": "all-xkb-layouts-sy",
-            "description": "Arabic (Syria)",
             "language": [
                 "syr"
             ],
@@ -5464,9 +4572,7 @@
         },
         {
             "name": "XKB's sy(syc) -- Syriac",
-            "type": "ime",
             "id": "all-xkb-layouts-sy(syc)",
-            "description": "Syriac",
             "language": [
                 "syr"
             ],
@@ -5476,9 +4582,7 @@
         },
         {
             "name": "XKB's sy(syc_phonetic) -- Syriac (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-sy(syc_phonetic)",
-            "description": "Syriac (phonetic)",
             "language": [
                 "syr"
             ],
@@ -5488,9 +4592,7 @@
         },
         {
             "name": "XKB's sy(ku) -- Kurdish (Syria, Latin Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-sy(ku)",
-            "description": "Kurdish (Syria, Latin Q)",
             "language": [
                 "ku"
             ],
@@ -5500,9 +4602,7 @@
         },
         {
             "name": "XKB's sy(ku_f) -- Kurdish (Syria, F)",
-            "type": "ime",
             "id": "all-xkb-layouts-sy(ku_f)",
-            "description": "Kurdish (Syria, F)",
             "language": [
                 "ku"
             ],
@@ -5512,9 +4612,7 @@
         },
         {
             "name": "XKB's sy(ku_alt) -- Kurdish (Syria, Latin Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-sy(ku_alt)",
-            "description": "Kurdish (Syria, Latin Alt-Q)",
             "language": [
                 "ku"
             ],
@@ -5524,9 +4622,7 @@
         },
         {
             "name": "XKB's tj -- Tajik",
-            "type": "ime",
             "id": "all-xkb-layouts-tj",
-            "description": "Tajik",
             "language": [
                 "tg"
             ],
@@ -5536,9 +4632,7 @@
         },
         {
             "name": "XKB's tj(legacy) -- Tajik (legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-tj(legacy)",
-            "description": "Tajik (legacy)",
             "language": [
                 "tg"
             ],
@@ -5548,9 +4642,7 @@
         },
         {
             "name": "XKB's lk -- Sinhala (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-lk",
-            "description": "Sinhala (phonetic)",
             "language": [
                 "si"
             ],
@@ -5560,9 +4652,7 @@
         },
         {
             "name": "XKB's lk(tam_unicode) -- Tamil (Sri Lanka, TamilNet '99)",
-            "type": "ime",
             "id": "all-xkb-layouts-lk(tam_unicode)",
-            "description": "Tamil (Sri Lanka, TamilNet '99)",
             "language": [
                 "ta"
             ],
@@ -5572,9 +4662,7 @@
         },
         {
             "name": "XKB's lk(tam_TAB) -- Tamil (Sri Lanka, TamilNet '99, TAB encoding)",
-            "type": "ime",
             "id": "all-xkb-layouts-lk(tam_TAB)",
-            "description": "Tamil (Sri Lanka, TamilNet '99, TAB encoding)",
             "language": [
                 "ta"
             ],
@@ -5584,9 +4672,7 @@
         },
         {
             "name": "XKB's lk(us) -- Sinhala (US, with Sinhala letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-lk(us)",
-            "description": "Sinhala (US, with Sinhala letters)",
             "language": [
                 "si"
             ],
@@ -5596,9 +4682,7 @@
         },
         {
             "name": "XKB's th -- Thai",
-            "type": "ime",
             "id": "all-xkb-layouts-th",
-            "description": "Thai",
             "language": [
                 "th"
             ],
@@ -5608,9 +4692,7 @@
         },
         {
             "name": "XKB's th(tis) -- Thai (TIS-820.2538)",
-            "type": "ime",
             "id": "all-xkb-layouts-th(tis)",
-            "description": "Thai (TIS-820.2538)",
             "language": [
                 "th"
             ],
@@ -5620,9 +4702,7 @@
         },
         {
             "name": "XKB's th(pat) -- Thai (Pattachote)",
-            "type": "ime",
             "id": "all-xkb-layouts-th(pat)",
-            "description": "Thai (Pattachote)",
             "language": [
                 "th"
             ],
@@ -5632,9 +4712,7 @@
         },
         {
             "name": "XKB's tr -- Turkish",
-            "type": "ime",
             "id": "all-xkb-layouts-tr",
-            "description": "Turkish",
             "language": [
                 "tr"
             ],
@@ -5644,9 +4722,7 @@
         },
         {
             "name": "XKB's tr(f) -- Turkish (F)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(f)",
-            "description": "Turkish (F)",
             "language": [
                 "tr"
             ],
@@ -5656,9 +4732,7 @@
         },
         {
             "name": "XKB's tr(alt) -- Turkish (Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(alt)",
-            "description": "Turkish (Alt-Q)",
             "language": [
                 "tr"
             ],
@@ -5668,9 +4742,7 @@
         },
         {
             "name": "XKB's tr(sundeadkeys) -- Turkish (with Sun dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(sundeadkeys)",
-            "description": "Turkish (with Sun dead keys)",
             "language": [
                 "tr"
             ],
@@ -5680,9 +4752,7 @@
         },
         {
             "name": "XKB's tr(ku) -- Kurdish (Turkey, Latin Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(ku)",
-            "description": "Kurdish (Turkey, Latin Q)",
             "language": [
                 "ku"
             ],
@@ -5692,9 +4762,7 @@
         },
         {
             "name": "XKB's tr(ku_f) -- Kurdish (Turkey, F)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(ku_f)",
-            "description": "Kurdish (Turkey, F)",
             "language": [
                 "ku"
             ],
@@ -5704,9 +4772,7 @@
         },
         {
             "name": "XKB's tr(ku_alt) -- Kurdish (Turkey, Latin Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(ku_alt)",
-            "description": "Kurdish (Turkey, Latin Alt-Q)",
             "language": [
                 "ku"
             ],
@@ -5716,9 +4782,7 @@
         },
         {
             "name": "XKB's tr(intl) -- Turkish (intl., with dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(intl)",
-            "description": "Turkish (intl., with dead keys)",
             "language": [
                 "tr"
             ],
@@ -5728,9 +4792,7 @@
         },
         {
             "name": "XKB's tr(crh) -- Crimean Tatar (Turkish Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(crh)",
-            "description": "Crimean Tatar (Turkish Q)",
             "language": [
                 "crh"
             ],
@@ -5740,9 +4802,7 @@
         },
         {
             "name": "XKB's tr(crh_f) -- Crimean Tatar (Turkish F)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(crh_f)",
-            "description": "Crimean Tatar (Turkish F)",
             "language": [
                 "crh"
             ],
@@ -5752,9 +4812,7 @@
         },
         {
             "name": "XKB's tr(crh_alt) -- Crimean Tatar (Turkish Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-tr(crh_alt)",
-            "description": "Crimean Tatar (Turkish Alt-Q)",
             "language": [
                 "crh"
             ],
@@ -5764,9 +4822,7 @@
         },
         {
             "name": "XKB's tw -- Taiwanese",
-            "type": "ime",
             "id": "all-xkb-layouts-tw",
-            "description": "Taiwanese",
             "language": [
                 "fox"
             ],
@@ -5776,9 +4832,7 @@
         },
         {
             "name": "XKB's tw(indigenous) -- Taiwanese (indigenous)",
-            "type": "ime",
             "id": "all-xkb-layouts-tw(indigenous)",
-            "description": "Taiwanese (indigenous)",
             "language": [
                 "ami",
                 "tay",
@@ -5803,9 +4857,7 @@
         },
         {
             "name": "XKB's tw(saisiyat) -- Saisiyat (Taiwan)",
-            "type": "ime",
             "id": "all-xkb-layouts-tw(saisiyat)",
-            "description": "Saisiyat (Taiwan)",
             "language": [
                 "xsy"
             ],
@@ -5815,9 +4867,7 @@
         },
         {
             "name": "XKB's ua -- Ukrainian",
-            "type": "ime",
             "id": "all-xkb-layouts-ua",
-            "description": "Ukrainian",
             "language": [
                 "uk"
             ],
@@ -5827,9 +4877,7 @@
         },
         {
             "name": "XKB's ua(phonetic) -- Ukrainian (phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(phonetic)",
-            "description": "Ukrainian (phonetic)",
             "language": [
                 "uk"
             ],
@@ -5839,9 +4887,7 @@
         },
         {
             "name": "XKB's ua(typewriter) -- Ukrainian (typewriter)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(typewriter)",
-            "description": "Ukrainian (typewriter)",
             "language": [
                 "uk"
             ],
@@ -5851,9 +4897,7 @@
         },
         {
             "name": "XKB's ua(winkeys) -- Ukrainian (Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(winkeys)",
-            "description": "Ukrainian (Win keys)",
             "language": [
                 "uk"
             ],
@@ -5863,9 +4907,7 @@
         },
         {
             "name": "XKB's ua(legacy) -- Ukrainian (legacy)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(legacy)",
-            "description": "Ukrainian (legacy)",
             "language": [
                 "uk"
             ],
@@ -5875,9 +4917,7 @@
         },
         {
             "name": "XKB's ua(rstu) -- Ukrainian (standard RSTU)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(rstu)",
-            "description": "Ukrainian (standard RSTU)",
             "language": [
                 "uk"
             ],
@@ -5887,9 +4927,7 @@
         },
         {
             "name": "XKB's ua(rstu_ru) -- Russian (Ukraine, standard RSTU)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(rstu_ru)",
-            "description": "Russian (Ukraine, standard RSTU)",
             "language": [
                 "uk"
             ],
@@ -5899,9 +4937,7 @@
         },
         {
             "name": "XKB's ua(homophonic) -- Ukrainian (homophonic)",
-            "type": "ime",
             "id": "all-xkb-layouts-ua(homophonic)",
-            "description": "Ukrainian (homophonic)",
             "language": [
                 "uk"
             ],
@@ -5911,9 +4947,7 @@
         },
         {
             "name": "XKB's gb -- English (UK)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb",
-            "description": "English (UK)",
             "language": [
                 "en"
             ],
@@ -5923,9 +4957,7 @@
         },
         {
             "name": "XKB's gb(extd) -- English (UK, extended, with Win keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(extd)",
-            "description": "English (UK, extended, with Win keys)",
             "language": [
                 "en"
             ],
@@ -5935,9 +4967,7 @@
         },
         {
             "name": "XKB's gb(intl) -- English (UK, intl., with dead keys)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(intl)",
-            "description": "English (UK, intl., with dead keys)",
             "language": [
                 "en"
             ],
@@ -5947,9 +4977,7 @@
         },
         {
             "name": "XKB's gb(dvorak) -- English (UK, Dvorak)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(dvorak)",
-            "description": "English (UK, Dvorak)",
             "language": [
                 "en"
             ],
@@ -5959,9 +4987,7 @@
         },
         {
             "name": "XKB's gb(dvorakukp) -- English (UK, Dvorak, with UK punctuation)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(dvorakukp)",
-            "description": "English (UK, Dvorak, with UK punctuation)",
             "language": [
                 "en"
             ],
@@ -5971,9 +4997,7 @@
         },
         {
             "name": "XKB's gb(mac) -- English (UK, Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(mac)",
-            "description": "English (UK, Macintosh)",
             "language": [
                 "en"
             ],
@@ -5983,9 +5007,7 @@
         },
         {
             "name": "XKB's gb(mac_intl) -- English (UK, intl., Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(mac_intl)",
-            "description": "English (UK, intl., Macintosh)",
             "language": [
                 "en"
             ],
@@ -5995,9 +5017,7 @@
         },
         {
             "name": "XKB's gb(colemak) -- English (UK, Colemak)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(colemak)",
-            "description": "English (UK, Colemak)",
             "language": [
                 "en"
             ],
@@ -6007,9 +5027,7 @@
         },
         {
             "name": "XKB's gb(pl) -- Polish (British keyboard)",
-            "type": "ime",
             "id": "all-xkb-layouts-gb(pl)",
-            "description": "Polish (British keyboard)",
             "language": [
                 "pl"
             ],
@@ -6019,9 +5037,7 @@
         },
         {
             "name": "XKB's uz -- Uzbek",
-            "type": "ime",
             "id": "all-xkb-layouts-uz",
-            "description": "Uzbek",
             "language": [
                 "uz"
             ],
@@ -6031,9 +5047,7 @@
         },
         {
             "name": "XKB's uz(latin) -- Uzbek (Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-uz(latin)",
-            "description": "Uzbek (Latin)",
             "language": [
                 "uz"
             ],
@@ -6043,9 +5057,7 @@
         },
         {
             "name": "XKB's vn -- Vietnamese",
-            "type": "ime",
             "id": "all-xkb-layouts-vn",
-            "description": "Vietnamese",
             "language": [
                 "vi"
             ],
@@ -6055,9 +5067,7 @@
         },
         {
             "name": "XKB's vn(us) -- Vietnamese (US, with Vietnamese letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-vn(us)",
-            "description": "Vietnamese (US, with Vietnamese letters)",
             "language": [
                 "vi"
             ],
@@ -6067,9 +5077,7 @@
         },
         {
             "name": "XKB's vn(fr) -- Vietnamese (French, with Vietnamese letters)",
-            "type": "ime",
             "id": "all-xkb-layouts-vn(fr)",
-            "description": "Vietnamese (French, with Vietnamese letters)",
             "language": [
                 "vi"
             ],
@@ -6079,9 +5087,7 @@
         },
         {
             "name": "XKB's kr -- Korean",
-            "type": "ime",
             "id": "all-xkb-layouts-kr",
-            "description": "Korean",
             "language": [
                 "ko"
             ],
@@ -6091,9 +5097,7 @@
         },
         {
             "name": "XKB's kr(kr104) -- Korean (101/104 key compatible)",
-            "type": "ime",
             "id": "all-xkb-layouts-kr(kr104)",
-            "description": "Korean (101/104 key compatible)",
             "language": [
                 "ko"
             ],
@@ -6103,9 +5107,7 @@
         },
         {
             "name": "XKB's nec_vndr/jp -- Japanese (PC-98)",
-            "type": "ime",
             "id": "all-xkb-layouts-nec_vndr/jp",
-            "description": "Japanese (PC-98)",
             "language": [
                 "ja"
             ],
@@ -6115,9 +5117,7 @@
         },
         {
             "name": "XKB's ie -- Irish",
-            "type": "ime",
             "id": "all-xkb-layouts-ie",
-            "description": "Irish",
             "language": [
                 "en"
             ],
@@ -6127,9 +5127,7 @@
         },
         {
             "name": "XKB's ie(CloGaelach) -- CloGaelach",
-            "type": "ime",
             "id": "all-xkb-layouts-ie(CloGaelach)",
-            "description": "CloGaelach",
             "language": [
                 "ga"
             ],
@@ -6139,9 +5137,7 @@
         },
         {
             "name": "XKB's ie(UnicodeExpert) -- Irish (UnicodeExpert)",
-            "type": "ime",
             "id": "all-xkb-layouts-ie(UnicodeExpert)",
-            "description": "Irish (UnicodeExpert)",
             "language": [
                 "en"
             ],
@@ -6151,9 +5147,7 @@
         },
         {
             "name": "XKB's ie(ogam) -- Ogham",
-            "type": "ime",
             "id": "all-xkb-layouts-ie(ogam)",
-            "description": "Ogham",
             "language": [
                 "sga"
             ],
@@ -6163,9 +5157,7 @@
         },
         {
             "name": "XKB's ie(ogam_is434) -- Ogham (IS434)",
-            "type": "ime",
             "id": "all-xkb-layouts-ie(ogam_is434)",
-            "description": "Ogham (IS434)",
             "language": [
                 "sga"
             ],
@@ -6175,9 +5167,7 @@
         },
         {
             "name": "XKB's pk -- Urdu (Pakistan)",
-            "type": "ime",
             "id": "all-xkb-layouts-pk",
-            "description": "Urdu (Pakistan)",
             "language": [
                 "ur"
             ],
@@ -6187,9 +5177,7 @@
         },
         {
             "name": "XKB's pk(urd-crulp) -- Urdu (Pakistan, CRULP)",
-            "type": "ime",
             "id": "all-xkb-layouts-pk(urd-crulp)",
-            "description": "Urdu (Pakistan, CRULP)",
             "language": [
                 "ur"
             ],
@@ -6199,9 +5187,7 @@
         },
         {
             "name": "XKB's pk(urd-nla) -- Urdu (Pakistan, NLA)",
-            "type": "ime",
             "id": "all-xkb-layouts-pk(urd-nla)",
-            "description": "Urdu (Pakistan, NLA)",
             "language": [
                 "ur"
             ],
@@ -6211,9 +5197,7 @@
         },
         {
             "name": "XKB's pk(ara) -- Arabic (Pakistan)",
-            "type": "ime",
             "id": "all-xkb-layouts-pk(ara)",
-            "description": "Arabic (Pakistan)",
             "language": [
                 "ar"
             ],
@@ -6223,9 +5207,7 @@
         },
         {
             "name": "XKB's pk(snd) -- Sindhi",
-            "type": "ime",
             "id": "all-xkb-layouts-pk(snd)",
-            "description": "Sindhi",
             "language": [
                 "sd"
             ],
@@ -6235,9 +5217,7 @@
         },
         {
             "name": "XKB's mv -- Dhivehi",
-            "type": "ime",
             "id": "all-xkb-layouts-mv",
-            "description": "Dhivehi",
             "language": [
                 "dv"
             ],
@@ -6247,9 +5227,7 @@
         },
         {
             "name": "XKB's za -- English (South Africa)",
-            "type": "ime",
             "id": "all-xkb-layouts-za",
-            "description": "English (South Africa)",
             "language": [
                 "en"
             ],
@@ -6259,9 +5237,7 @@
         },
         {
             "name": "XKB's epo -- Esperanto",
-            "type": "ime",
             "id": "all-xkb-layouts-epo",
-            "description": "Esperanto",
             "language": [
                 "eo"
             ],
@@ -6271,9 +5247,7 @@
         },
         {
             "name": "XKB's epo(legacy) -- Esperanto (displaced semicolon and quote, obsolete)",
-            "type": "ime",
             "id": "all-xkb-layouts-epo(legacy)",
-            "description": "Esperanto (displaced semicolon and quote, obsolete)",
             "language": [
                 "eo"
             ],
@@ -6283,9 +5257,7 @@
         },
         {
             "name": "XKB's np -- Nepali",
-            "type": "ime",
             "id": "all-xkb-layouts-np",
-            "description": "Nepali",
             "language": [
                 "ne",
                 "sat"
@@ -6296,9 +5268,7 @@
         },
         {
             "name": "XKB's ng -- English (Nigeria)",
-            "type": "ime",
             "id": "all-xkb-layouts-ng",
-            "description": "English (Nigeria)",
             "language": [
                 "en"
             ],
@@ -6308,9 +5278,7 @@
         },
         {
             "name": "XKB's ng(igbo) -- Igbo",
-            "type": "ime",
             "id": "all-xkb-layouts-ng(igbo)",
-            "description": "Igbo",
             "language": [
                 "ig"
             ],
@@ -6320,9 +5288,7 @@
         },
         {
             "name": "XKB's ng(yoruba) -- Yoruba",
-            "type": "ime",
             "id": "all-xkb-layouts-ng(yoruba)",
-            "description": "Yoruba",
             "language": [
                 "yo"
             ],
@@ -6332,9 +5298,7 @@
         },
         {
             "name": "XKB's ng(hausa) -- Hausa (Nigeria)",
-            "type": "ime",
             "id": "all-xkb-layouts-ng(hausa)",
-            "description": "Hausa (Nigeria)",
             "language": [
                 "ha"
             ],
@@ -6344,9 +5308,7 @@
         },
         {
             "name": "XKB's et -- Amharic",
-            "type": "ime",
             "id": "all-xkb-layouts-et",
-            "description": "Amharic",
             "language": [
                 "am"
             ],
@@ -6356,9 +5318,7 @@
         },
         {
             "name": "XKB's sn -- Wolof",
-            "type": "ime",
             "id": "all-xkb-layouts-sn",
-            "description": "Wolof",
             "language": [
                 "wo"
             ],
@@ -6368,54 +5328,42 @@
         },
         {
             "name": "XKB's brai -- Braille",
-            "type": "ime",
             "id": "all-xkb-layouts-brai",
-            "description": "Braille",
             "layouts": [
                 "brai"
             ]
         },
         {
             "name": "XKB's brai(left_hand) -- Braille (left-handed)",
-            "type": "ime",
             "id": "all-xkb-layouts-brai(left_hand)",
-            "description": "Braille (left-handed)",
             "layouts": [
                 "brai(left_hand)"
             ]
         },
         {
             "name": "XKB's brai(left_hand_invert) -- Braille (left-handed inverted thumb)",
-            "type": "ime",
             "id": "all-xkb-layouts-brai(left_hand_invert)",
-            "description": "Braille (left-handed inverted thumb)",
             "layouts": [
                 "brai(left_hand_invert)"
             ]
         },
         {
             "name": "XKB's brai(right_hand) -- Braille (right-handed)",
-            "type": "ime",
             "id": "all-xkb-layouts-brai(right_hand)",
-            "description": "Braille (right-handed)",
             "layouts": [
                 "brai(right_hand)"
             ]
         },
         {
             "name": "XKB's brai(right_hand_invert) -- Braille (right-handed inverted thumb)",
-            "type": "ime",
             "id": "all-xkb-layouts-brai(right_hand_invert)",
-            "description": "Braille (right-handed inverted thumb)",
             "layouts": [
                 "brai(right_hand_invert)"
             ]
         },
         {
             "name": "XKB's tm -- Turkmen",
-            "type": "ime",
             "id": "all-xkb-layouts-tm",
-            "description": "Turkmen",
             "language": [
                 "tk"
             ],
@@ -6425,9 +5373,7 @@
         },
         {
             "name": "XKB's tm(alt) -- Turkmen (Alt-Q)",
-            "type": "ime",
             "id": "all-xkb-layouts-tm(alt)",
-            "description": "Turkmen (Alt-Q)",
             "language": [
                 "tk"
             ],
@@ -6437,9 +5383,7 @@
         },
         {
             "name": "XKB's ml -- Bambara",
-            "type": "ime",
             "id": "all-xkb-layouts-ml",
-            "description": "Bambara",
             "language": [
                 "bm"
             ],
@@ -6449,9 +5393,7 @@
         },
         {
             "name": "XKB's ml(fr-oss) -- French (Mali, alt.)",
-            "type": "ime",
             "id": "all-xkb-layouts-ml(fr-oss)",
-            "description": "French (Mali, alt.)",
             "language": [
                 "fr"
             ],
@@ -6461,9 +5403,7 @@
         },
         {
             "name": "XKB's ml(us-mac) -- English (Mali, US, Macintosh)",
-            "type": "ime",
             "id": "all-xkb-layouts-ml(us-mac)",
-            "description": "English (Mali, US, Macintosh)",
             "language": [
                 "en"
             ],
@@ -6473,9 +5413,7 @@
         },
         {
             "name": "XKB's ml(us-intl) -- English (Mali, US, intl.)",
-            "type": "ime",
             "id": "all-xkb-layouts-ml(us-intl)",
-            "description": "English (Mali, US, intl.)",
             "language": [
                 "en"
             ],
@@ -6485,9 +5423,7 @@
         },
         {
             "name": "XKB's tz -- Swahili (Tanzania)",
-            "type": "ime",
             "id": "all-xkb-layouts-tz",
-            "description": "Swahili (Tanzania)",
             "language": [
                 "sw"
             ],
@@ -6497,9 +5433,7 @@
         },
         {
             "name": "XKB's tg -- French (Togo)",
-            "type": "ime",
             "id": "all-xkb-layouts-tg",
-            "description": "French (Togo)",
             "language": [
                 "fr",
                 "ajg",
@@ -6526,9 +5460,7 @@
         },
         {
             "name": "XKB's ke -- Swahili (Kenya)",
-            "type": "ime",
             "id": "all-xkb-layouts-ke",
-            "description": "Swahili (Kenya)",
             "language": [
                 "sw"
             ],
@@ -6538,9 +5470,7 @@
         },
         {
             "name": "XKB's ke(kik) -- Kikuyu",
-            "type": "ime",
             "id": "all-xkb-layouts-ke(kik)",
-            "description": "Kikuyu",
             "language": [
                 "ki"
             ],
@@ -6550,9 +5480,7 @@
         },
         {
             "name": "XKB's bw -- Tswana",
-            "type": "ime",
             "id": "all-xkb-layouts-bw",
-            "description": "Tswana",
             "language": [
                 "tn"
             ],
@@ -6562,9 +5490,7 @@
         },
         {
             "name": "XKB's ph -- Filipino",
-            "type": "ime",
             "id": "all-xkb-layouts-ph",
-            "description": "Filipino",
             "language": [
                 "en",
                 "bik",
@@ -6584,9 +5510,7 @@
         },
         {
             "name": "XKB's ph(qwerty-bay) -- Filipino (QWERTY, Baybayin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(qwerty-bay)",
-            "description": "Filipino (QWERTY, Baybayin)",
             "language": [
                 "bik",
                 "ceb",
@@ -6605,9 +5529,7 @@
         },
         {
             "name": "XKB's ph(capewell-dvorak) -- Filipino (Capewell-Dvorak, Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(capewell-dvorak)",
-            "description": "Filipino (Capewell-Dvorak, Latin)",
             "language": [
                 "en",
                 "bik",
@@ -6627,9 +5549,7 @@
         },
         {
             "name": "XKB's ph(capewell-dvorak-bay) -- Filipino (Capewell-Dvorak, Baybayin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(capewell-dvorak-bay)",
-            "description": "Filipino (Capewell-Dvorak, Baybayin)",
             "language": [
                 "bik",
                 "ceb",
@@ -6648,9 +5568,7 @@
         },
         {
             "name": "XKB's ph(capewell-qwerf2k6) -- Filipino (Capewell-QWERF 2006, Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(capewell-qwerf2k6)",
-            "description": "Filipino (Capewell-QWERF 2006, Latin)",
             "language": [
                 "en",
                 "bik",
@@ -6670,9 +5588,7 @@
         },
         {
             "name": "XKB's ph(capewell-qwerf2k6-bay) -- Filipino (Capewell-QWERF 2006, Baybayin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(capewell-qwerf2k6-bay)",
-            "description": "Filipino (Capewell-QWERF 2006, Baybayin)",
             "language": [
                 "bik",
                 "ceb",
@@ -6691,9 +5607,7 @@
         },
         {
             "name": "XKB's ph(colemak) -- Filipino (Colemak, Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(colemak)",
-            "description": "Filipino (Colemak, Latin)",
             "language": [
                 "en",
                 "bik",
@@ -6713,9 +5627,7 @@
         },
         {
             "name": "XKB's ph(colemak-bay) -- Filipino (Colemak, Baybayin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(colemak-bay)",
-            "description": "Filipino (Colemak, Baybayin)",
             "language": [
                 "bik",
                 "ceb",
@@ -6734,9 +5646,7 @@
         },
         {
             "name": "XKB's ph(dvorak) -- Filipino (Dvorak, Latin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(dvorak)",
-            "description": "Filipino (Dvorak, Latin)",
             "language": [
                 "en",
                 "bik",
@@ -6756,9 +5666,7 @@
         },
         {
             "name": "XKB's ph(dvorak-bay) -- Filipino (Dvorak, Baybayin)",
-            "type": "ime",
             "id": "all-xkb-layouts-ph(dvorak-bay)",
-            "description": "Filipino (Dvorak, Baybayin)",
             "language": [
                 "bik",
                 "ceb",
@@ -6777,9 +5685,7 @@
         },
         {
             "name": "XKB's md -- Moldavian",
-            "type": "ime",
             "id": "all-xkb-layouts-md",
-            "description": "Moldavian",
             "language": [
                 "ro"
             ],
@@ -6789,9 +5695,7 @@
         },
         {
             "name": "XKB's md(gag) -- Moldavian (Gagauz)",
-            "type": "ime",
             "id": "all-xkb-layouts-md(gag)",
-            "description": "Moldavian (Gagauz)",
             "language": [
                 "gag"
             ],
@@ -6801,9 +5705,7 @@
         },
         {
             "name": "XKB's id -- Indonesian (Jawi)",
-            "type": "ime",
             "id": "all-xkb-layouts-id",
-            "description": "Indonesian (Jawi)",
             "language": [
                 "id",
                 "ms",
@@ -6819,9 +5721,7 @@
         },
         {
             "name": "XKB's my -- Malay (Jawi, Arabic Keyboard)",
-            "type": "ime",
             "id": "all-xkb-layouts-my",
-            "description": "Malay (Jawi, Arabic Keyboard)",
             "language": [
                 "id",
                 "ms",
@@ -6837,9 +5737,7 @@
         },
         {
             "name": "XKB's my(phonetic) -- Malay (Jawi, phonetic)",
-            "type": "ime",
             "id": "all-xkb-layouts-my(phonetic)",
-            "description": "Malay (Jawi, phonetic)",
             "language": [
                 "id",
                 "ms",
