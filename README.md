@@ -12,10 +12,14 @@ There are charts grouped by language at https://hickford.github.io/xkb_ldml/layo
 
 ## Developer instructions
 
-    # Download XKB configuration as shipped in Chrome OS 
-    http --download https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.27/rules/base.xml
-    # Generate extension manifest
-    python3 generate.py base.xml
+1. Check [xkeyboard-config version in Chrome OS](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/x11-misc/xkeyboard-config/) remains 2.27.
+2. Download [base.xml at version 2.27](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27/rules/base.xml):
+
+       http --download https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.27/rules/base.xml
+
+3. Generate extension manifest:
+
+       python3 generate.py base.xml
 
 ## See also
 
