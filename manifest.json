@@ -216,6 +216,9 @@
         {
             "name": "XKB's af -- Afghani",
             "id": "all-xkb-layouts-af",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "af"
             ]
@@ -253,6 +256,9 @@
         {
             "name": "XKB's af(fa-olpc) -- Persian (Afghanistan, Dari OLPC)",
             "id": "all-xkb-layouts-af(fa-olpc)",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "af(fa-olpc)"
             ]
@@ -658,6 +664,9 @@
         {
             "name": "XKB's in -- Indian",
             "id": "all-xkb-layouts-in",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "in"
             ]
@@ -1182,6 +1191,9 @@
         {
             "name": "XKB's dz -- Berber (Algeria, Latin)",
             "id": "all-xkb-layouts-dz",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "dz"
             ]
@@ -1209,6 +1221,9 @@
         {
             "name": "XKB's ma -- Arabic (Morocco)",
             "id": "all-xkb-layouts-ma",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "ma"
             ]
@@ -5329,6 +5344,9 @@
         {
             "name": "XKB's brai -- Braille",
             "id": "all-xkb-layouts-brai",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "brai"
             ]
@@ -5336,6 +5354,9 @@
         {
             "name": "XKB's brai(left_hand) -- Braille (left-handed)",
             "id": "all-xkb-layouts-brai(left_hand)",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "brai(left_hand)"
             ]
@@ -5343,6 +5364,9 @@
         {
             "name": "XKB's brai(left_hand_invert) -- Braille (left-handed inverted thumb)",
             "id": "all-xkb-layouts-brai(left_hand_invert)",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "brai(left_hand_invert)"
             ]
@@ -5350,6 +5374,9 @@
         {
             "name": "XKB's brai(right_hand) -- Braille (right-handed)",
             "id": "all-xkb-layouts-brai(right_hand)",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "brai(right_hand)"
             ]
@@ -5357,6 +5384,9 @@
         {
             "name": "XKB's brai(right_hand_invert) -- Braille (right-handed inverted thumb)",
             "id": "all-xkb-layouts-brai(right_hand_invert)",
+            "language": [
+                "??"
+            ],
             "layouts": [
                 "brai(right_hand_invert)"
             ]

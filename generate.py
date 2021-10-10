@@ -1,9 +1,6 @@
 from lxml import etree
 import sys, json
 
-# Chrome OS uses base.xml from xkeyboard-config 2.27
-# https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/x11-misc/xkeyboard-config/
-# https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27/rules/base.xml
 evdev_path = sys.argv[1] if len(sys.argv) > 1 else "/usr/share/X11/xkb/rules/evdev.xml"
 
 evdev = etree.parse(evdev_path)
@@ -51,6 +48,9 @@ def append_input_component(details: LayoutDetails):
     if details.languages:
         # languages = [f"{language}-{country}" for country in details.countries for language in details.languages] if details.countries else details.languages
         obj['language']=[langcodes.standardize_tag(language) for language in details.languages] # multiple allowed
+    else:
+        # necessary otherwise switching to layoyut will crash Chrome OS
+        obj['language']=['??']
     obj['layouts']=[details.xkb_name()] # list of one
     manifest['input_components'].append(obj)
 
