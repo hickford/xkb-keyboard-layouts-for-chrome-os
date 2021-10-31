@@ -16,19 +16,23 @@ from typing import List, NamedTuple, Optional
 class ConfigItemDetails(NamedTuple):
     """Details from a single configItem element"""
     name: str
-    shortDescription: Optional[str]
+    brief: Optional[str]
     description: Optional[str]
-    countries: Optional[List[str]]
-    languages: Optional[List[str]]
+    """Countries"""
+    iso3166: Optional[List[str]]
+    """Languages"""
+    iso639: Optional[List[str]]
 
 class LayoutDetails(NamedTuple):
     """Details combining layout and optional variant"""
     layout: str
     variant: Optional[str]
-    shortDescription: Optional[str]
+    brief: Optional[str]
     description: Optional[str]
-    countries: Optional[List[str]]
-    languages: Optional[List[str]]
+    """Countries"""
+    iso3166: Optional[List[str]]
+    """Languages"""
+    iso639: Optional[List[str]]
 
     def xkb_name(self) -> str:
         return f"{self.layout}({self.variant})" if self.variant else self.layout
@@ -36,8 +40,8 @@ class LayoutDetails(NamedTuple):
 
 def merge(parent : ConfigItemDetails, variant : Optional[ConfigItemDetails]) -> LayoutDetails:
     if not variant:
-        return LayoutDetails(layout = parent.name, variant=None, shortDescription = parent.shortDescription, description = parent.description, countries = parent.countries, languages = parent.languages)
-    return LayoutDetails(layout=parent.name, variant=variant.name, shortDescription = variant.shortDescription, description=variant.description, countries=variant.countries if variant.countries != None else parent.countries, languages = variant.languages if variant.languages != None else parent.languages)
+        return LayoutDetails(layout = parent.name, variant=None, brief = parent.brief, description = parent.description, iso3166 = parent.iso3166, iso639 = parent.iso639)
+    return LayoutDetails(layout=parent.name, variant=variant.name, brief = variant.brief, description=variant.description, iso3166=variant.iso3166 if variant.iso3166 != None else parent.iso3166, iso639 = variant.iso639 if variant.iso639 != None else parent.iso639)
 
 import langcodes
 
@@ -45,9 +49,9 @@ def append_input_component(details: LayoutDetails):
     obj = dict()
     obj['name']= f"XKB's {details.xkb_name()} -- {details.description}"
     obj['id']="all-xkb-layouts-" + details.xkb_name()
-    if details.languages:
+    if details.iso639:
         # languages = [f"{language}-{country}" for country in details.countries for language in details.languages] if details.countries else details.languages
-        obj['language']=[langcodes.standardize_tag(language) for language in details.languages] # multiple allowed
+        obj['language']=[langcodes.standardize_tag(language) for language in details.iso639] # multiple allowed
     else:
         # necessary otherwise switching to layoyut will crash Chrome OS
         obj['language']=['??']
@@ -59,9 +63,9 @@ def get_config_details(configItem) -> ConfigItemDetails:
     name = configItem.find('name').text
     shortDescription = configItem.find('shortDescription').text if configItem.find('shortDescription') is not None else None
     description = configItem.find('description').text if configItem.find('description') is not None else None
-    countries = [x.text for x in configItem.findall('countryList/iso3166Id')] if configItem.find('countryList') is not None else None
-    languages = [x.text for x in configItem.findall('languageList/iso639Id')] if configItem.find('languageList') is not None else None
-    return ConfigItemDetails(name, shortDescription, description, countries, languages)
+    iso3166 = [x.text for x in configItem.findall('countryList/iso3166Id')] if configItem.find('countryList') is not None else None
+    iso639 = [x.text for x in configItem.findall('languageList/iso639Id')] if configItem.find('languageList') is not None else None
+    return ConfigItemDetails(name=name, brief=shortDescription, description=description, iso3166=iso3166, iso639=iso639)
 
 
 for layout in evdev.findall('layoutList/layout'):
