@@ -1,9 +1,6 @@
 from lxml import etree
 import sys, json
 
-evdev_path = sys.argv[1] if len(sys.argv) > 1 else "/usr/share/X11/xkb/rules/evdev.xml"
-
-evdev = etree.parse(evdev_path)
 manifest = dict() # https://developer.chrome.com/docs/extensions/mv3/manifest/
 manifest['manifest_version'] = 3
 manifest['name'] = 'XKB keyboard layouts for Chrome OS'
@@ -67,12 +64,17 @@ def get_config_details(configItem) -> ConfigItemDetails:
     iso639 = [x.text for x in configItem.findall('languageList/iso639Id')] if configItem.find('languageList') is not None else None
     return ConfigItemDetails(name=name, brief=shortDescription, description=description, iso3166=iso3166, iso639=iso639)
 
+def layouts_from_xml_path(path: str) -> List[LayoutDetails]:
+    evdev = etree.parse(path)
+    for layout in evdev.findall('layoutList/layout'):
+        parent = get_config_details(layout.find('configItem'))
+        yield merge(parent, None)
+        for variant in layout.findall('variantList/variant/configItem'):
+            yield merge(parent, get_config_details(variant))
 
-for layout in evdev.findall('layoutList/layout'):
-    parent = get_config_details(layout.find('configItem'))
-    append_input_component(merge(parent, None))
-    for variant in layout.findall('variantList/variant/configItem'):
-        append_input_component(merge(parent, get_config_details(variant)))
+evdev_path = sys.argv[1] if len(sys.argv) > 1 else "/usr/share/X11/xkb/rules/evdev.xml"
+for layout in layouts_from_xml_path(evdev_path):
+    append_input_component(layout)
 
 with open('manifest.json', 'w') as f:
     json.dump(manifest, f, indent=4)
