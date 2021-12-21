@@ -4,7 +4,7 @@ import sys, json
 manifest = dict() # https://developer.chrome.com/docs/extensions/mv3/manifest/
 manifest['manifest_version'] = 3
 manifest['name'] = 'XKB keyboard layouts for Chrome OS'
-manifest['version'] = '0.0.7'
+manifest['version'] = '0.0.8'
 manifest['description'] = "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS."
 manifest['icons'] = {'128' : 'icon128.png'}
 manifest['input_components'] = list()
@@ -76,10 +76,11 @@ def layouts_from_yaml_path(path: str) -> List[LayoutDetails]:
     import ruamel.yaml
     return [LayoutDetails(**layout) for layout in ruamel.yaml.safe_load(open(path))['layouts']]
 
-path = sys.argv[1] if len(sys.argv) > 1 else "/usr/share/X11/xkb/rules/evdev.xml"
-layouts = layouts_from_yaml_path(path) if path.endswith(".yaml") else layouts_from_xml_path(path)
-for layout in layouts:
-    append_input_component(layout)
+paths = sys.argv[1:] or ["/usr/share/X11/xkb/rules/evdev.xml"]
+for path in paths:
+    layouts = layouts_from_yaml_path(path) if path.endswith(".yaml") else layouts_from_xml_path(path)
+    for layout in layouts:
+        append_input_component(layout)
 
 with open('manifest.json', 'w') as f:
     json.dump(manifest, f, indent=4)

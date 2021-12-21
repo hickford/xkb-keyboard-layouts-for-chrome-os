@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "XKB keyboard layouts for Chrome OS",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS.",
     "icons": {
         "128": "icon128.png"
@@ -1344,7 +1344,7 @@
                 "dua",
                 "anv",
                 "bum",
-                "btb",
+                "beb",
                 "bfd",
                 "azo",
                 "ken",
@@ -1382,7 +1382,7 @@
                 "dua",
                 "anv",
                 "bum",
-                "btb",
+                "beb",
                 "bfd",
                 "azo",
                 "ken",
@@ -3539,7 +3539,7 @@
             "name": "XKB's no -- Norwegian",
             "id": "all-xkb-layouts-no",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -3551,7 +3551,7 @@
             "name": "XKB's no(nodeadkeys) -- Norwegian (no dead keys)",
             "id": "all-xkb-layouts-no(nodeadkeys)",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -3563,7 +3563,7 @@
             "name": "XKB's no(winkeys) -- Norwegian (Win keys)",
             "id": "all-xkb-layouts-no(winkeys)",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -3575,7 +3575,7 @@
             "name": "XKB's no(dvorak) -- Norwegian (Dvorak)",
             "id": "all-xkb-layouts-no(dvorak)",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -3607,7 +3607,7 @@
             "name": "XKB's no(mac) -- Norwegian (Macintosh)",
             "id": "all-xkb-layouts-no(mac)",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -3619,7 +3619,7 @@
             "name": "XKB's no(mac_nodeadkeys) -- Norwegian (Macintosh, no dead keys)",
             "id": "all-xkb-layouts-no(mac_nodeadkeys)",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -3631,7 +3631,7 @@
             "name": "XKB's no(colemak) -- Norwegian (Colemak)",
             "id": "all-xkb-layouts-no(colemak)",
             "language": [
-                "nb",
+                "no",
                 "nb",
                 "nn"
             ],
@@ -4856,7 +4856,7 @@
                 "pwn",
                 "pyu",
                 "dru",
-                "ais",
+                "ami",
                 "ssf",
                 "tao",
                 "tsu",
