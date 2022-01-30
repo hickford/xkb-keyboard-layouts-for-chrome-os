@@ -1,7 +1,7 @@
 from lxml import etree
 import sys, json
 
-manifest = dict() # https://developer.chrome.com/docs/extensions/mv3/manifest/
+manifest = dict[str, object]() # https://developer.chrome.com/docs/extensions/mv3/manifest/
 manifest['manifest_version'] = 3
 manifest['name'] = 'XKB keyboard layouts for Chrome OS'
 manifest['version'] = '0.0.9'
@@ -9,16 +9,16 @@ manifest['description'] = "500+ keyboard layouts for Chrome OS. This extension m
 manifest['icons'] = {'128' : 'icon128.png'}
 manifest['input_components'] = list()
 
-from typing import List, NamedTuple, Optional
+from typing import Iterator, NamedTuple, Optional
 class ConfigItemDetails(NamedTuple):
     """Details from a single configItem xml element"""
     name: str
     shortDescription: Optional[str]
     description: Optional[str]
     """Countries"""
-    iso3166: Optional[List[str]]
+    iso3166: Optional[list[str]]
     """Languages"""
-    iso639: Optional[List[str]]
+    iso639: Optional[list[str]]
 
 class LayoutDetails(NamedTuple):
     """Details combining layout and optional variant"""
@@ -27,9 +27,9 @@ class LayoutDetails(NamedTuple):
     brief: Optional[str]
     description: Optional[str]
     """Countries"""
-    iso3166: Optional[List[str]]
+    iso3166: Optional[list[str]]
     """Languages"""
-    iso639: Optional[List[str]]
+    iso639: Optional[list[str]]
 
     def xkb_name(self) -> str:
         return f"{self.layout}({self.variant})" if self.variant else self.layout
@@ -43,7 +43,7 @@ def merge(parent : ConfigItemDetails, variant : Optional[ConfigItemDetails]) -> 
 import langcodes
 
 def append_input_component(details: LayoutDetails):
-    obj = dict()
+    obj = dict[str, object]()
     obj['name']= f"XKB's {details.xkb_name()} -- {details.description}"
     obj['id']="all-xkb-layouts-" + details.xkb_name()
     if details.iso639:
@@ -64,7 +64,7 @@ def get_config_details(configItem) -> ConfigItemDetails:
     iso639 = [x.text for x in configItem.findall('languageList/iso639Id')] if configItem.find('languageList') is not None else None
     return ConfigItemDetails(name=name, shortDescription=shortDescription, description=description, iso3166=iso3166, iso639=iso639)
 
-def layouts_from_xml_path(path: str) -> List[LayoutDetails]:
+def layouts_from_xml_path(path: str) -> Iterator[LayoutDetails]:
     evdev = etree.parse(path)
     for layout in evdev.findall('layoutList/layout'):
         parent = get_config_details(layout.find('configItem'))
@@ -72,7 +72,7 @@ def layouts_from_xml_path(path: str) -> List[LayoutDetails]:
         for variant in layout.findall('variantList/variant/configItem'):
             yield merge(parent, get_config_details(variant))
 
-def layouts_from_yaml_path(path: str) -> List[LayoutDetails]:
+def layouts_from_yaml_path(path: str) -> list[LayoutDetails]:
     import ruamel.yaml
     return [LayoutDetails(**layout) for layout in ruamel.yaml.safe_load(open(path))['layouts']]
 
