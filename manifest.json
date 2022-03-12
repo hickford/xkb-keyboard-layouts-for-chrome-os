@@ -161,9 +161,7 @@
             "name": "XKB's us(altgr-intl) -- English (intl., with AltGr dead keys)",
             "id": "all-xkb-layouts-us(altgr-intl)",
             "language": [
-                "en",
-                "fr",
-                "de"
+                "en"
             ],
             "layouts": [
                 "us(altgr-intl)"
@@ -183,11 +181,7 @@
             "name": "XKB's us(hbs) -- Serbo-Croatian (US)",
             "id": "all-xkb-layouts-us(hbs)",
             "language": [
-                "en",
-                "bs",
-                "sr-Latn",
-                "hr",
-                "sr"
+                "en"
             ],
             "layouts": [
                 "us(hbs)"
@@ -547,9 +541,7 @@
             "name": "XKB's be -- Belgian",
             "id": "all-xkb-layouts-be",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be"
@@ -559,9 +551,7 @@
             "name": "XKB's be(oss) -- Belgian (alt.)",
             "id": "all-xkb-layouts-be(oss)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(oss)"
@@ -571,9 +561,7 @@
             "name": "XKB's be(oss_latin9) -- Belgian (alt., Latin-9 only)",
             "id": "all-xkb-layouts-be(oss_latin9)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(oss_latin9)"
@@ -583,9 +571,7 @@
             "name": "XKB's be(oss_sundeadkeys) -- Belgian (alt., with Sun dead keys)",
             "id": "all-xkb-layouts-be(oss_sundeadkeys)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(oss_sundeadkeys)"
@@ -595,9 +581,7 @@
             "name": "XKB's be(iso-alternate) -- Belgian (alt. ISO)",
             "id": "all-xkb-layouts-be(iso-alternate)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(iso-alternate)"
@@ -607,9 +591,7 @@
             "name": "XKB's be(nodeadkeys) -- Belgian (no dead keys)",
             "id": "all-xkb-layouts-be(nodeadkeys)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(nodeadkeys)"
@@ -619,9 +601,7 @@
             "name": "XKB's be(sundeadkeys) -- Belgian (with Sun dead keys)",
             "id": "all-xkb-layouts-be(sundeadkeys)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(sundeadkeys)"
@@ -631,9 +611,7 @@
             "name": "XKB's be(wang) -- Belgian (Wang 724 AZERTY)",
             "id": "all-xkb-layouts-be(wang)",
             "language": [
-                "de",
-                "nl",
-                "fr"
+                "de"
             ],
             "layouts": [
                 "be(wang)"
@@ -643,8 +621,7 @@
             "name": "XKB's bd -- Bangla",
             "id": "all-xkb-layouts-bd",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "bd"
@@ -654,8 +631,7 @@
             "name": "XKB's bd(probhat) -- Bangla (Probhat)",
             "id": "all-xkb-layouts-bd(probhat)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "bd(probhat)"
@@ -675,8 +651,7 @@
             "name": "XKB's in(ben) -- Bangla (India)",
             "id": "all-xkb-layouts-in(ben)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "in(ben)"
@@ -686,8 +661,7 @@
             "name": "XKB's in(ben_probhat) -- Bangla (India, Probhat)",
             "id": "all-xkb-layouts-in(ben_probhat)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "in(ben_probhat)"
@@ -697,8 +671,7 @@
             "name": "XKB's in(ben_baishakhi) -- Bangla (India, Baishakhi)",
             "id": "all-xkb-layouts-in(ben_baishakhi)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "in(ben_baishakhi)"
@@ -708,8 +681,7 @@
             "name": "XKB's in(ben_bornona) -- Bangla (India, Bornona)",
             "id": "all-xkb-layouts-in(ben_bornona)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "in(ben_bornona)"
@@ -719,8 +691,7 @@
             "name": "XKB's in(ben_gitanjali) -- Bangla (India, Uni Gitanjali)",
             "id": "all-xkb-layouts-in(ben_gitanjali)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "in(ben_gitanjali)"
@@ -730,8 +701,7 @@
             "name": "XKB's in(ben_inscript) -- Bangla (India, Baishakhi Inscript)",
             "id": "all-xkb-layouts-in(ben_inscript)",
             "language": [
-                "bn",
-                "sat"
+                "bn"
             ],
             "layouts": [
                 "in(ben_inscript)"
@@ -841,8 +811,7 @@
             "name": "XKB's in(ori) -- Oriya",
             "id": "all-xkb-layouts-in(ori)",
             "language": [
-                "or",
-                "sat"
+                "or"
             ],
             "layouts": [
                 "in(ori)"
@@ -1322,35 +1291,7 @@
             "name": "XKB's cm(qwerty) -- Cameroon Multilingual (QWERTY)",
             "id": "all-xkb-layouts-cm(qwerty)",
             "language": [
-                "en",
-                "bas",
-                "nmg",
-                "fub",
-                "ewo",
-                "xmd",
-                "mfh",
-                "bkm",
-                "ozm",
-                "lns",
-                "sox",
-                "pny",
-                "wes",
-                "lem",
-                "nyj",
-                "mfk",
-                "mcp",
-                "ass",
-                "xed",
-                "dua",
-                "anv",
-                "bum",
-                "beb",
-                "bfd",
-                "azo",
-                "ken",
-                "yam",
-                "yat",
-                "yas"
+                "en"
             ],
             "layouts": [
                 "cm(qwerty)"
@@ -1360,35 +1301,7 @@
             "name": "XKB's cm(azerty) -- Cameroon Multilingual (AZERTY)",
             "id": "all-xkb-layouts-cm(azerty)",
             "language": [
-                "fr",
-                "bas",
-                "nmg",
-                "fub",
-                "ewo",
-                "xmd",
-                "mfh",
-                "bkm",
-                "ozm",
-                "lns",
-                "sox",
-                "pny",
-                "wes",
-                "lem",
-                "nyj",
-                "mfk",
-                "mcp",
-                "ass",
-                "xed",
-                "dua",
-                "anv",
-                "bum",
-                "beb",
-                "bfd",
-                "azo",
-                "ken",
-                "yam",
-                "yat",
-                "yas"
+                "fr"
             ],
             "layouts": [
                 "cm(azerty)"
@@ -1908,8 +1821,7 @@
             "name": "XKB's iq -- Iraqi",
             "id": "all-xkb-layouts-iq",
             "language": [
-                "ar",
-                "ku"
+                "ar"
             ],
             "layouts": [
                 "iq"
@@ -2529,7 +2441,7 @@
             "name": "XKB's de(tr) -- Turkish (Germany)",
             "id": "all-xkb-layouts-de(tr)",
             "language": [
-                "tr"
+                "??"
             ],
             "layouts": [
                 "de(tr)"
@@ -2979,14 +2891,7 @@
             "name": "XKB's it(intl) -- Italian (intl., with dead keys)",
             "id": "all-xkb-layouts-it(intl)",
             "language": [
-                "de",
-                "fr",
-                "it",
-                "sk",
-                "sc",
-                "nap",
-                "scn",
-                "fur"
+                "de"
             ],
             "layouts": [
                 "it(intl)"
@@ -2996,8 +2901,7 @@
             "name": "XKB's it(scn) -- Sicilian",
             "id": "all-xkb-layouts-it(scn)",
             "language": [
-                "it",
-                "scn"
+                "it"
             ],
             "layouts": [
                 "it(scn)"
@@ -3117,8 +3021,7 @@
             "name": "XKB's kz(ruskaz) -- Russian (Kazakhstan, with Kazakh)",
             "id": "all-xkb-layouts-kz(ruskaz)",
             "language": [
-                "kk",
-                "ru"
+                "kk"
             ],
             "layouts": [
                 "kz(ruskaz)"
@@ -3128,8 +3031,7 @@
             "name": "XKB's kz(kazrus) -- Kazakh (with Russian)",
             "id": "all-xkb-layouts-kz(kazrus)",
             "language": [
-                "kk",
-                "ru"
+                "kk"
             ],
             "layouts": [
                 "kz(kazrus)"
@@ -3539,9 +3441,7 @@
             "name": "XKB's no -- Norwegian",
             "id": "all-xkb-layouts-no",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no"
@@ -3551,9 +3451,7 @@
             "name": "XKB's no(nodeadkeys) -- Norwegian (no dead keys)",
             "id": "all-xkb-layouts-no(nodeadkeys)",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no(nodeadkeys)"
@@ -3563,9 +3461,7 @@
             "name": "XKB's no(winkeys) -- Norwegian (Win keys)",
             "id": "all-xkb-layouts-no(winkeys)",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no(winkeys)"
@@ -3575,9 +3471,7 @@
             "name": "XKB's no(dvorak) -- Norwegian (Dvorak)",
             "id": "all-xkb-layouts-no(dvorak)",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no(dvorak)"
@@ -3607,9 +3501,7 @@
             "name": "XKB's no(mac) -- Norwegian (Macintosh)",
             "id": "all-xkb-layouts-no(mac)",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no(mac)"
@@ -3619,9 +3511,7 @@
             "name": "XKB's no(mac_nodeadkeys) -- Norwegian (Macintosh, no dead keys)",
             "id": "all-xkb-layouts-no(mac_nodeadkeys)",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no(mac_nodeadkeys)"
@@ -3631,9 +3521,7 @@
             "name": "XKB's no(colemak) -- Norwegian (Colemak)",
             "id": "all-xkb-layouts-no(colemak)",
             "language": [
-                "no",
-                "nb",
-                "nn"
+                "no"
             ],
             "layouts": [
                 "no(colemak)"
@@ -4063,8 +3951,7 @@
             "name": "XKB's ru(srp) -- Serbian (Russia)",
             "id": "all-xkb-layouts-ru(srp)",
             "language": [
-                "ru",
-                "sr"
+                "ru"
             ],
             "layouts": [
                 "ru(srp)"
@@ -4484,8 +4371,7 @@
             "name": "XKB's ch -- German (Switzerland)",
             "id": "all-xkb-layouts-ch",
             "language": [
-                "de",
-                "gsw"
+                "de"
             ],
             "layouts": [
                 "ch"
@@ -4495,8 +4381,7 @@
             "name": "XKB's ch(legacy) -- German (Switzerland, legacy)",
             "id": "all-xkb-layouts-ch(legacy)",
             "language": [
-                "de",
-                "gsw"
+                "de"
             ],
             "layouts": [
                 "ch(legacy)"
@@ -4506,8 +4391,7 @@
             "name": "XKB's ch(de_nodeadkeys) -- German (Switzerland, no dead keys)",
             "id": "all-xkb-layouts-ch(de_nodeadkeys)",
             "language": [
-                "de",
-                "gsw"
+                "de"
             ],
             "layouts": [
                 "ch(de_nodeadkeys)"
@@ -4517,8 +4401,7 @@
             "name": "XKB's ch(de_sundeadkeys) -- German (Switzerland, with Sun dead keys)",
             "id": "all-xkb-layouts-ch(de_sundeadkeys)",
             "language": [
-                "de",
-                "gsw"
+                "de"
             ],
             "layouts": [
                 "ch(de_sundeadkeys)"
@@ -4568,8 +4451,7 @@
             "name": "XKB's ch(de_mac) -- German (Switzerland, Macintosh)",
             "id": "all-xkb-layouts-ch(de_mac)",
             "language": [
-                "de",
-                "gsw"
+                "de"
             ],
             "layouts": [
                 "ch(de_mac)"
@@ -4849,22 +4731,7 @@
             "name": "XKB's tw(indigenous) -- Taiwanese (indigenous)",
             "id": "all-xkb-layouts-tw(indigenous)",
             "language": [
-                "ami",
-                "tay",
-                "bnn",
-                "ckv",
-                "pwn",
-                "pyu",
-                "dru",
-                "ami",
-                "ssf",
-                "tao",
-                "tsu",
-                "trv",
-                "xnb",
-                "sxr",
-                "uun",
-                "fos"
+                "ami"
             ],
             "layouts": [
                 "tw(indigenous)"
@@ -5124,7 +4991,7 @@
             "name": "XKB's nec_vndr/jp -- Japanese (PC-98)",
             "id": "all-xkb-layouts-nec_vndr/jp",
             "language": [
-                "ja"
+                "ja-JP"
             ],
             "layouts": [
                 "nec_vndr/jp"
@@ -5274,8 +5141,7 @@
             "name": "XKB's np -- Nepali",
             "id": "all-xkb-layouts-np",
             "language": [
-                "ne",
-                "sat"
+                "ne"
             ],
             "layouts": [
                 "np"
@@ -5465,24 +5331,7 @@
             "name": "XKB's tg -- French (Togo)",
             "id": "all-xkb-layouts-tg",
             "language": [
-                "fr",
-                "ajg",
-                "blo",
-                "kpo",
-                "ee",
-                "fon",
-                "fue",
-                "gej",
-                "ife",
-                "kbp",
-                "las",
-                "dop",
-                "mfg",
-                "nmz",
-                "bud",
-                "gng",
-                "kdh",
-                "soy"
+                "fr"
             ],
             "layouts": [
                 "tg"
@@ -5522,17 +5371,7 @@
             "name": "XKB's ph -- Filipino",
             "id": "all-xkb-layouts-ph",
             "language": [
-                "en",
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "en"
             ],
             "layouts": [
                 "ph"
@@ -5542,16 +5381,7 @@
             "name": "XKB's ph(qwerty-bay) -- Filipino (QWERTY, Baybayin)",
             "id": "all-xkb-layouts-ph(qwerty-bay)",
             "language": [
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "bik"
             ],
             "layouts": [
                 "ph(qwerty-bay)"
@@ -5561,17 +5391,7 @@
             "name": "XKB's ph(capewell-dvorak) -- Filipino (Capewell-Dvorak, Latin)",
             "id": "all-xkb-layouts-ph(capewell-dvorak)",
             "language": [
-                "en",
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "en"
             ],
             "layouts": [
                 "ph(capewell-dvorak)"
@@ -5581,16 +5401,7 @@
             "name": "XKB's ph(capewell-dvorak-bay) -- Filipino (Capewell-Dvorak, Baybayin)",
             "id": "all-xkb-layouts-ph(capewell-dvorak-bay)",
             "language": [
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "bik"
             ],
             "layouts": [
                 "ph(capewell-dvorak-bay)"
@@ -5600,17 +5411,7 @@
             "name": "XKB's ph(capewell-qwerf2k6) -- Filipino (Capewell-QWERF 2006, Latin)",
             "id": "all-xkb-layouts-ph(capewell-qwerf2k6)",
             "language": [
-                "en",
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "en"
             ],
             "layouts": [
                 "ph(capewell-qwerf2k6)"
@@ -5620,16 +5421,7 @@
             "name": "XKB's ph(capewell-qwerf2k6-bay) -- Filipino (Capewell-QWERF 2006, Baybayin)",
             "id": "all-xkb-layouts-ph(capewell-qwerf2k6-bay)",
             "language": [
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "bik"
             ],
             "layouts": [
                 "ph(capewell-qwerf2k6-bay)"
@@ -5639,17 +5431,7 @@
             "name": "XKB's ph(colemak) -- Filipino (Colemak, Latin)",
             "id": "all-xkb-layouts-ph(colemak)",
             "language": [
-                "en",
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "en"
             ],
             "layouts": [
                 "ph(colemak)"
@@ -5659,16 +5441,7 @@
             "name": "XKB's ph(colemak-bay) -- Filipino (Colemak, Baybayin)",
             "id": "all-xkb-layouts-ph(colemak-bay)",
             "language": [
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "bik"
             ],
             "layouts": [
                 "ph(colemak-bay)"
@@ -5678,17 +5451,7 @@
             "name": "XKB's ph(dvorak) -- Filipino (Dvorak, Latin)",
             "id": "all-xkb-layouts-ph(dvorak)",
             "language": [
-                "en",
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "en"
             ],
             "layouts": [
                 "ph(dvorak)"
@@ -5698,16 +5461,7 @@
             "name": "XKB's ph(dvorak-bay) -- Filipino (Dvorak, Baybayin)",
             "id": "all-xkb-layouts-ph(dvorak-bay)",
             "language": [
-                "bik",
-                "ceb",
-                "fil",
-                "hil",
-                "ilo",
-                "pam",
-                "pag",
-                "phi",
-                "fil",
-                "war"
+                "bik"
             ],
             "layouts": [
                 "ph(dvorak-bay)"
@@ -5737,13 +5491,7 @@
             "name": "XKB's id -- Indonesian (Jawi)",
             "id": "all-xkb-layouts-id",
             "language": [
-                "id",
-                "ms",
-                "min",
-                "ace",
-                "bjn",
-                "tsg",
-                "mfa"
+                "id"
             ],
             "layouts": [
                 "id"
@@ -5753,13 +5501,7 @@
             "name": "XKB's my -- Malay (Jawi, Arabic Keyboard)",
             "id": "all-xkb-layouts-my",
             "language": [
-                "id",
-                "ms",
-                "min",
-                "ace",
-                "bjn",
-                "tsg",
-                "mfa"
+                "id"
             ],
             "layouts": [
                 "my"
@@ -5769,1600 +5511,10 @@
             "name": "XKB's my(phonetic) -- Malay (Jawi, phonetic)",
             "id": "all-xkb-layouts-my(phonetic)",
             "language": [
-                "id",
-                "ms",
-                "min",
-                "ace",
-                "bjn",
-                "tsg",
-                "mfa"
+                "id"
             ],
             "layouts": [
                 "my(phonetic)"
-            ]
-        },
-        {
-            "name": "XKB's apl -- APL",
-            "id": "all-xkb-layouts-apl",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl"
-            ]
-        },
-        {
-            "name": "XKB's apl(dyalog) -- Dyalog APL complete",
-            "id": "all-xkb-layouts-apl(dyalog)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl(dyalog)"
-            ]
-        },
-        {
-            "name": "XKB's apl(sax) -- APL Keyboard Symbols: sax",
-            "id": "all-xkb-layouts-apl(sax)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl(sax)"
-            ]
-        },
-        {
-            "name": "XKB's apl(unified) -- APL Keyboard Symbols: Unified Layout",
-            "id": "all-xkb-layouts-apl(unified)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl(unified)"
-            ]
-        },
-        {
-            "name": "XKB's apl(apl2) -- APL Keyboard Symbols: IBM APL2",
-            "id": "all-xkb-layouts-apl(apl2)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl(apl2)"
-            ]
-        },
-        {
-            "name": "XKB's apl(aplplusII) -- APL Keyboard Symbols: Manugistics APL*PLUS II",
-            "id": "all-xkb-layouts-apl(aplplusII)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl(aplplusII)"
-            ]
-        },
-        {
-            "name": "XKB's apl(aplx) -- APL Keyboard Symbols: APLX Unified APL Layout",
-            "id": "all-xkb-layouts-apl(aplx)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "apl(aplx)"
-            ]
-        },
-        {
-            "name": "XKB's ca -- French (Canada)",
-            "id": "all-xkb-layouts-ca",
-            "language": [
-                "fr"
-            ],
-            "layouts": [
-                "ca"
-            ]
-        },
-        {
-            "name": "XKB's ca(kut) -- Kutenai",
-            "id": "all-xkb-layouts-ca(kut)",
-            "language": [
-                "fr"
-            ],
-            "layouts": [
-                "ca(kut)"
-            ]
-        },
-        {
-            "name": "XKB's ca(shs) -- Secwepemctsin",
-            "id": "all-xkb-layouts-ca(shs)",
-            "language": [
-                "fr"
-            ],
-            "layouts": [
-                "ca(shs)"
-            ]
-        },
-        {
-            "name": "XKB's ca(sun_type6) -- Multilingual (Canada, Sun Type 6/7)",
-            "id": "all-xkb-layouts-ca(sun_type6)",
-            "language": [
-                "fr"
-            ],
-            "layouts": [
-                "ca(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's de -- German",
-            "id": "all-xkb-layouts-de",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de"
-            ]
-        },
-        {
-            "name": "XKB's de(us) -- German (US, with German letters)",
-            "id": "all-xkb-layouts-de(us)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "de(us)"
-            ]
-        },
-        {
-            "name": "XKB's de(hu) -- German (with Hungarian letters and no dead keys)",
-            "id": "all-xkb-layouts-de(hu)",
-            "language": [
-                "de",
-                "hu"
-            ],
-            "layouts": [
-                "de(hu)"
-            ]
-        },
-        {
-            "name": "XKB's de(pl) -- Polish (Germany, no dead keys)",
-            "id": "all-xkb-layouts-de(pl)",
-            "language": [
-                "de",
-                "pl"
-            ],
-            "layouts": [
-                "de(pl)"
-            ]
-        },
-        {
-            "name": "XKB's de(sun_type6) -- German (Sun Type 6/7)",
-            "id": "all-xkb-layouts-de(sun_type6)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's de(adnw) -- German (Aus der Neo-Welt)",
-            "id": "all-xkb-layouts-de(adnw)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(adnw)"
-            ]
-        },
-        {
-            "name": "XKB's de(koy) -- German (KOY)",
-            "id": "all-xkb-layouts-de(koy)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(koy)"
-            ]
-        },
-        {
-            "name": "XKB's de(bone) -- German (Bone)",
-            "id": "all-xkb-layouts-de(bone)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(bone)"
-            ]
-        },
-        {
-            "name": "XKB's de(bone_eszett_home) -- German (Bone, eszett home row)",
-            "id": "all-xkb-layouts-de(bone_eszett_home)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(bone_eszett_home)"
-            ]
-        },
-        {
-            "name": "XKB's de(neo_qwertz) -- German (Neo qwertz)",
-            "id": "all-xkb-layouts-de(neo_qwertz)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(neo_qwertz)"
-            ]
-        },
-        {
-            "name": "XKB's de(neo_qwerty) -- German (Neo qwerty)",
-            "id": "all-xkb-layouts-de(neo_qwerty)",
-            "language": [
-                "de"
-            ],
-            "layouts": [
-                "de(neo_qwerty)"
-            ]
-        },
-        {
-            "name": "XKB's de(ru-recom) -- Russian (Germany, recommended)",
-            "id": "all-xkb-layouts-de(ru-recom)",
-            "language": [
-                "ru"
-            ],
-            "layouts": [
-                "de(ru-recom)"
-            ]
-        },
-        {
-            "name": "XKB's de(ru-translit) -- Russian (Germany, transliteration)",
-            "id": "all-xkb-layouts-de(ru-translit)",
-            "language": [
-                "ru"
-            ],
-            "layouts": [
-                "de(ru-translit)"
-            ]
-        },
-        {
-            "name": "XKB's de(lld) -- German Ladin",
-            "id": "all-xkb-layouts-de(lld)",
-            "language": [
-                "de",
-                "lld"
-            ],
-            "layouts": [
-                "de(lld)"
-            ]
-        },
-        {
-            "name": "XKB's hu -- Hungarian",
-            "id": "all-xkb-layouts-hu",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "hu"
-            ]
-        },
-        {
-            "name": "XKB's hu(oldhun) -- Old Hungarian",
-            "id": "all-xkb-layouts-hu(oldhun)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "hu(oldhun)"
-            ]
-        },
-        {
-            "name": "XKB's ir -- Persian",
-            "id": "all-xkb-layouts-ir",
-            "language": [
-                "fa"
-            ],
-            "layouts": [
-                "ir"
-            ]
-        },
-        {
-            "name": "XKB's ir(ave) -- Avestan",
-            "id": "all-xkb-layouts-ir(ave)",
-            "language": [
-                "ae"
-            ],
-            "layouts": [
-                "ir(ave)"
-            ]
-        },
-        {
-            "name": "XKB's lt -- Lithuanian",
-            "id": "all-xkb-layouts-lt",
-            "language": [
-                "lt"
-            ],
-            "layouts": [
-                "lt"
-            ]
-        },
-        {
-            "name": "XKB's lt(us_dvorak) -- Lithuanian (US Dvorak with Lithuanian letters)",
-            "id": "all-xkb-layouts-lt(us_dvorak)",
-            "language": [
-                "lt"
-            ],
-            "layouts": [
-                "lt(us_dvorak)"
-            ]
-        },
-        {
-            "name": "XKB's lt(sun_type6) -- Lithuanian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-lt(sun_type6)",
-            "language": [
-                "lt"
-            ],
-            "layouts": [
-                "lt(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's lv -- Latvian",
-            "id": "all-xkb-layouts-lv",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv"
-            ]
-        },
-        {
-            "name": "XKB's lv(dvorak) -- Latvian (US Dvorak)",
-            "id": "all-xkb-layouts-lv(dvorak)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(dvorak)"
-            ]
-        },
-        {
-            "name": "XKB's lv(ykeydvorak) -- Latvian (US Dvorak, Y variant)",
-            "id": "all-xkb-layouts-lv(ykeydvorak)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(ykeydvorak)"
-            ]
-        },
-        {
-            "name": "XKB's lv(minuskeydvorak) -- Latvian (US Dvorak, minus variant)",
-            "id": "all-xkb-layouts-lv(minuskeydvorak)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(minuskeydvorak)"
-            ]
-        },
-        {
-            "name": "XKB's lv(dvorakprogr) -- Latvian (programmer US Dvorak)",
-            "id": "all-xkb-layouts-lv(dvorakprogr)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(dvorakprogr)"
-            ]
-        },
-        {
-            "name": "XKB's lv(ykeydvorakprogr) -- Latvian (programmer US Dvorak, Y variant)",
-            "id": "all-xkb-layouts-lv(ykeydvorakprogr)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(ykeydvorakprogr)"
-            ]
-        },
-        {
-            "name": "XKB's lv(minuskeydvorakprogr) -- Latvian (programmer US Dvorak, minus variant)",
-            "id": "all-xkb-layouts-lv(minuskeydvorakprogr)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(minuskeydvorakprogr)"
-            ]
-        },
-        {
-            "name": "XKB's lv(colemak) -- Latvian (US Colemak)",
-            "id": "all-xkb-layouts-lv(colemak)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(colemak)"
-            ]
-        },
-        {
-            "name": "XKB's lv(apostrophecolemak) -- Latvian (US Colemak, apostrophe variant)",
-            "id": "all-xkb-layouts-lv(apostrophecolemak)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(apostrophecolemak)"
-            ]
-        },
-        {
-            "name": "XKB's lv(sun_type6) -- Latvian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-lv(sun_type6)",
-            "language": [
-                "lv"
-            ],
-            "layouts": [
-                "lv(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's us -- English (US)",
-            "id": "all-xkb-layouts-us",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us"
-            ]
-        },
-        {
-            "name": "XKB's us(intl-unicode) -- English (US, international AltGr Unicode combining)",
-            "id": "all-xkb-layouts-us(intl-unicode)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(intl-unicode)"
-            ]
-        },
-        {
-            "name": "XKB's us(alt-intl-unicode) -- English (US, international AltGr Unicode combining, alternative)",
-            "id": "all-xkb-layouts-us(alt-intl-unicode)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(alt-intl-unicode)"
-            ]
-        },
-        {
-            "name": "XKB's us(ats) -- Atsina",
-            "id": "all-xkb-layouts-us(ats)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(ats)"
-            ]
-        },
-        {
-            "name": "XKB's us(crd) -- Coeur d'Alene Salish",
-            "id": "all-xkb-layouts-us(crd)",
-            "language": [
-                "crd"
-            ],
-            "layouts": [
-                "us(crd)"
-            ]
-        },
-        {
-            "name": "XKB's us(cz_sk_de) -- Czech Slovak and German (US)",
-            "id": "all-xkb-layouts-us(cz_sk_de)",
-            "language": [
-                "en",
-                "cs",
-                "sk",
-                "de"
-            ],
-            "layouts": [
-                "us(cz_sk_de)"
-            ]
-        },
-        {
-            "name": "XKB's us(ibm238l) -- English (US, IBM Arabic 238_L)",
-            "id": "all-xkb-layouts-us(ibm238l)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(ibm238l)"
-            ]
-        },
-        {
-            "name": "XKB's us(sun_type6) -- English (US, Sun Type 6/7)",
-            "id": "all-xkb-layouts-us(sun_type6)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's us(norman) -- English (Norman)",
-            "id": "all-xkb-layouts-us(norman)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(norman)"
-            ]
-        },
-        {
-            "name": "XKB's us(carpalx) -- English (Carpalx)",
-            "id": "all-xkb-layouts-us(carpalx)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(carpalx)"
-            ]
-        },
-        {
-            "name": "XKB's us(carpalx-intl) -- English (Carpalx, intl., with dead keys)",
-            "id": "all-xkb-layouts-us(carpalx-intl)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(carpalx-intl)"
-            ]
-        },
-        {
-            "name": "XKB's us(carpalx-altgr-intl) -- English (Carpalx, intl., with AltGr dead keys)",
-            "id": "all-xkb-layouts-us(carpalx-altgr-intl)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(carpalx-altgr-intl)"
-            ]
-        },
-        {
-            "name": "XKB's us(carpalx-full) -- English (Carpalx, full optimization)",
-            "id": "all-xkb-layouts-us(carpalx-full)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(carpalx-full)"
-            ]
-        },
-        {
-            "name": "XKB's us(carpalx-full-intl) -- English (Carpalx, full optimization, intl., with dead keys)",
-            "id": "all-xkb-layouts-us(carpalx-full-intl)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(carpalx-full-intl)"
-            ]
-        },
-        {
-            "name": "XKB's us(carpalx-full-altgr-intl) -- English (Carpalx, full optimization, intl., with AltGr dead keys)",
-            "id": "all-xkb-layouts-us(carpalx-full-altgr-intl)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(carpalx-full-altgr-intl)"
-            ]
-        },
-        {
-            "name": "XKB's us(3l) -- English (3l)",
-            "id": "all-xkb-layouts-us(3l)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(3l)"
-            ]
-        },
-        {
-            "name": "XKB's us(3l-cros) -- English (3l, chromebook)",
-            "id": "all-xkb-layouts-us(3l-cros)",
-            "language": [
-                "en"
-            ],
-            "layouts": [
-                "us(3l-cros)"
-            ]
-        },
-        {
-            "name": "XKB's us(scn) -- Sicilian (US keyboard)",
-            "id": "all-xkb-layouts-us(scn)",
-            "language": [
-                "en",
-                "it",
-                "scn"
-            ],
-            "layouts": [
-                "us(scn)"
-            ]
-        },
-        {
-            "name": "XKB's pl -- Polish",
-            "id": "all-xkb-layouts-pl",
-            "language": [
-                "pl"
-            ],
-            "layouts": [
-                "pl"
-            ]
-        },
-        {
-            "name": "XKB's pl(intl) -- Polish (intl., with dead keys)",
-            "id": "all-xkb-layouts-pl(intl)",
-            "language": [
-                "pl"
-            ],
-            "layouts": [
-                "pl(intl)"
-            ]
-        },
-        {
-            "name": "XKB's pl(colemak) -- Polish (Colemak)",
-            "id": "all-xkb-layouts-pl(colemak)",
-            "language": [
-                "pl"
-            ],
-            "layouts": [
-                "pl(colemak)"
-            ]
-        },
-        {
-            "name": "XKB's pl(sun_type6) -- Polish (Sun Type 6/7)",
-            "id": "all-xkb-layouts-pl(sun_type6)",
-            "language": [
-                "pl"
-            ],
-            "layouts": [
-                "pl(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's pl(glagolica) -- Polish (Glagolica)",
-            "id": "all-xkb-layouts-pl(glagolica)",
-            "language": [
-                "pl"
-            ],
-            "layouts": [
-                "pl(glagolica)"
-            ]
-        },
-        {
-            "name": "XKB's ro -- Romanian",
-            "id": "all-xkb-layouts-ro",
-            "language": [
-                "ro"
-            ],
-            "layouts": [
-                "ro"
-            ]
-        },
-        {
-            "name": "XKB's ro(crh_dobruja) -- Crimean Tatar (Dobruja Q)",
-            "id": "all-xkb-layouts-ro(crh_dobruja)",
-            "language": [
-                "crh"
-            ],
-            "layouts": [
-                "ro(crh_dobruja)"
-            ]
-        },
-        {
-            "name": "XKB's ro(ergonomic) -- Romanian (ergonomic Touchtype)",
-            "id": "all-xkb-layouts-ro(ergonomic)",
-            "language": [
-                "ro"
-            ],
-            "layouts": [
-                "ro(ergonomic)"
-            ]
-        },
-        {
-            "name": "XKB's ro(sun_type6) -- Romanian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-ro(sun_type6)",
-            "language": [
-                "ro"
-            ],
-            "layouts": [
-                "ro(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's rs -- Serbian",
-            "id": "all-xkb-layouts-rs",
-            "language": [
-                "sr"
-            ],
-            "layouts": [
-                "rs"
-            ]
-        },
-        {
-            "name": "XKB's rs(combiningkeys) -- Serbian (combining accents instead of dead keys)",
-            "id": "all-xkb-layouts-rs(combiningkeys)",
-            "language": [
-                "sr"
-            ],
-            "layouts": [
-                "rs(combiningkeys)"
-            ]
-        },
-        {
-            "name": "XKB's ru -- Russian",
-            "id": "all-xkb-layouts-ru",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ru"
-            ]
-        },
-        {
-            "name": "XKB's ru(chu) -- Church Slavonic",
-            "id": "all-xkb-layouts-ru(chu)",
-            "language": [
-                "cu"
-            ],
-            "layouts": [
-                "ru(chu)"
-            ]
-        },
-        {
-            "name": "XKB's ru(ruu) -- Russian (with Ukrainian-Belorussian layout)",
-            "id": "all-xkb-layouts-ru(ruu)",
-            "language": [
-                "ru",
-                "uk",
-                "be"
-            ],
-            "layouts": [
-                "ru(ruu)"
-            ]
-        },
-        {
-            "name": "XKB's ru(rulemak) -- Russian (Rulemak, phonetic Colemak)",
-            "id": "all-xkb-layouts-ru(rulemak)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ru(rulemak)"
-            ]
-        },
-        {
-            "name": "XKB's ru(sun_type6) -- Russian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-ru(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ru(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's ru(unipunct) -- Russian (with US punctuation)",
-            "id": "all-xkb-layouts-ru(unipunct)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ru(unipunct)"
-            ]
-        },
-        {
-            "name": "XKB's ru(prxn) -- Russian (Polyglot and Reactionary)",
-            "id": "all-xkb-layouts-ru(prxn)",
-            "language": [
-                "ru",
-                "ru-petr1708",
-                "uk",
-                "be",
-                "sr",
-                "mk",
-                "bg",
-                "cu",
-                "ro-Cyrl",
-                "kk",
-                "ky",
-                "uz",
-                "ba",
-                "az",
-                "tt",
-                "ug",
-                "kdr",
-                "tyv",
-                "kjh",
-                "crh",
-                "tg",
-                "ab",
-                "sah",
-                "mn",
-                "kl",
-                "sjd",
-                "cv",
-                "os",
-                "krl",
-                "ale",
-                "wbl",
-                "ku",
-                "niv",
-                "dng",
-                "kv",
-                "udm",
-                "sel",
-                "ulc",
-                "ude",
-                "oac",
-                "oaa",
-                "gld",
-                "eve",
-                "evn",
-                "kca",
-                "itl",
-                "yrk",
-                "neg"
-            ],
-            "layouts": [
-                "ru(prxn)"
-            ]
-        },
-        {
-            "name": "XKB's am -- Armenian",
-            "id": "all-xkb-layouts-am",
-            "language": [
-                "hy"
-            ],
-            "layouts": [
-                "am"
-            ]
-        },
-        {
-            "name": "XKB's am(olpc-phonetic) -- Armenian (OLPC phonetic)",
-            "id": "all-xkb-layouts-am(olpc-phonetic)",
-            "language": [
-                "hy"
-            ],
-            "layouts": [
-                "am(olpc-phonetic)"
-            ]
-        },
-        {
-            "name": "XKB's il -- Hebrew",
-            "id": "all-xkb-layouts-il",
-            "language": [
-                "he"
-            ],
-            "layouts": [
-                "il"
-            ]
-        },
-        {
-            "name": "XKB's il(biblicalSIL) -- Hebrew (Biblical, SIL phonetic)",
-            "id": "all-xkb-layouts-il(biblicalSIL)",
-            "language": [
-                "he"
-            ],
-            "layouts": [
-                "il(biblicalSIL)"
-            ]
-        },
-        {
-            "name": "XKB's ara -- Arabic",
-            "id": "all-xkb-layouts-ara",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ara"
-            ]
-        },
-        {
-            "name": "XKB's ara(sun_type6) -- Arabic (Sun Type 6/7)",
-            "id": "all-xkb-layouts-ara(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ara(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's ara(basic_ext) -- Arabic (with extensions for Arabic-written other languages and European digits preferred)",
-            "id": "all-xkb-layouts-ara(basic_ext)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ara(basic_ext)"
-            ]
-        },
-        {
-            "name": "XKB's ara(basic_ext_digits) -- Arabic (with extensions for Arabic-written other languages and Arabic digits preferred)",
-            "id": "all-xkb-layouts-ara(basic_ext_digits)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ara(basic_ext_digits)"
-            ]
-        },
-        {
-            "name": "XKB's ara(uga) -- Ugaritic instead of Arabic",
-            "id": "all-xkb-layouts-ara(uga)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ara(uga)"
-            ]
-        },
-        {
-            "name": "XKB's be -- Belgian",
-            "id": "all-xkb-layouts-be",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "be"
-            ]
-        },
-        {
-            "name": "XKB's be(sun_type6) -- Belgian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-be(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "be(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's br -- Portuguese (Brazil)",
-            "id": "all-xkb-layouts-br",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "br"
-            ]
-        },
-        {
-            "name": "XKB's br(sun_type6) -- Portuguese (Brazil, Sun Type 6/7)",
-            "id": "all-xkb-layouts-br(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "br(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's cz -- Czech",
-            "id": "all-xkb-layouts-cz",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "cz"
-            ]
-        },
-        {
-            "name": "XKB's cz(sun_type6) -- Czech (Sun Type 6/7)",
-            "id": "all-xkb-layouts-cz(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "cz(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's cz(prog) -- Czech (programming)",
-            "id": "all-xkb-layouts-cz(prog)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "cz(prog)"
-            ]
-        },
-        {
-            "name": "XKB's cz(typo) -- Czech (typographic)",
-            "id": "all-xkb-layouts-cz(typo)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "cz(typo)"
-            ]
-        },
-        {
-            "name": "XKB's dk -- Danish",
-            "id": "all-xkb-layouts-dk",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "dk"
-            ]
-        },
-        {
-            "name": "XKB's dk(sun_type6) -- Danish (Sun Type 6/7)",
-            "id": "all-xkb-layouts-dk(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "dk(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's nl -- Dutch",
-            "id": "all-xkb-layouts-nl",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "nl"
-            ]
-        },
-        {
-            "name": "XKB's nl(sun_type6) -- Dutch (Sun Type 6/7)",
-            "id": "all-xkb-layouts-nl(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "nl(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's ee -- Estonian",
-            "id": "all-xkb-layouts-ee",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ee"
-            ]
-        },
-        {
-            "name": "XKB's ee(sun_type6) -- Estonian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-ee(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ee(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's fi -- Finnish",
-            "id": "all-xkb-layouts-fi",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fi"
-            ]
-        },
-        {
-            "name": "XKB's fi(das) -- Finnish (DAS)",
-            "id": "all-xkb-layouts-fi(das)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fi(das)"
-            ]
-        },
-        {
-            "name": "XKB's fi(sun_type6) -- Finnish (Sun Type 6/7)",
-            "id": "all-xkb-layouts-fi(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fi(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's fi(fidvorak) -- Finnish Dvorak",
-            "id": "all-xkb-layouts-fi(fidvorak)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fi(fidvorak)"
-            ]
-        },
-        {
-            "name": "XKB's fr -- French",
-            "id": "all-xkb-layouts-fr",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fr"
-            ]
-        },
-        {
-            "name": "XKB's fr(sun_type6) -- French (Sun Type 6/7)",
-            "id": "all-xkb-layouts-fr(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fr(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's fr(us-alt) -- French (US, with French letters, with dead keys, alternative)",
-            "id": "all-xkb-layouts-fr(us-alt)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fr(us-alt)"
-            ]
-        },
-        {
-            "name": "XKB's fr(us-azerty) -- French (US, AZERTY)",
-            "id": "all-xkb-layouts-fr(us-azerty)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "fr(us-azerty)"
-            ]
-        },
-        {
-            "name": "XKB's gr -- Greek",
-            "id": "all-xkb-layouts-gr",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "gr"
-            ]
-        },
-        {
-            "name": "XKB's gr(sun_type6) -- Greek (Sun Type 6/7)",
-            "id": "all-xkb-layouts-gr(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "gr(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's gr(colemak) -- Greek (Colemak)",
-            "id": "all-xkb-layouts-gr(colemak)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "gr(colemak)"
-            ]
-        },
-        {
-            "name": "XKB's it -- Italian",
-            "id": "all-xkb-layouts-it",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "it"
-            ]
-        },
-        {
-            "name": "XKB's it(sun_type6) -- Italian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-it(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "it(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's it(lld) -- Italian Ladin",
-            "id": "all-xkb-layouts-it(lld)",
-            "language": [
-                "it",
-                "lld"
-            ],
-            "layouts": [
-                "it(lld)"
-            ]
-        },
-        {
-            "name": "XKB's jp -- Japanese",
-            "id": "all-xkb-layouts-jp",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "jp"
-            ]
-        },
-        {
-            "name": "XKB's jp(sun_type6) -- Japanese (Sun Type 6)",
-            "id": "all-xkb-layouts-jp(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "jp(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's jp(sun_type7) -- Japanese (Sun Type 7 - pc compatible)",
-            "id": "all-xkb-layouts-jp(sun_type7)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "jp(sun_type7)"
-            ]
-        },
-        {
-            "name": "XKB's jp(sun_type7_suncompat) -- Japanese (Sun Type 7 - sun compatible)",
-            "id": "all-xkb-layouts-jp(sun_type7_suncompat)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "jp(sun_type7_suncompat)"
-            ]
-        },
-        {
-            "name": "XKB's no -- Norwegian",
-            "id": "all-xkb-layouts-no",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "no"
-            ]
-        },
-        {
-            "name": "XKB's no(sun_type6) -- Norwegian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-no(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "no(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's pt -- Portuguese",
-            "id": "all-xkb-layouts-pt",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "pt"
-            ]
-        },
-        {
-            "name": "XKB's pt(sun_type6) -- Portuguese (Sun Type 6/7)",
-            "id": "all-xkb-layouts-pt(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "pt(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's pt -- Portuguese",
-            "id": "all-xkb-layouts-pt",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "pt"
-            ]
-        },
-        {
-            "name": "XKB's pt(colemak) -- Portuguese (Colemak)",
-            "id": "all-xkb-layouts-pt(colemak)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "pt(colemak)"
-            ]
-        },
-        {
-            "name": "XKB's sk -- Slovak",
-            "id": "all-xkb-layouts-sk",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "sk"
-            ]
-        },
-        {
-            "name": "XKB's sk(sun_type6) -- Slovak (Sun Type 6/7)",
-            "id": "all-xkb-layouts-sk(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "sk(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's es -- Spanish",
-            "id": "all-xkb-layouts-es",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "es"
-            ]
-        },
-        {
-            "name": "XKB's es(sun_type6) -- Spanish (Sun Type 6/7)",
-            "id": "all-xkb-layouts-es(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "es(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's se -- Swedish",
-            "id": "all-xkb-layouts-se",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "se"
-            ]
-        },
-        {
-            "name": "XKB's se(dvorak_a5) -- Swedish (Dvorak A5)",
-            "id": "all-xkb-layouts-se(dvorak_a5)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "se(dvorak_a5)"
-            ]
-        },
-        {
-            "name": "XKB's se(sun_type6) -- Swedish (Sun Type 6/7)",
-            "id": "all-xkb-layouts-se(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "se(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's se(ovd) -- Elfdalian (Swedish, with combining ogonek)",
-            "id": "all-xkb-layouts-se(ovd)",
-            "language": [
-                "ovd"
-            ],
-            "layouts": [
-                "se(ovd)"
-            ]
-        },
-        {
-            "name": "XKB's ch -- German (Switzerland)",
-            "id": "all-xkb-layouts-ch",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ch"
-            ]
-        },
-        {
-            "name": "XKB's ch(sun_type6_de) -- German (Switzerland, Sun Type 6/7)",
-            "id": "all-xkb-layouts-ch(sun_type6_de)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ch(sun_type6_de)"
-            ]
-        },
-        {
-            "name": "XKB's ch(sun_type6_fr) -- French (Switzerland, Sun Type 6/7)",
-            "id": "all-xkb-layouts-ch(sun_type6_fr)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ch(sun_type6_fr)"
-            ]
-        },
-        {
-            "name": "XKB's tr -- Turkish",
-            "id": "all-xkb-layouts-tr",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "tr"
-            ]
-        },
-        {
-            "name": "XKB's tr(sun_type6) -- Turkish (Sun Type 6/7)",
-            "id": "all-xkb-layouts-tr(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "tr(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's ua -- Ukrainian",
-            "id": "all-xkb-layouts-ua",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ua"
-            ]
-        },
-        {
-            "name": "XKB's ua(sun_type6) -- Ukrainian (Sun Type 6/7)",
-            "id": "all-xkb-layouts-ua(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "ua(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's gb -- English (UK)",
-            "id": "all-xkb-layouts-gb",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "gb"
-            ]
-        },
-        {
-            "name": "XKB's gb(sun_type6) -- English (UK, Sun Type 6/7)",
-            "id": "all-xkb-layouts-gb(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "gb(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's kr -- Korean",
-            "id": "all-xkb-layouts-kr",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "kr"
-            ]
-        },
-        {
-            "name": "XKB's kr(sun_type6) -- Korean (Sun Type 6/7)",
-            "id": "all-xkb-layouts-kr(sun_type6)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "kr(sun_type6)"
-            ]
-        },
-        {
-            "name": "XKB's vn -- Vietnamese",
-            "id": "all-xkb-layouts-vn",
-            "language": [
-                "vi"
-            ],
-            "layouts": [
-                "vn"
-            ]
-        },
-        {
-            "name": "XKB's vn(aderty) -- Vietnamese (A\u00d0ERTY)",
-            "id": "all-xkb-layouts-vn(aderty)",
-            "language": [
-                "vi"
-            ],
-            "layouts": [
-                "vn(aderty)"
-            ]
-        },
-        {
-            "name": "XKB's vn(qderty) -- Vietnamese (Q\u0110ERTY)",
-            "id": "all-xkb-layouts-vn(qderty)",
-            "language": [
-                "vi"
-            ],
-            "layouts": [
-                "vn(qderty)"
-            ]
-        },
-        {
-            "name": "XKB's eu -- EurKEY (US based layout with European letters)",
-            "id": "all-xkb-layouts-eu",
-            "language": [
-                "ca",
-                "da",
-                "en",
-                "et",
-                "fo",
-                "fi",
-                "de",
-                "el",
-                "gsw",
-                "it",
-                "lv",
-                "lt",
-                "nl",
-                "no",
-                "pt",
-                "es",
-                "sv"
-            ],
-            "layouts": [
-                "eu"
-            ]
-        },
-        {
-            "name": "XKB's cm -- English (Cameroon)",
-            "id": "all-xkb-layouts-cm",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "cm"
-            ]
-        },
-        {
-            "name": "XKB's cm(mmuock) -- Mmuock",
-            "id": "all-xkb-layouts-cm(mmuock)",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "cm(mmuock)"
-            ]
-        },
-        {
-            "name": "XKB's trans -- International Phonetic Alphabet",
-            "id": "all-xkb-layouts-trans",
-            "language": [
-                "??"
-            ],
-            "layouts": [
-                "trans"
             ]
         }
     ]

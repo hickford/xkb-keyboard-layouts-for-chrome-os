@@ -13,14 +13,20 @@ There are charts grouped by language at https://hickford.github.io/xkb_ldml/layo
 ## Developer instructions
 
 1. Check [xkeyboard-config version in Chrome OS](https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/x11-misc/xkeyboard-config/) remains 2.27.
-2. Download [base.xml at version 2.27](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27/rules/base.xml) and [base.extras.xml](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27/rules/base.extras.xml):
+2. Clone [xkeyboard-config at version 2.27](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/xkeyboard-config-2.27):
 
-       http --download https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.27/rules/base.xml 
-       http --download https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.27/rules/base.extras.xml 
+       git clone https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config.git ~/xkeyboard-config
+       cd ~/xkeyboard-config
+       git checkout xkeyboard-config-2.27
 
-3. Generate extension manifest:
+3. Export layouts to yaml, fix known syntax error in this version
 
-       python3 generate.py base.xml base.extras.xml
+        xkbcli list --skip-default-paths --ruleset=base ~/xkeyboard-config > ~/xkbcli-list.yaml
+        sed -i '4061d' ~/xkbcli-list.yaml
+
+4. Generate extension manifest:
+
+       python3 generate.py ~/xkbcli-list.yaml
 
 ## See also
 
