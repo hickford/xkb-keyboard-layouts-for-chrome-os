@@ -2,6 +2,11 @@
 
 Chrome OS uses keyboard layouts based on [XKB](https://freedesktop.org/wiki/Software/XKeyboardConfig/). XKB defines [over 500 layouts](https://manpages.debian.org/buster/xkb-data/xkeyboard-config.7.en.html#LAYOUTS) but Chrome OS only exposes a [subset of around 150](https://chromium.googlesource.com/chromium/src/+/master/chrome/browser/resources/chromeos/input_method/google_xkb_manifest.json). This extension makes all XKB keyboard layouts visible in Chrome OS.
 
+### Caveats
+
+* You can't use these layouts on the login or lock screen ([Chrome OS bug #1469799](https://bugs.chromium.org/p/chromium/issues/detail?id=1469799)).
+* These layouts don't work well on the on-screen keyboard (tablet mode).
+
 ## Installation
 
 From Chrome Web Store https://chrome.google.com/webstore/detail/eogbkpghmlfbjmcanfcfbcnjlmhflbej
