@@ -4,8 +4,8 @@ import sys, json
 manifest = dict[str, object]() # https://developer.chrome.com/docs/extensions/mv3/manifest/
 manifest['manifest_version'] = 3
 manifest['name'] = 'XKB keyboard layouts for Chrome OS'
-manifest['version'] = '0.0.9'
-manifest['description'] = "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS."
+manifest['version'] = '0.0.10'
+manifest['description'] = "701 keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS."
 manifest['icons'] = {'128' : 'icon128.png'}
 manifest['input_components'] = list()
 
