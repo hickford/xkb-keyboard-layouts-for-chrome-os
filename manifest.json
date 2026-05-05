@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "XKB keyboard layouts for Chrome OS",
-    "version": "0.0.9",
-    "description": "500+ keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS.",
+    "version": "0.0.10",
+    "description": "701 keyboard layouts for Chrome OS. This extension makes all XKB layouts visible in Chrome OS.",
     "icons": {
         "128": "icon128.png"
     },
@@ -5118,16 +5118,6 @@
             ],
             "layouts": [
                 "kr(kr104)"
-            ]
-        },
-        {
-            "name": "XKB's nec_vndr/jp -- Japanese (PC-98)",
-            "id": "all-xkb-layouts-nec_vndr/jp",
-            "language": [
-                "ja"
-            ],
-            "layouts": [
-                "nec_vndr/jp"
             ]
         },
         {
